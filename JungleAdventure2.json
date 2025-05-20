@@ -570,6 +570,14 @@
         "name": "assets\\Objects\\TombStone (1).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Salt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Salt.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -601,7 +609,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32057708828124837,
+        "zoomFactor": 0.4617066326405476,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2191,7 +2199,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2542,6 +2558,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Deco7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Salt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 25
+                          },
+                          {
+                            "x": 103,
+                            "y": 25
+                          },
+                          {
+                            "x": 103,
+                            "y": 224
+                          },
+                          {
+                            "x": 9,
+                            "y": 224
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2567,6 +2643,9 @@
           },
           {
             "objectName": "Deco1"
+          },
+          {
+            "objectName": "Deco7"
           },
           {
             "objectName": "Background"
