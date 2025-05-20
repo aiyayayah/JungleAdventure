@@ -28,7 +28,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -190,6 +218,30 @@
         "name": "Walk7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Tiles/Tile (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\Tile (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tiles/Tile (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\Tile (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BG.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -204,12 +256,12 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Play_32Scene1",
+      "name": "Play Scene1",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
+      "title": "Main Scene",
       "v": 209,
       "uiSettings": {
         "grid": false,
@@ -221,7 +273,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 3.6819917233537054,
+        "zoomFactor": 0.8557526922726704,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -230,15 +282,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 36,
+          "depth": 0,
+          "height": 50,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
-          "persistentUuid": "edb8b026-32bc-4060-8144-4a5e10c4e0db",
-          "width": 31,
-          "x": 57,
-          "y": 46,
+          "persistentUuid": "baa82d9f-8ba0-4f08-ac52-97db682b7d20",
+          "width": 45,
+          "x": 20801,
+          "y": -25485,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "1c58dbba-2d67-40d8-b610-28c90ebea5c7",
+          "width": 32,
+          "x": 20801,
+          "y": -25412,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -250,44 +319,14 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Player",
-          "persistentUuid": "35da6516-9838-4f0c-9303-0bcd6b408d67",
+          "locked": true,
+          "name": "Background",
+          "opacity": 179,
+          "persistentUuid": "e3a92d1a-0cd6-4e74-b65d-7a00de16955f",
           "width": 0,
-          "x": 21580,
-          "y": -25760,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "9aa8c2e2-ad40-4649-b49e-3a93b884c00d",
-          "width": 0,
-          "x": 2560,
-          "y": -377,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "7a1bef32-e5d0-46b1-923e-333739d6e7a1",
-          "width": 0,
-          "x": 12195,
-          "y": -27225,
-          "zOrder": 4,
+          "x": 20704,
+          "y": -26424,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -302,7 +341,28 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "Walk",
@@ -570,6 +630,85 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Platform1",
+          "texture": "assets\\Tiles\\Tile (2).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\BG.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2000,
+                            "y": 0
+                          },
+                          {
+                            "x": 2000,
+                            "y": 1143
+                          },
+                          {
+                            "x": 0,
+                            "y": 1143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -577,10 +716,44 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Platform1"
+          },
+          {
+            "objectName": "Background"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -643,6 +816,14 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
