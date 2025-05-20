@@ -526,6 +526,158 @@
         "name": "Climb5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/jump/Jump6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jump\\Jump6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/climb/Climb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\climb\\Climb.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/climb/Climb2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\climb\\Climb2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/climb/Climb3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\climb\\Climb3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/climb/Climb4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\climb\\Climb4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/climb/Climb5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\climb\\Climb5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -557,7 +709,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6897782140104506,
+        "zoomFactor": 1.6888536947041304,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -794,17 +946,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -830,17 +988,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -866,17 +1030,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -902,17 +1072,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -938,17 +1114,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -974,17 +1156,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\walk\\Walk6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1018,22 +1206,28 @@
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 1.5,
+                  "timeBetweenFrames": 1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1059,17 +1253,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1095,17 +1295,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1131,17 +1337,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1167,17 +1379,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1203,17 +1421,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1239,17 +1463,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1275,17 +1505,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1311,17 +1547,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1347,17 +1589,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1383,17 +1631,23 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\idle\\Idle13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1431,18 +1685,24 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Jump2",
-                      "points": [],
+                      "image": "assets\\player\\jump\\Jump.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1467,18 +1727,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Jump3",
-                      "points": [],
+                      "image": "assets\\player\\jump\\Jump2.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1503,18 +1769,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Jump4",
-                      "points": [],
+                      "image": "assets\\player\\jump\\Jump3.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1539,18 +1811,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Jump5",
-                      "points": [],
+                      "image": "assets\\player\\jump\\Jump4.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1575,18 +1853,66 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Jump6",
-                      "points": [],
+                      "image": "assets\\player\\jump\\Jump5.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\player\\jump\\Jump6.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1624,18 +1950,24 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Climb",
-                      "points": [],
+                      "image": "assets\\player\\climb\\Climb.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1660,18 +1992,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Climb2",
-                      "points": [],
+                      "image": "assets\\player\\climb\\Climb2.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1696,18 +2034,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Climb3",
-                      "points": [],
+                      "image": "assets\\player\\climb\\Climb3.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1732,18 +2076,24 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Climb4",
-                      "points": [],
+                      "image": "assets\\player\\climb\\Climb4.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1768,18 +2118,373 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Climb5",
-                      "points": [],
+                      "image": "assets\\player\\climb\\Climb5.png",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 10
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shoot",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot2",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot3",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot4",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot5",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot6",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot7",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shoot8",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 11,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11,
+                        "y": 10
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 10.5,
+                        "y": 10
                       },
                       "customCollisionMask": [
                         [
@@ -1856,6 +2561,17 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -1863,6 +2579,9 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "NewSprite"
           },
           {
             "objectName": "PlatformGrass"
@@ -1913,6 +2632,82 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Shoot\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Shoot\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
