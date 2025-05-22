@@ -22,8 +22,8 @@
     "name": "Adventure2",
     "description": "",
     "author": "",
-    "windowWidth": 2560,
-    "windowHeight": 1440,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -706,6 +706,334 @@
         "name": "Shoot8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Village Props.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Tileset Ground.png5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom/Mushroom without VFX/Mushroom-Run.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Mushroom_Mushroom without VFX_Mushroom-Run8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Mushroom\\Mushroom without VFX\\Mushroom-Run8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\coin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_coins_coin10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\coins\\coin10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Walk/assets_Mushroom_Mushroom without VFX_Mushroom-Run8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin10.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -720,8 +1048,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "ky",
+      "name": "ky",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -737,11 +1065,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24672586957406356,
+        "zoomFactor": 0.4481978045410392,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -753,8 +1087,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 27,
-          "y": 633,
+          "x": 21,
+          "y": 1010,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -771,7 +1105,7 @@
           "persistentUuid": "de67f68c-1985-4f83-9292-1206c9639783",
           "width": 96,
           "x": 0,
-          "y": 672,
+          "y": 1024,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -788,7 +1122,7 @@
           "persistentUuid": "f8965d49-6297-4220-8bae-ec0eaabcd9d7",
           "width": 96,
           "x": 128,
-          "y": 640,
+          "y": 992,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -805,24 +1139,7 @@
           "persistentUuid": "dedd9659-4260-425c-ac52-46123e1fae1a",
           "width": 96,
           "x": 256,
-          "y": 576,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PlatformGrass",
-          "persistentUuid": "b9375a02-9149-4678-932f-d9f57b8f81b7",
-          "width": 96,
-          "x": 256,
-          "y": 320,
+          "y": 928,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -839,8 +1156,193 @@
           "persistentUuid": "432d0b75-d1c0-41e4-a4d1-a47256a2b2f9",
           "width": 32,
           "x": 288,
-          "y": 352,
+          "y": 704,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 9,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PassThroughPlatform",
+          "persistentUuid": "ae289e3c-a8d0-4035-8b98-660cb56766f3",
+          "width": 72,
+          "x": 266,
+          "y": 695,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "9727fed3-e3f6-4a27-bf12-5b6fc545494a",
+          "width": 64,
+          "x": 448,
+          "y": 928,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "f086d43c-395b-4ce3-943f-2866cedbac9c",
+          "width": 480,
+          "x": 512,
+          "y": 960,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "f6f85277-9bfd-4180-87cb-efa80c585871",
+          "width": 64,
+          "x": 992,
+          "y": 928,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "8d22a9f6-22f8-4ab6-bee4-180335efbdd8",
+          "width": 0,
+          "x": 480,
+          "y": 896,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "ddbeb7fb-8976-4819-b738-f47cee17999f",
+          "width": 33,
+          "x": 159,
+          "y": 960,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "ScoreDisplay",
+          "persistentUuid": "fd6b277d-1e30-495c-9e43-121af1022efd",
+          "width": 0,
+          "x": 32,
+          "y": 32,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "722fdb2b-6ec8-43b2-b722-705903eefc0e",
+          "width": 33,
+          "x": 63,
+          "y": 992,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "dd36db15-c030-4e3f-960b-1f8517354e8b",
+          "width": 33,
+          "x": 288,
+          "y": 648,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "d35065e2-d541-49cf-8078-84b31ed41f36",
+          "width": 33,
+          "x": 992,
+          "y": 904,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "52b55f72-33b4-4d8a-8778-1f10b27cbff3",
+          "width": 33,
+          "x": 320,
+          "y": 896,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2563,13 +3065,21 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
+          "name": "Platform",
           "texture": "assets\\village\\TX Tileset Ground.png3",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -2600,6 +3110,810 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PassThroughPlatform",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Village Props",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\village\\TX Village Props",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Platform2",
+          "texture": "assets\\village\\TX Tileset Ground.png5",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Coins",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Coin",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coins\\assets_coins_coin10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 1,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ScoreDisplay",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Score: 0",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2615,10 +3929,25 @@
             "objectName": "PlatformGrass"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "Platform"
+          },
+          {
+            "objectName": "Platform2"
+          },
+          {
+            "objectName": "PassThroughPlatform"
           },
           {
             "objectName": "Ladder"
+          },
+          {
+            "objectName": "Enemy"
+          },
+          {
+            "objectName": "Coins"
+          },
+          {
+            "objectName": "ScoreDisplay"
           }
         ]
       },
@@ -2734,6 +4063,55 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Coins",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coins",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreDisplay",
+                "Text",
+                "=",
+                "\"Score: \" + Score"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         }
@@ -2765,6 +4143,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Score",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -2828,6 +4239,10 @@
         {
           "name": "SmoothPlatformerCamera",
           "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
