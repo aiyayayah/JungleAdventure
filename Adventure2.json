@@ -502,7 +502,7 @@
       {
         "file": "assets/village/TX Village Props.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/village/TX Village Props.png\",\"extension\":\".png\"}",
         "name": "assets\\village\\TX Village Props.png",
         "smoothed": false,
         "userAdded": false
@@ -1034,6 +1034,198 @@
         "name": "assets\\coins\\assets_coins_coin10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Tileset Ground",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Tileset Ground.png6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_village_TX Tileset Ground.png7.png\"}",
+        "name": "assets\\village\\TX Tileset Ground.png7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/shoot/Shoot8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\shoot\\Shoot8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Tileset Ground.png8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bush/assets_village_TX Village Props4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bush\\assets_village_TX Village Props4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/Bush/assets_village_TX Village Props4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\Bush\\assets_village_TX Village Props4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/Tree/assets_village_TX Village Props5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/Flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\Flower.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_village_TX Tileset Ground.png9.png\"}",
+        "name": "assets\\village\\TX Tileset Ground.png9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Tileset Ground.png10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Tileset Ground.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Tileset Ground.png11",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1056,7 +1248,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1064,8 +1256,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.4481978045410392,
+        "snap": false,
+        "zoomFactor": 1.8655255482570523,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1087,8 +1279,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 21,
-          "y": 1010,
+          "x": 381,
+          "y": 812,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1104,8 +1296,8 @@
           "name": "PlatformGrass",
           "persistentUuid": "de67f68c-1985-4f83-9292-1206c9639783",
           "width": 96,
-          "x": 0,
-          "y": 1024,
+          "x": 354,
+          "y": 989,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1121,8 +1313,8 @@
           "name": "PlatformGrass",
           "persistentUuid": "f8965d49-6297-4220-8bae-ec0eaabcd9d7",
           "width": 96,
-          "x": 128,
-          "y": 992,
+          "x": 482,
+          "y": 957,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1138,8 +1330,8 @@
           "name": "PlatformGrass",
           "persistentUuid": "dedd9659-4260-425c-ac52-46123e1fae1a",
           "width": 96,
-          "x": 256,
-          "y": 928,
+          "x": 610,
+          "y": 893,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1155,8 +1347,8 @@
           "name": "Ladder",
           "persistentUuid": "432d0b75-d1c0-41e4-a4d1-a47256a2b2f9",
           "width": 32,
-          "x": 288,
-          "y": 704,
+          "x": 642,
+          "y": 669,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1172,8 +1364,8 @@
           "name": "PassThroughPlatform",
           "persistentUuid": "ae289e3c-a8d0-4035-8b98-660cb56766f3",
           "width": 72,
-          "x": 266,
-          "y": 695,
+          "x": 620,
+          "y": 669,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1189,26 +1381,9 @@
           "name": "Platform",
           "persistentUuid": "9727fed3-e3f6-4a27-bf12-5b6fc545494a",
           "width": 64,
-          "x": 448,
-          "y": 928,
+          "x": 802,
+          "y": 893,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "f086d43c-395b-4ce3-943f-2866cedbac9c",
-          "width": 480,
-          "x": 512,
-          "y": 960,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1223,8 +1398,8 @@
           "name": "Platform",
           "persistentUuid": "f6f85277-9bfd-4180-87cb-efa80c585871",
           "width": 64,
-          "x": 992,
-          "y": 928,
+          "x": 1340,
+          "y": 945,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -1239,8 +1414,8 @@
           "name": "Enemy",
           "persistentUuid": "8d22a9f6-22f8-4ab6-bee4-180335efbdd8",
           "width": 0,
-          "x": 480,
-          "y": 896,
+          "x": 834,
+          "y": 861,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -1256,8 +1431,8 @@
           "name": "Coins",
           "persistentUuid": "ddbeb7fb-8976-4819-b738-f47cee17999f",
           "width": 33,
-          "x": 159,
-          "y": 960,
+          "x": 513,
+          "y": 925,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1289,8 +1464,8 @@
           "name": "Coins",
           "persistentUuid": "722fdb2b-6ec8-43b2-b722-705903eefc0e",
           "width": 33,
-          "x": 63,
-          "y": 992,
+          "x": 417,
+          "y": 957,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1306,8 +1481,8 @@
           "name": "Coins",
           "persistentUuid": "dd36db15-c030-4e3f-960b-1f8517354e8b",
           "width": 33,
-          "x": 288,
-          "y": 648,
+          "x": 642,
+          "y": 613,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1323,8 +1498,8 @@
           "name": "Coins",
           "persistentUuid": "d35065e2-d541-49cf-8078-84b31ed41f36",
           "width": 33,
-          "x": 992,
-          "y": 904,
+          "x": 1340,
+          "y": 921,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1340,9 +1515,226 @@
           "name": "Coins",
           "persistentUuid": "52b55f72-33b4-4d8a-8778-1f10b27cbff3",
           "width": 33,
-          "x": 320,
-          "y": 896,
+          "x": 674,
+          "y": 861,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "b0deaea7-b9f3-4e7e-87ed-8bb57fdf5184",
+          "width": 0,
+          "x": 1397,
+          "y": 459,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "94f9c349-6f10-4e85-ad0d-a2385e7da5cb",
+          "width": 32,
+          "x": 1447,
+          "y": 459,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "b285a86f-1313-405c-bdd2-681616e68646",
+          "width": 0,
+          "x": 598,
+          "y": 958,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGrass",
+          "persistentUuid": "10aacc41-aa6e-4039-b65b-b172ab9c8f89",
+          "width": 96,
+          "x": 362,
+          "y": 852,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGrass",
+          "persistentUuid": "b915f783-f281-4d3f-a831-a9af51e725d0",
+          "width": 96,
+          "x": 907,
+          "y": 890,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "8d6bad42-3a51-4118-bd9c-7309b955a240",
+          "width": 0,
+          "x": 485,
+          "y": 823,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "30cdea06-6d22-42fc-8268-52f486e91514",
+          "width": 0,
+          "x": 883,
+          "y": 729,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flower",
+          "persistentUuid": "ec738966-6ff8-48bf-8dba-5b8aa38ffe5b",
+          "width": 78,
+          "x": 1051,
+          "y": 839,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGrass",
+          "persistentUuid": "b249fca1-9d90-45ea-b48e-8a98f922058d",
+          "width": 96,
+          "x": 35,
+          "y": 626,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform5",
+          "persistentUuid": "73f25b02-278c-44f6-a528-b5218a828289",
+          "width": 32,
+          "x": 19,
+          "y": 917,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform6",
+          "persistentUuid": "e98626a2-a3c5-408c-a636-ffc3820fe9e6",
+          "width": 32,
+          "x": 19,
+          "y": 998,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform5",
+          "persistentUuid": "6ccf6cd1-6578-4625-a2e7-e7028f23b267",
+          "width": 32,
+          "x": 127,
+          "y": 932,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform6",
+          "persistentUuid": "c04db780-3027-4251-8aac-635109ac5ccb",
+          "width": 32,
+          "x": 127,
+          "y": 1013,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2698,12 +3090,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot",
+                      "image": "assets\\player\\shoot\\Shoot.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2745,7 +3136,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot2",
+                      "image": "assets\\player\\shoot\\Shoot2.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2787,7 +3178,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot3",
+                      "image": "assets\\player\\shoot\\Shoot3.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2829,7 +3220,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot4",
+                      "image": "assets\\player\\shoot\\Shoot4.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2871,7 +3262,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot5",
+                      "image": "assets\\player\\shoot\\Shoot5.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2913,7 +3304,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot6",
+                      "image": "assets\\player\\shoot\\Shoot6.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2955,7 +3346,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot7",
+                      "image": "assets\\player\\shoot\\Shoot7.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -2997,7 +3388,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Shoot8",
+                      "image": "assets\\player\\shoot\\Shoot8.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3914,6 +4305,316 @@
             "align": "left",
             "verticalTextAlignment": "top"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Tileset Ground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\village\\TX Tileset Ground",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "assets\\village\\TX Tileset Ground.png6",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bush1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Village Props",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Deco\\Bush\\assets_village_TX Village Props4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 57,
+                            "y": 0
+                          },
+                          {
+                            "x": 57,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Village Props",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 153,
+                            "y": 0
+                          },
+                          {
+                            "x": 153,
+                            "y": 162
+                          },
+                          {
+                            "x": 0,
+                            "y": 162
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Flower",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Village Props",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Deco\\Flower.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 63
+                          },
+                          {
+                            "x": 0,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Platform5",
+          "texture": "assets\\village\\TX Tileset Ground.png10",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Platform6",
+          "texture": "assets\\village\\TX Tileset Ground.png11",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3948,6 +4649,36 @@
           },
           {
             "objectName": "ScoreDisplay"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "Bush1"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "Tree1"
+          },
+          {
+            "objectName": "Flower"
+          },
+          {
+            "objectName": "NewSprite4"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "Platform5"
+          },
+          {
+            "objectName": "Platform6"
           }
         ]
       },
