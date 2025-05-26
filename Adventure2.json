@@ -1422,6 +1422,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/a0abd2e66c8144c233f541584c8d03dd463ff5382d9c3db2c09243d3cfadf5be_tilemap_packed5.png",
           "name": "tilemap_packed5.png"
         }
+      },
+      {
+        "file": "assets/assets_village_TX Village Props.png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_village_TX Village Props.png2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1437,6 +1445,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.1,
@@ -1467,6 +1476,7 @@
           "RandomizedAngle": 0
         },
         {
+          "isFolded": true,
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
           "EnableAnimationChanges": true,
@@ -1481,6 +1491,7 @@
           "Flippable": "Flippable"
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 2000,
@@ -1501,6 +1512,7 @@
           "yGrabOffset": 0
         },
         {
+          "isFolded": true,
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9,
@@ -1553,6 +1565,7 @@
           "IsCalledManually": false
         },
         {
+          "isFolded": true,
           "name": "SmoothPlatformerCamera",
           "type": "SmoothCamera::SmoothPlatformerCamera",
           "PlatformerCharacter": "PlatformerObject",
@@ -3153,23 +3166,46 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Platform3",
+      "name": "arrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
         }
       ],
       "animations": [
         {
-          "name": "assets\\village\\TX Tileset Ground",
+          "name": "assets\\village\\TX Village Props",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3179,7 +3215,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\village\\TX Tileset Ground",
+                  "image": "assets\\village\\TX Village Props12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3199,16 +3235,419 @@
                         "y": 0
                       },
                       {
-                        "x": 62,
+                        "x": 35,
                         "y": 0
                       },
                       {
-                        "x": 62,
-                        "y": 32
+                        "x": 35,
+                        "y": 9
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ScoreDisplay",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Score: 0",
+        "opacity": 255,
+        "scale": 2,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Coins",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Coin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
                       }
                     ]
                   ]
@@ -3227,7 +3666,13 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Platform3"
+        "objectName": "arrow"
+      },
+      {
+        "objectName": "ScoreDisplay"
+      },
+      {
+        "objectName": "Coins"
       }
     ]
   },
@@ -3254,7 +3699,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3325387091250981,
+        "zoomFactor": 0.4335774304702658,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3386,13 +3831,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
           "keepRatio": true,
           "layer": "Score",
           "name": "ScoreDisplay",
           "persistentUuid": "fd6b277d-1e30-495c-9e43-121af1022efd",
-          "width": 0,
+          "width": 150,
           "x": 32,
           "y": 32,
           "zOrder": 19,
@@ -4686,24 +5132,33 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Coins",
+          "name": "Platform3",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
-              "name": "Coin",
+              "name": "assets\\village\\TX Tileset Ground",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin.png",
+                      "image": "assets\\village\\TX Tileset Ground",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4719,344 +5174,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 9,
+                            "x": 62,
                             "y": 0
                           },
                           {
-                            "x": 9,
-                            "y": 10
+                            "x": 62,
+                            "y": 32
                           },
                           {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\coins\\assets_coins_coin10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 1,
-                            "y": 10
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -5066,25 +5197,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "ScoreDisplay",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Score: 0",
-            "opacity": 255,
-            "scale": 2,
-            "fontSize": 20,
-            "tint": "0;0;0",
-            "bitmapFontResourceName": "",
-            "textureAtlasResourceName": "",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
         },
         {
           "assetStoreId": "",
@@ -5697,98 +5809,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "arrow",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "FireBullet",
-              "type": "FireBullet::FireBullet",
-              "FireCooldown": 0.1,
-              "HasJustFired": false,
-              "RotateBullet": true,
-              "FiringArc": 45,
-              "BulletQuantity": 1,
-              "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
-              "AmmoQuantity": 0,
-              "ShotsPerReload": 0,
-              "ReloadDuration": 1,
-              "MaxAmmo": 0,
-              "ShotsBeforeNextReload": 0,
-              "TotalShotsFired": 0,
-              "TotalBulletsCreated": 0,
-              "StartingAmmo": 0,
-              "TotalReloadsCompleted": 0,
-              "UnlimitedAmmo": true,
-              "ReloadInProgress": false,
-              "HeatIncreasePerShot": 0,
-              "HeatLevel": 0,
-              "AutomaticReloading": true,
-              "OverheatDuration": 0,
-              "LinearCoolingRate": 0.1,
-              "ExponentialCoolingRate": 0.3,
-              "BulletLayer": "",
-              "RandomizedAngle": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Village Props12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 35,
-                            "y": 0
-                          },
-                          {
-                            "x": 35,
-                            "y": 9
-                          },
-                          {
-                            "x": 0,
-                            "y": 9
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "NewSprite4",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5999,6 +6019,9 @@
             "objectName": "Platform2"
           },
           {
+            "objectName": "Platform3"
+          },
+          {
             "objectName": "Platform4"
           },
           {
@@ -6035,12 +6058,6 @@
             "objectName": "Enemy"
           },
           {
-            "objectName": "Coins"
-          },
-          {
-            "objectName": "ScoreDisplay"
-          },
-          {
             "objectName": "Bush1"
           },
           {
@@ -6072,9 +6089,6 @@
           },
           {
             "objectName": "Deco5"
-          },
-          {
-            "objectName": "arrow"
           },
           {
             "objectName": "NewTiledSprite3"
@@ -6535,25 +6549,90 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9546962088068448,
+        "zoomFactor": 0.3649022388217371,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 88,
+          "height": 38,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
-          "persistentUuid": "bd5917c4-55f0-4574-a450-65cb91228ea7",
-          "width": 100,
-          "x": 797,
-          "y": 498,
+          "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
+          "width": 37,
+          "x": 52,
+          "y": 893,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_1",
+          "persistentUuid": "7ca977f6-bb36-4c71-b620-ea7c1f07d6b9",
+          "width": 0,
+          "x": 1,
+          "y": 826,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-2147483566,-1,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,1073741963],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,1073741948,-1],[58,59,59,59,59,60,60,60,61,61,-1,-1,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1,-1,82,1073741931,1073741932,1073741931,-1,-1],[74,75,75,75,75,75,75,75,75,77,-1,-1,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1,-1,82,1073741915,1073741916,1073741899,-1,-1],[90,75,75,75,75,75,75,75,75,77,-1,-1,-1,-1,-1,-1,-1,-1,96,-1,-1,-1,-1,-1,1073741906,1073741962,1073741899,-1,-1,-1,-1],[106,75,75,75,75,75,75,75,75,141,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073741888,-2147483551,-2147483551,-2147483551,-2147483551,1073741890,1073741962,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco_2",
+          "persistentUuid": "8025ecb8-41d1-4bfc-aa58-d7ed837e9da8",
+          "width": 0,
+          "x": 767,
+          "y": 824,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[490],[522],[554],[554],[554]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "locked": true,
+          "name": "ScoreDisplay",
+          "persistentUuid": "1a4ee872-a2cf-4941-bcb7-2a26fdd725b3",
+          "width": 0,
+          "x": 32,
+          "y": 32,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6562,25 +6641,295 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 23,
           "keepRatio": true,
           "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "c6777526-6541-461e-975f-8d72eebf5464",
-          "width": 89,
-          "x": 748,
-          "y": 572,
-          "zOrder": 2,
+          "name": "Coins",
+          "persistentUuid": "8a00c67f-5b29-46c0-bbbf-409ddf021aeb",
+          "width": 29,
+          "x": 365,
+          "y": 828,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "d70aa2ac-c70c-42d9-8d0c-8b8ac6534996",
+          "width": 29,
+          "x": 460,
+          "y": 796,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Background_1",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "assets\\village\\TX Tileset Ground.png",
+            "rowCount": 16,
+            "columnCount": 16,
+            "tileSize": 32,
+            "tilesWithHitBox": "103,74,75,76,0,1,2,17,18,16,34,33,32,55,56,54,58,57,90,89,4,20,21,5,7,23,9,10,28,29,13,64,65,66,82,98,97,96,80,128,144,160,130,192,193,194,226,225,224,244,245,248,247,246,249,251,250,234,218,217,215,216,232,231,230,166,182,198,214,183,199,184,200,151,167,152,168,148,149,150,164,180,196,212,165,181,197,213,228,84,100,116,132,117,86,102,134,87,118,119,120,88,104,72,52,121,122,123,136,137,138,139,140,153,154,155,156,157,93,109,125,141,106,91,107,92,108,124,171,187,186,202,219,220,173,189,205,221,237,253,254,255,238,239,222,223,143,159,175,158,191,127,126,110,111,95,94,77,79,59,60,61,62,63,12"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Deco_1",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\village\\TX Village Props.png",
+            "rowCount": 16,
+            "columnCount": 16,
+            "tileSize": 64,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Deco_2",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "assets\\village\\TX Village Props.png",
+            "rowCount": 32,
+            "columnCount": 32,
+            "tileSize": 32,
+            "tilesWithHitBox": "63"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background_1"
+          },
+          {
+            "objectName": "Deco_1"
+          },
+          {
+            "objectName": "Deco_2"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "3",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Shoot\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "Player",
+                "FireBullet",
+                "Player.BoundingBoxCenterX()",
+                "Player.BoundingBoxCenterY()",
+                "arrow",
+                "Player.X()",
+                "Player.Y()",
+                "150",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Shoot\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Coins",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coins",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreDisplay",
+                "Text",
+                "=",
+                "\"Score: \" + Score"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -6625,9 +6974,128 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Score",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     },
     {
       "b": 209,
@@ -6639,19 +7107,7 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4166666666666667,
-        "windowMask": false
-      },
+      "uiSettings": {},
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -6706,86 +7162,56 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4166666666666667,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "events": [],
-      "layers": [
+      "behaviorsSharedData": [
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
-      ],
-      "behaviorsSharedData": []
+      ]
     }
   ],
   "externalEvents": [],
