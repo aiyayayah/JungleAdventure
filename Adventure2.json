@@ -1734,6 +1734,158 @@
         "name": "assets\\village\\TX Village Props21",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Enemy3-Fly.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Flying\\Enemy3-Fly.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run6.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run7.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run8.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Flying/Walk/Run9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Flying/Walk/Run9.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Flying\\Walk\\Run9.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4309,7 +4461,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859858149,
+        "zoomFactor": 0.6040838749989464,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4331,8 +4483,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 519,
-          "y": 584,
+          "x": 1308,
+          "y": 316,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -6561,13 +6713,14 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Enemy1",
+          "persistentUuid": "38f7abd7-dd18-4975-a1cb-0198b0f8e36f",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 1500,
+              "acceleration": 500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
@@ -6603,8 +6756,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6645,8 +6798,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6687,8 +6840,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6729,8 +6882,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6771,8 +6924,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6813,8 +6966,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6855,8 +7008,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6897,8 +7050,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
@@ -6939,8 +7092,8 @@
                       "points": [
                         {
                           "name": "Checker",
-                          "x": 0,
-                          "y": 35.5
+                          "x": 39,
+                          "y": 38
                         }
                       ],
                       "originPoint": {
