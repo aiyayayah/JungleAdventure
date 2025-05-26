@@ -4461,7 +4461,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749989464,
+        "zoomFactor": 5.955362700929495,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4483,8 +4483,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 1308,
-          "y": 316,
+          "x": 1283,
+          "y": 334,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -5015,15 +5015,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
           "keepRatio": true,
           "layer": "",
           "name": "Enemy1",
           "persistentUuid": "4ed43f4c-4284-403c-8592-ce0cb04c98d1",
-          "width": 0,
-          "x": 1206,
-          "y": 326,
+          "width": 32,
+          "x": 1201,
+          "y": 333,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -5035,12 +5036,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Deco10",
-          "persistentUuid": "ec74fd4e-6fbf-47b7-b906-7882d0b5e165",
+          "name": "Deco4",
+          "persistentUuid": "6e35462b-943a-4cad-a640-dc363b5945b3",
           "width": 0,
-          "x": 1345,
-          "y": 337,
-          "zOrder": 55,
+          "x": 1352,
+          "y": 345,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5051,12 +5052,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Deco10",
-          "persistentUuid": "04c82323-8935-4f5c-bd70-120a014b880c",
+          "name": "Deco7",
+          "persistentUuid": "c2e38c3c-7ecb-4a2f-a2e4-948286a893a8",
           "width": 0,
-          "x": 1135,
-          "y": 337,
-          "zOrder": 55,
+          "x": 1356,
+          "y": 342,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "3609af11-6311-4e86-9f9f-d3cdf98cf23f",
+          "width": 0,
+          "x": 1129,
+          "y": 343,
+          "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6713,14 +6730,13 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Enemy1",
-          "persistentUuid": "38f7abd7-dd18-4975-a1cb-0198b0f8e36f",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 500,
+              "acceleration": 100,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
@@ -6731,7 +6747,7 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
+              "maxSpeed": 100,
               "name": "PlatformerObject",
               "slopeMaxAngle": 60,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -6746,7 +6762,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -6757,7 +6773,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -6799,7 +6815,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -6841,7 +6857,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -6883,7 +6899,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -6925,7 +6941,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -6967,7 +6983,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -7009,7 +7025,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -7051,7 +7067,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -7093,7 +7109,7 @@
                         {
                           "name": "Checker",
                           "x": 39,
-                          "y": 38
+                          "y": 49
                         }
                       ],
                       "originPoint": {
@@ -7565,7 +7581,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "Deco10",
+                    "Deco7",
                     "Enemy1.PointX(\"Checker\")",
                     "Enemy1.PointY(\"Checker\")"
                   ]
@@ -7620,7 +7636,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "Deco10",
+                    "Deco7",
                     "Enemy1.PointX(\"Checker\")",
                     "Enemy1.PointY(\"Checker\")"
                   ]
@@ -7721,6 +7737,18 @@
                   "parameters": [
                     "Player",
                     "Enemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy1",
                     "",
                     "",
                     ""
