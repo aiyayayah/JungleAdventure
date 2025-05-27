@@ -4660,6 +4660,38 @@
         "name": "assets\\UI\\menu\\gameName\\Arrow.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/play text button/Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\play text button\\Default.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/play text button/Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\play text button\\Hover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/home/Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\home\\Default.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/home/Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\home\\Hover.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8232,7 +8264,7 @@
     },
     {
       "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
-      "name": "ButtonRestart",
+      "name": "buttonRestart",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "",
       "variables": [],
@@ -10906,7 +10938,7 @@
         "objectName": "Coins"
       },
       {
-        "objectName": "ButtonRestart"
+        "objectName": "buttonRestart"
       },
       {
         "objectName": "Ladder"
@@ -10933,7 +10965,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -10941,8 +10973,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.1648863155987288,
+        "snap": false,
+        "zoomFactor": 0.4452407170088362,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10952,15 +10984,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 96,
+          "height": 83,
           "keepRatio": true,
           "layer": "",
           "name": "startButton",
           "persistentUuid": "4360c4d2-f842-4b86-90f0-e3873e78f283",
-          "width": 96,
-          "x": 736,
-          "y": 512,
-          "zOrder": 3,
+          "width": 212,
+          "x": 741,
+          "y": 412,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10972,11 +11004,11 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "NewButton",
+          "name": "levelOne",
           "persistentUuid": "85573cd9-7d2b-46c7-a77b-4bd8d0530488",
           "width": 96,
-          "x": 640,
-          "y": 672,
+          "x": 649,
+          "y": 718,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10989,9 +11021,11 @@
           "height": 1376,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "background",
           "opacity": 179,
           "persistentUuid": "5eef3659-4362-4915-a275-dca9d1f6f774",
+          "sealed": true,
           "width": 2112,
           "x": -416,
           "y": -128,
@@ -11009,8 +11043,8 @@
           "name": "NewSprite",
           "persistentUuid": "fa6ef69c-2b61-4e63-95dd-2455ddb6dfe2",
           "width": 0,
-          "x": 991,
-          "y": 1376,
+          "x": 528,
+          "y": 195,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11018,16 +11052,98 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite2",
           "persistentUuid": "de799083-fd5c-4c42-a707-370c133b90c4",
-          "width": 0,
-          "x": 1117,
-          "y": 1395,
+          "width": 385,
+          "x": 648,
+          "y": 230,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 324,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "4576c95b-febd-461c-85ee-c4cfb04de9bf",
+          "width": 0,
+          "x": 605,
+          "y": 184,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 297,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "e042e455-d424-495d-893a-6aeb44e62df2",
+          "width": 0,
+          "x": 587,
+          "y": 226,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 42,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "fef8e0df-f154-45ed-a7b2-870dbcb98f03",
+          "width": 0,
+          "x": 1051,
+          "y": 172,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 59,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "0c2c0d02-6e8a-407f-97a0-9535e81c3cbb",
+          "width": 0,
+          "x": 1063,
+          "y": 226,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 151,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite4",
+          "persistentUuid": "c003fb2b-50f7-40f9-b9ab-0ebab157b8de",
+          "width": 279,
+          "x": 706,
+          "y": 382,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11049,7 +11165,7 @@
               "height": 32,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\UI\\menu\\start\\Hover.png",
+              "texture": "assets\\UI\\menu\\play text button\\Hover.png",
               "tiled": false,
               "topMargin": 0,
               "width": 32
@@ -11059,7 +11175,7 @@
               "height": 32,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\UI\\menu\\start\\Default.png",
+              "texture": "assets\\UI\\menu\\play text button\\Default.png",
               "tiled": false,
               "topMargin": 0,
               "width": 32
@@ -11105,7 +11221,7 @@
               "height": 32,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\UI\\menu\\start\\Default.png",
+              "texture": "assets\\UI\\menu\\play text button\\Default.png",
               "tiled": false,
               "topMargin": 0,
               "width": 32
@@ -11114,7 +11230,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewButton",
+          "name": "levelOne",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
@@ -11429,6 +11545,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\gameName\\ButtonBack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 260,
+                            "y": 0
+                          },
+                          {
+                            "x": 260,
+                            "y": 137
+                          },
+                          {
+                            "x": 2,
+                            "y": 137
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11438,13 +11614,16 @@
             "objectName": "startButton"
           },
           {
-            "objectName": "NewButton"
+            "objectName": "levelOne"
           },
           {
             "objectName": "background"
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite4"
           },
           {
             "objectName": "NewSprite2"
@@ -14421,7 +14600,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.78762901016749,
+        "zoomFactor": 1.6337626779317387,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15475,7 +15654,7 @@
           "height": 96,
           "keepRatio": true,
           "layer": "Score",
-          "name": "ButtonRestart",
+          "name": "buttonRestart",
           "persistentUuid": "d965fba4-b00d-4103-9183-a7d0fda2ad29",
           "width": 96,
           "x": 1536,
@@ -15531,6 +15710,23 @@
           "x": 168,
           "y": 0,
           "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonHome",
+          "persistentUuid": "28969c0f-c268-40b2-bc6c-55655a2a8b41",
+          "width": 96,
+          "x": 1408,
+          "y": 32,
+          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18534,11 +18730,127 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "buttonHome",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\home\\Hover.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\home\\Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\home\\Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Decos",
+            "children": [
+              {
+                "objectName": "Deco10"
+              },
+              {
+                "objectName": "Deco9"
+              },
+              {
+                "objectName": "Deco8"
+              },
+              {
+                "objectName": "Deco2"
+              },
+              {
+                "objectName": "Deco4"
+              },
+              {
+                "objectName": "Deco3"
+              },
+              {
+                "objectName": "Tree1"
+              },
+              {
+                "objectName": "Deco1"
+              },
+              {
+                "objectName": "Flower"
+              },
+              {
+                "objectName": "Bush1"
+              }
+            ]
+          },
+          {
+            "objectName": "buttonHome"
+          },
           {
             "objectName": "counterCoins"
           },
@@ -18564,40 +18876,10 @@
             "objectName": "Platform7"
           },
           {
-            "objectName": "Bush1"
-          },
-          {
-            "objectName": "Tree1"
-          },
-          {
-            "objectName": "Flower"
-          },
-          {
-            "objectName": "Deco1"
-          },
-          {
-            "objectName": "Deco2"
-          },
-          {
-            "objectName": "Deco3"
-          },
-          {
-            "objectName": "Deco4"
-          },
-          {
             "objectName": "Deco5"
           },
           {
             "objectName": "Deco7"
-          },
-          {
-            "objectName": "Deco8"
-          },
-          {
-            "objectName": "Deco9"
-          },
-          {
-            "objectName": "Deco10"
           },
           {
             "objectName": "TileMap1"
@@ -19858,7 +20140,7 @@
           "height": 64,
           "keepRatio": true,
           "layer": "Score",
-          "name": "ButtonRestart",
+          "name": "buttonRestart",
           "persistentUuid": "91ee36dd-4cf4-4a9c-88e9-c438dde6ff38",
           "width": 64,
           "x": 224,
@@ -22848,7 +23130,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
-                "ButtonRestart",
+                "buttonRestart",
                 ""
               ]
             }
@@ -22861,6 +23143,44 @@
               "parameters": [
                 "",
                 "CurrentSceneName()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Home Button"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "buttonHome",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"menu\"",
                 ""
               ]
             }
