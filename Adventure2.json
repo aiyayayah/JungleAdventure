@@ -16228,7 +16228,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44524071700883794,
+        "zoomFactor": 0.5084018284441946,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16515,22 +16515,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Enemy1",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -16590,18 +16574,6 @@
               },
               "parameters": [],
               "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -16824,7 +16796,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4166666666666667,
+        "zoomFactor": 0.43071680420009956,
         "windowMask": false
       },
       "objectsGroups": [],
