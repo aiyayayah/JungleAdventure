@@ -4692,6 +4692,59 @@
         "name": "assets\\UI\\menu\\home\\Hover.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Chango-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "27d4da0f7767cf3fbf14eb2c8da758dbcfc7b5038c9214d5e6ed62db6476a6e5_Chango-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/27d4da0f7767cf3fbf14eb2c8da758dbcfc7b5038c9214d5e6ed62db6476a6e5_Chango-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MochiyPopPOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MochiyPopPOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\MochiyPopPOne-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/bc1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bc1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bc2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bc2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/b3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\b3.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4723,7 +4776,6 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.1,
@@ -10974,7 +11026,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4452407170088362,
+        "zoomFactor": 0.7569092189150234,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10990,8 +11042,8 @@
           "name": "startButton",
           "persistentUuid": "4360c4d2-f842-4b86-90f0-e3873e78f283",
           "width": 212,
-          "x": 741,
-          "y": 412,
+          "x": 736,
+          "y": 389,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -11001,15 +11053,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 96,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
-          "name": "levelOne",
+          "name": "level1Button",
           "persistentUuid": "85573cd9-7d2b-46c7-a77b-4bd8d0530488",
-          "width": 96,
-          "x": 649,
-          "y": 718,
-          "zOrder": 4,
+          "width": 125,
+          "x": 574,
+          "y": 643,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11018,33 +11070,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1376,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "background",
-          "opacity": 179,
-          "persistentUuid": "5eef3659-4362-4915-a275-dca9d1f6f774",
-          "sealed": true,
-          "width": 2112,
-          "x": -416,
-          "y": -128,
-          "zOrder": -5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "height": 231,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "fa6ef69c-2b61-4e63-95dd-2455ddb6dfe2",
-          "width": 0,
-          "x": 528,
-          "y": 195,
+          "width": 840,
+          "x": 412,
+          "y": 168,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11059,9 +11092,9 @@
           "layer": "",
           "name": "NewSprite2",
           "persistentUuid": "de799083-fd5c-4c42-a707-370c133b90c4",
-          "width": 385,
-          "x": 648,
-          "y": 230,
+          "width": 592,
+          "x": 534,
+          "y": 203,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11076,8 +11109,8 @@
           "name": "NewSprite3",
           "persistentUuid": "4576c95b-febd-461c-85ee-c4cfb04de9bf",
           "width": 0,
-          "x": 605,
-          "y": 184,
+          "x": 510,
+          "y": 130,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -11092,8 +11125,8 @@
           "name": "NewSprite3",
           "persistentUuid": "e042e455-d424-495d-893a-6aeb44e62df2",
           "width": 0,
-          "x": 587,
-          "y": 226,
+          "x": 478,
+          "y": 183,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -11108,8 +11141,8 @@
           "name": "NewSprite3",
           "persistentUuid": "fef8e0df-f154-45ed-a7b2-870dbcb98f03",
           "width": 0,
-          "x": 1051,
-          "y": 172,
+          "x": 1134,
+          "y": 133,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -11124,8 +11157,8 @@
           "name": "NewSprite3",
           "persistentUuid": "0c2c0d02-6e8a-407f-97a0-9535e81c3cbb",
           "width": 0,
-          "x": 1063,
-          "y": 226,
+          "x": 1148,
+          "y": 189,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -11142,8 +11175,126 @@
           "persistentUuid": "c003fb2b-50f7-40f9-b9ab-0ebab157b8de",
           "width": 279,
           "x": 706,
-          "y": 382,
+          "y": 357,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 94,
+          "keepRatio": true,
+          "layer": "",
+          "name": "gameName",
+          "persistentUuid": "776b81ed-11f8-43e4-aab8-60bd585c6c0f",
+          "width": 556,
+          "x": 557,
+          "y": 229,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1833,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background2",
+          "opacity": 179,
+          "persistentUuid": "3268db3f-a37b-48a8-9d13-f888576ea956",
+          "width": 2451,
+          "x": -521,
+          "y": -373,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 81,
+          "keepRatio": true,
+          "layer": "",
+          "name": "text2",
+          "persistentUuid": "6acf639d-7b12-443b-a528-d3cfea1072aa",
+          "width": 61,
+          "x": 797,
+          "y": 657,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level2Button",
+          "persistentUuid": "755c76e7-1ffa-4b92-9ed0-4fc636cdbd04",
+          "width": 128,
+          "x": 763,
+          "y": 643,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level3Button",
+          "persistentUuid": "7f115274-1eda-4657-bafc-44e0ecbe0290",
+          "width": 128,
+          "x": 955,
+          "y": 643,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "text1",
+          "persistentUuid": "e9844451-f6e9-45a4-b12b-bf3b6ba614f3",
+          "width": 0,
+          "x": 616,
+          "y": 659,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "text3",
+          "persistentUuid": "8f784600-f54f-491e-97aa-d03976bc360e",
+          "width": 0,
+          "x": 998,
+          "y": 656,
+          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11230,7 +11381,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "levelOne",
+          "name": "level1Button",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
@@ -11263,7 +11414,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "1",
+              "string": "",
               "font": "assets\\JotiOne-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 60,
@@ -11286,7 +11437,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "1",
+                "text": "",
                 "font": "assets\\JotiOne-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -11305,66 +11456,6 @@
               "width": 32
             }
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "background",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\UI\\menu\\background\\Default.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 5120,
-                            "y": 0
-                          },
-                          {
-                            "x": 5120,
-                            "y": 2880
-                          },
-                          {
-                            "x": 0,
-                            "y": 2880
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -11605,6 +11696,390 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "gameName",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jungle Adventure",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jungle Adventure",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "139;87;42"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\background\\Default.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5120,
+                            "y": 0
+                          },
+                          {
+                            "x": 5120,
+                            "y": 2880
+                          },
+                          {
+                            "x": 0,
+                            "y": 2880
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "level2Button",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Hover.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "level3Button",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Hover.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "2",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 55,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "2",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 55,
+            "color": "139;87;42"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "1",
+          "font": "assets\\MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 55,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "1",
+            "font": "assets\\MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 55,
+            "color": "139;87;42"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "3",
+          "font": "assets\\MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 55,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "3",
+            "font": "assets\\MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 55,
+            "color": "139;87;42"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11614,10 +12089,25 @@
             "objectName": "startButton"
           },
           {
-            "objectName": "levelOne"
+            "objectName": "level1Button"
           },
           {
-            "objectName": "background"
+            "objectName": "level2Button"
+          },
+          {
+            "objectName": "level3Button"
+          },
+          {
+            "objectName": "background2"
+          },
+          {
+            "objectName": "text1"
+          },
+          {
+            "objectName": "text2"
+          },
+          {
+            "objectName": "text3"
           },
           {
             "objectName": "NewSprite"
@@ -11630,6 +12120,9 @@
           },
           {
             "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "gameName"
           }
         ]
       },
@@ -11693,6 +12186,84 @@
               "parameters": [
                 "",
                 "\"tutoriall\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "level1Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"ky\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "level2Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"sherry\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "level3Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"ccp\"",
                 ""
               ]
             }
@@ -14591,7 +15162,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -14599,8 +15170,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.6337626779317387,
+        "snap": false,
+        "zoomFactor": 0.44819780454110164,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14627,8 +15198,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 277,
-          "y": 398,
+          "x": 169,
+          "y": 387,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -14807,7 +15378,7 @@
           "width": 1696,
           "x": 0,
           "y": 1056,
-          "zOrder": 35,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14839,13 +15410,13 @@
           "persistentUuid": "bb710303-c782-483b-9915-85c98861734a",
           "width": 0,
           "x": 1344,
-          "y": 352,
+          "y": 384,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[64],[80],[80],[80],[80],[80]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[80],[80],[80],[80],[80]]}]}"
             }
           ],
           "initialVariables": []
@@ -14860,7 +15431,7 @@
           "name": "LadderLeft",
           "persistentUuid": "4e26a8a0-d0f4-4dba-90c5-8bc7c3897539",
           "width": 19,
-          "x": 1371,
+          "x": 1374,
           "y": 355,
           "zOrder": 1,
           "numberProperties": [],
@@ -15030,14 +15601,14 @@
           "name": "TileMap1",
           "persistentUuid": "a7472b94-bf10-4465-84f7-f9b9157f335d",
           "width": 0,
-          "x": 1121,
+          "x": 1120,
           "y": 320,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,34,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -15572,8 +16143,8 @@
           "name": "PlayerLife",
           "persistentUuid": "3d528efe-6409-4043-a6be-093ce0ee4000",
           "width": 64,
-          "x": 196,
-          "y": 84,
+          "x": 213,
+          "y": 109,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -15595,8 +16166,8 @@
           "name": "PlayerLife",
           "persistentUuid": "2de2a243-5b71-4bda-b382-34e78bd2f46b",
           "width": 64,
-          "x": 280,
-          "y": 84,
+          "x": 297,
+          "y": 109,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -15618,8 +16189,8 @@
           "name": "PlayerLife",
           "persistentUuid": "6330654e-bdb1-4d0d-9922-7d89e2724edc",
           "width": 64,
-          "x": 364,
-          "y": 84,
+          "x": 381,
+          "y": 109,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -15657,8 +16228,8 @@
           "name": "buttonRestart",
           "persistentUuid": "d965fba4-b00d-4103-9183-a7d0fda2ad29",
           "width": 96,
-          "x": 1536,
-          "y": 32,
+          "x": 1547,
+          "y": 31,
           "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
@@ -15674,8 +16245,8 @@
           "name": "counterCoins",
           "persistentUuid": "e592a70e-573b-449f-9a20-88e571de8dc4",
           "width": 64,
-          "x": 80,
-          "y": 3,
+          "x": 97,
+          "y": 28,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -15690,8 +16261,8 @@
           "name": "counterLives",
           "persistentUuid": "84b26305-490c-4381-a8b6-a9a02a904daa",
           "width": 0,
-          "x": 84,
-          "y": 84,
+          "x": 101,
+          "y": 109,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -15707,8 +16278,8 @@
           "name": "counterScore",
           "persistentUuid": "ca0c67e3-955c-4219-ad9f-7cfaeebfd339",
           "width": 128,
-          "x": 168,
-          "y": 0,
+          "x": 185,
+          "y": 25,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -15724,9 +16295,27 @@
           "name": "buttonHome",
           "persistentUuid": "28969c0f-c268-40b2-bc6c-55655a2a8b41",
           "width": 96,
-          "x": 1408,
-          "y": 32,
+          "x": 1419,
+          "y": 31,
           "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1172,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bc1",
+          "opacity": 204,
+          "persistentUuid": "11ed530b-ec9b-4b14-846a-db1a423f37ed",
+          "width": 1928,
+          "x": -153,
+          "y": -54,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18808,6 +19397,66 @@
               "width": 32
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "bc1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\b3.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6053,
+                            "y": 0
+                          },
+                          {
+                            "x": 6053,
+                            "y": 3672
+                          },
+                          {
+                            "x": 0,
+                            "y": 3672
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18892,6 +19541,9 @@
           },
           {
             "objectName": "Boundary"
+          },
+          {
+            "objectName": "bc1"
           },
           {
             "objectName": "movingPlatform"
@@ -19678,16 +20330,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Player",
-                    ">",
-                    "Boundary.Y()"
-                  ]
                 }
               ]
             },
@@ -19762,13 +20404,31 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "currentBlood",
-                "=",
-                "0"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "currentBlood",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "Boundary.Y()"
+                  ]
+                }
               ]
             }
           ],
