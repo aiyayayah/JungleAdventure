@@ -16829,10 +16829,69 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "05296903-c984-494d-bf3a-937ad1326e1b",
+          "width": 0,
+          "x": -5,
+          "y": 400,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":12,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
+          "width": 0,
+          "x": 53,
+          "y": 326,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "PlatformGround",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\village\\TX Tileset Ground.png",
+            "rowCount": 16,
+            "columnCount": 16,
+            "tileSize": 32,
+            "tilesWithHitBox": ""
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PlatformGround"
+          }
+        ]
       },
       "events": [
         {
