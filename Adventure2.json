@@ -3990,7 +3990,6 @@
         "name": "assets\\LegacyAdventurePack\\Assets\\Assets.png",
         "smoothed": false,
         "userAdded": false
-<<<<<<< HEAD
       },
       {
         "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Dude_Monster_Walk_6.png",
@@ -4375,8 +4374,54 @@
         "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run20.png",
         "smoothed": false,
         "userAdded": false
-=======
->>>>>>> 577335518c653aa246395dec0b3e7010c115da72
+      },
+      {
+        "file": "assets/UI/HealthUI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\HealthUI.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_UI_HealthUI.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\UI\\HealthUI",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Empty.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Empty",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/assets_UI_HealthUI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\assets_UI_HealthUI.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Empty2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Empty2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/Empty2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\Empty2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4398,6 +4443,16 @@
           "name": "canJump",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "maxBlood",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "currentBlood",
+          "type": "number",
+          "value": 2
         }
       ],
       "effects": [],
@@ -7276,7 +7331,20 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "FireBullet",
@@ -13673,7 +13741,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -13681,8 +13749,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.9934433498260903,
+        "snap": true,
+        "zoomFactor": 2.432347728233153,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13865,8 +13933,8 @@
           "name": "ScoreDisplay",
           "persistentUuid": "8ac80514-c04c-4acb-9ac5-f38c6f2467a1",
           "width": 0,
-          "x": 64,
-          "y": 32,
+          "x": 32,
+          "y": 24,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -14404,15 +14472,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 64,
           "keepRatio": true,
           "layer": "Score",
           "name": "ButtonRestart",
           "persistentUuid": "d7ccd854-7fd0-47da-8d2a-3570630b3e44",
-          "width": 0,
-          "x": 244,
-          "y": 26,
+          "width": 128,
+          "x": 608,
+          "y": 32,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -14691,6 +14760,69 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "3d528efe-6409-4043-a6be-093ce0ee4000",
+          "width": 32,
+          "x": 256,
+          "y": 64,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "2de2a243-5b71-4bda-b382-34e78bd2f46b",
+          "width": 32,
+          "x": 320,
+          "y": 64,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "6330654e-bdb1-4d0d-9922-7d89e2724edc",
+          "width": 32,
+          "x": 384,
+          "y": 64,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -16608,21 +16740,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "TileMap2",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "assets\\LegacyAdventurePack\\Assets\\Assets.png",
-            "rowCount": 10,
-            "columnCount": 18,
-            "tileSize": 16,
-            "tilesWithHitBox": "1,18,6,4,8,2,3,7,19,37,55,20,38,56,21,39,57,22,40,58,36,54,73,74,75,59,60,77,79,78,44,24,23,5,25,26,62"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Enemy4",
@@ -16632,6 +16749,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 150,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -16644,9 +16763,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -16887,6 +17004,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 150,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -16899,9 +17018,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -17184,6 +17301,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 150,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -17196,9 +17315,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -17470,11 +17587,130 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlayerLife",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Full",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\assets_UI_HealthUI.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\Empty2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "PlayerLife"
+          },
           {
             "objectName": "Enemy4"
           },
@@ -17528,9 +17764,6 @@
           },
           {
             "objectName": "TileMap1"
-          },
-          {
-            "objectName": "TileMap2"
           },
           {
             "objectName": "LadderRight"
@@ -18293,6 +18526,42 @@
                 },
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy6",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PosY"
                   },
                   "parameters": [
@@ -18302,9 +18571,48 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "PlayerLife",
+                "id",
+                "=",
+                "Player.currentBlood"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "currentBlood",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerLife",
+                "Animation",
+                "=",
+                "\"Empty\""
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -18417,6 +18725,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Die Condition"
         }
       ],
       "layers": [
@@ -18581,11 +18901,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-<<<<<<< HEAD
         "zoomFactor": 0.8360898815717824,
-=======
-        "zoomFactor": 0.8934270200516433,
->>>>>>> 577335518c653aa246395dec0b3e7010c115da72
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18769,9 +19085,26 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":33,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,23,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073741889,1073741889,1073741889,1073741889,1073741922,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,98,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,17,98,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,17,167,98,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,17,17,183,98,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,17,17,17,17,17,17,82,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[65,65,65,65,65,65,65,65,65,82,-1,-1,-1,-1,96,65,65,65,65,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":33,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,23,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,152,1073741889,1073741889,1073741889,1073741889,1073741889,1073741889,1073741922,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,182,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,182,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[17,17,182,182,182,182,182,168,-1,-1,-1,-1,-1,-1,96,65,65,65,65,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023]]}]}"
             }
           ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ladder2",
+          "persistentUuid": "0dadaa7f-4aac-4994-9ce1-6d08f957e663",
+          "width": 1,
+          "x": 224,
+          "y": 352,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -18786,7 +19119,7 @@
           "width": 16,
           "x": 480,
           "y": 352,
-          "zOrder": -2,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20568,6 +20901,17 @@
         {
           "assetStoreId": "",
           "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
           "name": "Ladder2",
           "texture": "assets\\platform\\left.png",
           "type": "TiledSpriteObject::TiledSprite",
@@ -20583,29 +20927,6 @@
               "yGrabOffset": 0
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "BG2",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
-          "content": {
-            "atlasImage": "assets\\LegacyAdventurePack\\Assets\\Assets.png",
-            "rowCount": 5,
-            "columnCount": 9,
-            "tileSize": 32,
-            "tilesWithHitBox": "0,9,18,27,36,1,10,19,28,37,2,11,20,29,38,3,12,21,30,39,4,13,22,31,40,5,14,23,32,41,6,15,24,33,42,7,16,25,34,43,8,17,26,35,44"
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -20613,9 +20934,6 @@
         "children": [
           {
             "objectName": "Background_1"
-          },
-          {
-            "objectName": "BG2"
           },
           {
             "objectName": "Ladder2"
@@ -20631,6 +20949,9 @@
           },
           {
             "objectName": "Jumper"
+          },
+          {
+            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "Boundary"
@@ -22214,6 +22535,46 @@
               "parameters": [
                 "Enemy1",
                 "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Delete arrow if hitted walls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "TileMap1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
               ]
             }
           ]
