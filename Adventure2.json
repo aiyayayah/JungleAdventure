@@ -13287,7 +13287,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001948407,
+        "zoomFactor": 2.201995813710378,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16689,7 +16689,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.41666666666667174,
+        "zoomFactor": 0.3899264026826849,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16810,14 +16810,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 163,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Ladder",
           "persistentUuid": "4ae2f0fd-b10e-409f-8fe5-5d5fca2eed5f",
           "width": 32,
-          "x": 767,
-          "y": 827,
+          "x": 608,
+          "y": 832,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -16853,6 +16853,61 @@
           "x": -2,
           "y": 1054,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_1",
+          "persistentUuid": "be3e25ca-caa8-4f7c-a7df-7b88b624d56b",
+          "width": 0,
+          "x": 0,
+          "y": 224,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":33,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,23,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,152,1073741889,1073741889,1073741889,1073741889,1073741889,1073741889,1073741922,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,-1,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,-1,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,-1,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,182,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[-1,-1,-1,-1,182,182,182,168,-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023],[17,17,182,182,182,182,182,168,-1,-1,-1,-1,-1,-1,96,65,65,65,65,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073742023,1073742023,1073742023]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ladder2",
+          "persistentUuid": "0dadaa7f-4aac-4994-9ce1-6d08f957e663",
+          "width": 1,
+          "x": 224,
+          "y": 352,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ladder2",
+          "persistentUuid": "6dbfb094-fa9c-4baa-b350-b791910bd12f",
+          "width": 16,
+          "x": 480,
+          "y": 352,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18641,6 +18696,25 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Ladder2",
+          "texture": "assets\\platform\\left.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18648,6 +18722,9 @@
         "children": [
           {
             "objectName": "Background_1"
+          },
+          {
+            "objectName": "Ladder2"
           },
           {
             "objectName": "Deco_1"
