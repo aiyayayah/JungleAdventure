@@ -16684,8 +16684,8 @@
           "name": "Enemy3",
           "persistentUuid": "3fe6c0f4-1200-449e-a252-268a2e760efa",
           "width": 124,
-          "x": 813,
-          "y": 709,
+          "x": 815,
+          "y": 724,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -17546,6 +17546,26 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy3",
+                "Animation",
+                "=",
+                "\"hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -17573,6 +17593,44 @@
           "conditions": [
             {
               "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\"",
+                "<",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy3",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "Health::Health::IsDead"
               },
               "parameters": [
@@ -17582,7 +17640,36 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy3",
+                "Animation",
+                "=",
+                "\"dead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy3",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
