@@ -2374,6 +2374,134 @@
         "name": "assets\\Enemy\\Mushroom\\Die\\Die59.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Mushroom with VFX/Mushroom-Hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Mushroom with VFX\\Mushroom-Hit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Hitted/Hitted6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Hitted/Hitted7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Hitted/Hitted8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Hitted/Hitted9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Hitted/Hitted10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted10.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4955,13 +5083,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845357427,
+        "zoomFactor": 0.6897782140105213,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "Score",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "State",
           "type": "number",
           "value": 0
         }
@@ -5817,7 +5950,13 @@
           "name": "Enemy",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -6792,6 +6931,229 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemy\\Mushroom\\Die\\Die59.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hitted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Hitted\\Hitted6.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Hitted\\Hitted7.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Hitted\\Hitted8.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Hitted\\Hitted9.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Hitted\\Hitted10.png",
                       "points": [
                         {
                           "name": "Checker",
@@ -10082,6 +10444,51 @@
             },
             {
               "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "Lives",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "Lives",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -10104,6 +10511,56 @@
           ]
         }
       ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "Enemy_Run",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Foundation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Actions",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Transitions",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "",
+      "name": "Enemy_Die",
+      "events": []
     }
   ],
   "eventsFunctionsExtensions": [
