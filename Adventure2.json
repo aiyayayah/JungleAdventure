@@ -16953,43 +16953,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 81,
-                            "y": 3
-                          },
-                          {
-                            "x": 81,
-                            "y": 62
-                          },
-                          {
-                            "x": 0,
-                            "y": 62
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17061,7 +17025,43 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17598,7 +17598,7 @@
               "parameters": [
                 "",
                 "\"hurt_timer\"",
-                "<",
+                ">",
                 "0.5"
               ]
             }
