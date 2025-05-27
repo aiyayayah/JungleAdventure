@@ -5161,6 +5161,246 @@
         "name": "assets\\Enemy\\3 Dude_Monster\\Die\\Die91.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Hitted28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Main Sprite/Owlet_Monster_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Main Sprite\\Owlet_Monster_Hurt_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Hitted/Hitted32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Hitted/Hitted33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Hitted/Hitted34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Hitted/Hitted35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Main Sprite/Owlet_Monster_Death_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Main Sprite\\Owlet_Monster_Death_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die92",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die93",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die94",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die95",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die96",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die97",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die98",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die99",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die92.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die93.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die94.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die95.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die96.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die97.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die97.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die98.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die98.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Die/Die99.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die99.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15578,7 +15818,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -15586,8 +15826,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.5653158055127149,
+        "snap": true,
+        "zoomFactor": 1.1343715797162637,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15614,8 +15854,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 1100,
-          "y": 387,
+          "x": 167,
+          "y": 399,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -16025,7 +16265,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,34,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -20533,6 +20773,535 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run26.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hitted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted32.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted33.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted34.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted35.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Die",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die92.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die93.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die94.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die95.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die96.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die97.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die98.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die99.png",
                       "points": [
                         {
                           "name": "Checker",
@@ -25572,7 +26341,7 @@
               "parameters": [
                 "arrow",
                 "Player",
-                "180",
+                "200",
                 ""
               ]
             }
