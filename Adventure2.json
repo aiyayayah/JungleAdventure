@@ -2502,6 +2502,206 @@
         "name": "assets\\Enemy\\Mushroom\\Hitted\\Hitted10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oak_woods_v1.0/decorations/sign.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/oak_woods_v1.0/decorations/sign.png\",\"extension\":\".png\"}",
+        "name": "assets\\oak_woods_v1.0\\decorations\\sign.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oak_woods_v1.0/decorations/lamp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\oak_woods_v1.0\\decorations\\lamp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arrow-right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\village\\TX Village Props26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arrow-right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-right2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/assets_village_TX Village Props25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\assets_village_TX Village Props25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/assets_village_TX Village Props26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\assets_village_TX Village Props26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_player_mainSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\player\\mainSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/teleport/assets_player_mainSprite7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\teleport\\assets_player_mainSprite7.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4544,6 +4744,619 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Teleport1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Teleport2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\teleport\\assets_player_mainSprite.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 11,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 10
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 10
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 18.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5083,7 +5896,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140105213,
+        "zoomFactor": 0.7370816317994844,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5113,23 +5926,6 @@
           "x": 167,
           "y": 398,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PassThrough2",
-          "persistentUuid": "ae289e3c-a8d0-4035-8b98-660cb56766f3",
-          "width": 72,
-          "x": 584,
-          "y": 50,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5172,56 +5968,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 50,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Flower",
-          "persistentUuid": "ec738966-6ff8-48bf-8dba-5b8aa38ffe5b",
-          "width": 78,
-          "x": 722,
-          "y": 96,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform7",
-          "persistentUuid": "7917902d-fdd0-435d-939f-2cefcd3e6225",
-          "width": 92,
-          "x": 683,
-          "y": 180,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco3",
-          "persistentUuid": "49d7b873-c456-4497-bda0-8d675a089a9c",
-          "width": 0,
-          "x": 992,
-          "y": -122,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 33,
           "keepRatio": true,
           "layer": "",
@@ -5240,15 +5986,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "flippedX": true,
           "height": 127,
           "keepRatio": true,
           "layer": "",
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 865,
-          "y": 576,
+          "x": 29,
+          "y": 351,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5264,8 +6009,8 @@
           "name": "Coins",
           "persistentUuid": "8e6c9196-23fa-4264-afdb-3c473f3264ec",
           "width": 33,
-          "x": 451,
-          "y": 573,
+          "x": 377,
+          "y": 570,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -5307,40 +6052,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 156,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco1",
-          "persistentUuid": "bcc4f1ac-6629-42d1-9cc8-91a6e7b15aa3",
-          "width": 170,
-          "x": 1302,
-          "y": -124,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 61,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco2",
-          "persistentUuid": "6c34e6aa-7fcc-47b7-9aa1-00ca4c759134",
-          "width": 108,
-          "x": 1172,
-          "y": 99,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 640,
           "keepRatio": true,
           "layer": "",
@@ -5354,7 +6065,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":32,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,0,60,60,60,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,74,76,76,76,77,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[4,87,87,121,122,138,138,138,93,94,94,94,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,124,124,92,181,181,181,181,125,153,153,254,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[32,153,153,214,181,139,125,153,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,237,124,181,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,253,254,214,168,-1,-1,-1,-1,86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,230,168,-1,-1,-1,-1,102,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,102,182,182,182,182,93,151,222,222,59,60,59,60,59,61,63,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,2,-1,-1,-1],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,140,140,140,140,140,140,140,140,140,93,-1,-1,-1],[-1,-1,-1,86,60,122,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,254,254,254,254,255,-1,-1,-1],[-1,-1,-1,102,91,124,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[186,60,60,122,124,124,93,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[253,33,33,213,213,214,93,59,59,59,59,59,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,136,140,181,91,181,124,181,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,253,254,254,254,247,214,181,239,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,181,239,-1,-1,-1,12,13,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,28,29],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":32,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,0,60,60,60,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,74,76,76,76,77,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[4,87,87,121,122,138,138,138,93,94,94,94,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,124,124,92,181,181,181,181,125,153,153,254,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[32,153,153,214,181,139,125,153,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,237,124,181,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,253,254,214,168,-1,-1,-1,-1,86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,230,168,-1,-1,-1,-1,102,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,102,182,182,182,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,1,1,1,2],[-1,-1,-1,-1,-1,180,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,140,140,140,140,140,140,140,140,140,17,17,17,18],[-1,-1,-1,86,60,122,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,254,254,254,254,33,33,33,34],[-1,-1,-1,102,91,124,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[186,60,60,122,124,124,93,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[253,33,33,213,213,214,93,59,59,59,59,59,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,136,140,181,91,181,124,181,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,253,254,254,254,247,214,181,239,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,181,239,-1,-1,-1,12,13,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,28,29],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -5852,6 +6563,42 @@
               "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,87,87,63],[253,153,214,168],[-1,-1,237,168],[-1,-1,253,255]]}]}"
             }
           ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "persistentUuid": "a705d0e7-4142-4b5e-b460-b8012b71daa7",
+          "width": 44,
+          "x": 493,
+          "y": 563,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 13,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignArrow",
+          "persistentUuid": "edc3e593-d682-4207-9d17-ce117d1f50d7",
+          "width": 30,
+          "x": 503,
+          "y": 568,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
           "initialVariables": []
         }
       ],
@@ -8808,6 +9555,163 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SignBoard",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\village\\TX Village Props",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Deco\\assets_village_TX Village Props25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 512,
+                            "y": 0
+                          },
+                          {
+                            "x": 512,
+                            "y": 512
+                          },
+                          {
+                            "x": 0,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SignArrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "arrow-right2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51,
+                            "y": 77
+                          },
+                          {
+                            "x": 461,
+                            "y": 77
+                          },
+                          {
+                            "x": 461,
+                            "y": 435
+                          },
+                          {
+                            "x": 51,
+                            "y": 435
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Deco\\assets_village_TX Village Props26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51,
+                            "y": 77
+                          },
+                          {
+                            "x": 461,
+                            "y": 77
+                          },
+                          {
+                            "x": 461,
+                            "y": 435
+                          },
+                          {
+                            "x": 51,
+                            "y": 435
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8899,6 +9803,12 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "SignBoard"
+          },
+          {
+            "objectName": "SignArrow"
           }
         ]
       },
@@ -9321,7 +10231,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Change event"
+          "comment": "Teleport to othe event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9342,12 +10252,40 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Teleport1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"sherry\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
               ]
             }
           ]
@@ -9515,7 +10453,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.020167098883469,
+        "zoomFactor": 1.8532173167488395,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9537,8 +10475,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 52,
-          "y": 893,
+          "x": 54,
+          "y": 900,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9553,8 +10491,8 @@
           "name": "Background_1",
           "persistentUuid": "7ca977f6-bb36-4c71-b620-ea7c1f07d6b9",
           "width": 0,
-          "x": 1,
-          "y": 826,
+          "x": 0,
+          "y": 825,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [
@@ -9717,6 +10655,49 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Teleport2\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -9736,11 +10717,6 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
