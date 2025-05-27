@@ -17556,16 +17556,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "arrow",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "FireBullet::FireBullet::FireTowardPosition"
                   },
                   "parameters": [
@@ -17598,16 +17588,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "arrow",
-                    "=",
-                    "180"
-                  ]
-                },
                 {
                   "type": {
                     "value": "FireBullet::FireBullet::FireTowardPosition"
