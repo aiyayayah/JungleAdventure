@@ -4445,14 +4445,9 @@
           "value": 0
         },
         {
-          "name": "maxBlood",
-          "type": "number",
-          "value": 2
-        },
-        {
           "name": "currentBlood",
           "type": "number",
-          "value": 2
+          "value": 3
         }
       ],
       "effects": [],
@@ -13743,14 +13738,14 @@
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 64,
+        "gridHeight": 64,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.432347728233153,
+        "zoomFactor": 0.8141881203711024,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13933,8 +13928,8 @@
           "name": "ScoreDisplay",
           "persistentUuid": "8ac80514-c04c-4acb-9ac5-f38c6f2467a1",
           "width": 0,
-          "x": 32,
-          "y": 24,
+          "x": 42,
+          "y": 64,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -14480,8 +14475,8 @@
           "name": "ButtonRestart",
           "persistentUuid": "d7ccd854-7fd0-47da-8d2a-3570630b3e44",
           "width": 128,
-          "x": 608,
-          "y": 32,
+          "x": 640,
+          "y": 64,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -14765,32 +14760,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 64,
           "keepRatio": true,
           "layer": "Score",
           "name": "PlayerLife",
           "persistentUuid": "3d528efe-6409-4043-a6be-093ce0ee4000",
-          "width": 32,
+          "width": 64,
           "x": 256,
           "y": 64,
           "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "Score",
-          "name": "PlayerLife",
-          "persistentUuid": "2de2a243-5b71-4bda-b382-34e78bd2f46b",
-          "width": 32,
-          "x": 320,
-          "y": 64,
-          "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -14805,13 +14783,36 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "2de2a243-5b71-4bda-b382-34e78bd2f46b",
+          "width": 64,
+          "x": 384,
+          "y": 64,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "Score",
           "name": "PlayerLife",
           "persistentUuid": "6330654e-bdb1-4d0d-9922-7d89e2724edc",
-          "width": 32,
-          "x": 384,
+          "width": 64,
+          "x": 512,
           "y": 64,
           "zOrder": 74,
           "numberProperties": [],
@@ -14820,7 +14821,7 @@
             {
               "name": "id",
               "type": "number",
-              "value": 2
+              "value": 3
             }
           ]
         }
@@ -18612,7 +18613,37 @@
                 "=",
                 "\"Empty\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Die Condition"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "currentBlood",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -18725,18 +18756,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Player Die Condition"
         }
       ],
       "layers": [
@@ -18901,7 +18920,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8360898815717824,
+        "zoomFactor": 0.5805228706436341,
         "windowMask": false
       },
       "objectsGroups": [],
