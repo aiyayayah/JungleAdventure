@@ -16572,7 +16572,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44524071700883794,
+        "zoomFactor": 0.40307484968814483,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18177,7 +18177,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "normal",
@@ -18684,9 +18692,20 @@
               "parameters": [
                 "",
                 "Jumper",
-                "400",
-                "300",
-                "\"Layer\""
+                "650",
+                "770",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Jumper",
+                "Scale",
+                "=",
+                "2"
               ]
             }
           ]
