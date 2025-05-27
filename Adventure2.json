@@ -3598,6 +3598,38 @@
         "name": "assets\\Enemy\\Demon\\with_outline\\IDLE8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/idle/assets_Enemy_Demon_with_outline_IDLE5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/idle/assets_Enemy_Demon_with_outline_IDLE6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/idle/assets_Enemy_Demon_with_outline_IDLE7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/idle/assets_Enemy_Demon_with_outline_IDLE8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16300,7 +16332,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5084018284441946,
+        "zoomFactor": 0.44524071700883794,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16340,7 +16372,7 @@
           "width": 0,
           "x": -1,
           "y": 827,
-          "zOrder": 2,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -16433,6 +16465,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy3",
+          "persistentUuid": "3fe6c0f4-1200-449e-a252-268a2e760efa",
+          "width": 124,
+          "x": 813,
+          "y": 709,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16493,7 +16542,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Enemy3",
-          "persistentUuid": "19b81638-592e-48d9-9f95-8a8c66a73683",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16511,7 +16559,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE5",
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16547,7 +16595,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE6",
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16583,7 +16631,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE7",
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16619,7 +16667,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE8",
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
