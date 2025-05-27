@@ -1886,6 +1886,494 @@
         "name": "assets\\Enemy\\Flying\\Walk\\Run9.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Mushroom with VFX/Mushroom-Die.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Mushroom with VFX\\Mushroom-Die.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die45.png\"}",
+        "name": "Die45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die46.png\"}",
+        "name": "Die46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die47.png\"}",
+        "name": "Die47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die48.png\"}",
+        "name": "Die48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die49.png\"}",
+        "name": "Die49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die50.png\"}",
+        "name": "Die50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die51.png\"}",
+        "name": "Die51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die52.png\"}",
+        "name": "Die52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die53.png\"}",
+        "name": "Die53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die54.png\"}",
+        "name": "Die54",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die55.png\"}",
+        "name": "Die55",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die56.png\"}",
+        "name": "Die56",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die57.png\"}",
+        "name": "Die57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die58.png\"}",
+        "name": "Die58",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Die59.png\"}",
+        "name": "Die59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die50.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die51.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die52.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die53.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die54.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die56.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die57.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die58.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Mushroom/Die/Die59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Mushroom\\Die\\Die59.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3987,8 +4475,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 18.5,
-                    "y": 5.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4467,7 +4955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.737081631799478,
+        "zoomFactor": 0.47893418845357427,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4489,8 +4977,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 170,
-          "y": 394,
+          "x": 167,
+          "y": 398,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -5661,6 +6149,649 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemy\\Mushroom\\Walk\\assets_Mushroom_Mushroom without VFX_Mushroom-Run8.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Die",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die45.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die46.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die47.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die48.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die49.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die50.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die51.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die52.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die53.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die54.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die55.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die56.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die57.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die58.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 30,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.5,
+                        "y": 17
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Mushroom\\Die\\Die59.png",
                       "points": [
                         {
                           "name": "Checker",
@@ -8022,7 +9153,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7824324476176142,
+        "zoomFactor": 1.020167098883469,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8925,8 +10056,52 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Enemy",
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Die\""
+              ]
+            }
+          ]
         }
       ]
     }
