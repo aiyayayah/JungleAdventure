@@ -3526,6 +3526,78 @@
         "name": "assets\\village\\TX Chest Animation7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/with_outline/IDLE.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemy/Demon/with_outline/IDLE.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_Demon_with_outline_IDLE8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\Demon\\with_outline\\IDLE8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16361,22 +16433,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Enemy1",
-          "persistentUuid": "820ac841-f25b-449f-ab06-b55552f22e34",
-          "width": 0,
-          "x": 880,
-          "y": 794,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -16432,6 +16488,176 @@
             "tileSize": 32,
             "tilesWithHitBox": "63"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy3",
+          "persistentUuid": "19b81638-592e-48d9-9f95-8a8c66a73683",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Enemy\\Demon\\with_outline\\IDLE",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\with_outline\\IDLE8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 3
+                          },
+                          {
+                            "x": 81,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16445,6 +16671,9 @@
           },
           {
             "objectName": "Deco_2"
+          },
+          {
+            "objectName": "Enemy3"
           }
         ]
       },
