@@ -3862,6 +3862,14 @@
         "name": "assets\\Trap\\Trap2-Jumper\\assets_Trap_Main Sprite_Jumper.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewTiledSprite2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13162,7 +13170,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33253870912511885,
+        "zoomFactor": 0.3797121001948407,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16555,7 +16563,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -16563,8 +16571,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6628748845605633,
+        "snap": true,
+        "zoomFactor": 0.44524071700883794,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16711,6 +16719,23 @@
           "x": 824,
           "y": 722,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 45,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "0f027f90-d7d6-48b6-9eb1-0ebc7462f67b",
+          "width": 1688,
+          "x": -2,
+          "y": 1054,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18204,6 +18229,28 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Boundary",
+          "texture": "assets\\NewTiledSprite2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -18223,6 +18270,12 @@
           },
           {
             "objectName": "Jumper"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "Boundary"
           }
         ]
       },
@@ -18374,6 +18427,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "Boundary.Y()"
                   ]
                 }
               ]
@@ -18621,9 +18684,9 @@
               "parameters": [
                 "",
                 "Jumper",
-                "Enemy.X()-64",
-                "Enemy.Y() +100",
-                ""
+                "400",
+                "300",
+                "\"Layer\""
               ]
             }
           ]
