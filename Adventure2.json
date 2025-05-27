@@ -4558,6 +4558,108 @@
         "name": "assets\\UI\\menu\\restart\\Hover.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/Money.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\Money.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\Heart.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\CaveatBrush-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/JotiOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\JotiOne-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/Empty Button Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\Empty Button Default.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/Empty Button Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\Empty Button Hover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/background/Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\background\\Default.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\Back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/ButtonBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\ButtonBack.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/Example.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\Example.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/Name.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\Name.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/NameBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\NameBack.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UI/menu/gameName/Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\menu\\gameName\\Arrow.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7745,25 +7847,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "name": "ScoreDisplay",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "Score: 0",
-        "opacity": 255,
-        "scale": 2,
-        "fontSize": 20,
-        "tint": "0;0;0",
-        "bitmapFontResourceName": "",
-        "textureAtlasResourceName": "",
-        "align": "left",
-        "verticalTextAlignment": "top"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Coins",
@@ -10763,6 +10846,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "counterScore",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "assets\\JotiOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "assets\\JotiOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -10775,7 +10900,7 @@
         "objectName": "arrow"
       },
       {
-        "objectName": "ScoreDisplay"
+        "objectName": "counterScore"
       },
       {
         "objectName": "Coins"
@@ -10817,7 +10942,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8088163280167622,
+        "zoomFactor": 1.1648863155987288,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10833,9 +10958,76 @@
           "name": "startButton",
           "persistentUuid": "4360c4d2-f842-4b86-90f0-e3873e78f283",
           "width": 96,
-          "x": 704,
+          "x": 736,
           "y": 512,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewButton",
+          "persistentUuid": "85573cd9-7d2b-46c7-a77b-4bd8d0530488",
+          "width": 96,
+          "x": 640,
+          "y": 672,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1376,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "opacity": 179,
+          "persistentUuid": "5eef3659-4362-4915-a275-dca9d1f6f774",
+          "width": 2112,
+          "x": -416,
+          "y": -128,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "fa6ef69c-2b61-4e63-95dd-2455ddb6dfe2",
+          "width": 0,
+          "x": 991,
+          "y": 1376,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "de799083-fd5c-4c42-a707-370c133b90c4",
+          "width": 0,
+          "x": 1117,
+          "y": 1395,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10919,6 +11111,324 @@
               "width": 32
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Hover.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "1",
+              "font": "assets\\JotiOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "1",
+                "font": "assets\\JotiOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 60,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "assets\\UI\\menu\\Empty Button Default.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\background\\Default.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5120,
+                            "y": 0
+                          },
+                          {
+                            "x": 5120,
+                            "y": 2880
+                          },
+                          {
+                            "x": 0,
+                            "y": 2880
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\gameName\\Back.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 639,
+                            "y": 0
+                          },
+                          {
+                            "x": 639,
+                            "y": 229
+                          },
+                          {
+                            "x": 2,
+                            "y": 229
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\gameName\\NameBack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 418,
+                            "y": 6
+                          },
+                          {
+                            "x": 418,
+                            "y": 140
+                          },
+                          {
+                            "x": 0,
+                            "y": 140
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\gameName\\Arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 27,
+                            "y": 0
+                          },
+                          {
+                            "x": 27,
+                            "y": 107
+                          },
+                          {
+                            "x": 0,
+                            "y": 107
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10926,6 +11436,21 @@
         "children": [
           {
             "objectName": "startButton"
+          },
+          {
+            "objectName": "NewButton"
+          },
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite3"
           }
         ]
       },
@@ -10935,10 +11460,48 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "startButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
-                "ButtonStart",
+                "startButton",
                 ""
               ]
             }
@@ -11200,22 +11763,6 @@
               "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":22,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[102,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[102,182,182,182,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1,-1],[253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Score",
-          "name": "ScoreDisplay",
-          "persistentUuid": "8ac80514-c04c-4acb-9ac5-f38c6f2467a1",
-          "width": 0,
-          "x": 64,
-          "y": 32,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -13867,14 +14414,14 @@
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 64,
-        "gridHeight": 64,
+        "gridWidth": 32,
+        "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.928431685517631,
+        "zoomFactor": 0.78762901016749,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13901,8 +14448,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 561,
-          "y": 326,
+          "x": 277,
+          "y": 398,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -14046,22 +14593,6 @@
               "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":33,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,0,60,60,60,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,74,76,76,76,77,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,4,87,87,121,122,138,123,138,93,94,94,94,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,16,124,124,92,181,181,181,181,125,153,153,254,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,32,153,153,33,33,33,33,33,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,122,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,183,182,182,182,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,1,1,1,2],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,140,140,140,140,140,140,140,140,140,17,17,17,18],[82,80,-1,-1,-1,-1,-1,162,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,254,254,254,254,33,33,33,34],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,4,1,60,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,253,33,33,213,96,97,97,59,59,59,59,59,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,136,140,181,91,181,124,181,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,253,254,254,254,247,214,181,239,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,181,239,-1,-1,-1,12,13,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,28,29],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,-1]]}]}"
             }
           ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Score",
-          "name": "ScoreDisplay",
-          "persistentUuid": "8ac80514-c04c-4acb-9ac5-f38c6f2467a1",
-          "width": 0,
-          "x": 42,
-          "y": 64,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -14862,8 +15393,8 @@
           "name": "PlayerLife",
           "persistentUuid": "3d528efe-6409-4043-a6be-093ce0ee4000",
           "width": 64,
-          "x": 256,
-          "y": 64,
+          "x": 196,
+          "y": 84,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -14885,8 +15416,8 @@
           "name": "PlayerLife",
           "persistentUuid": "2de2a243-5b71-4bda-b382-34e78bd2f46b",
           "width": 64,
-          "x": 384,
-          "y": 64,
+          "x": 280,
+          "y": 84,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -14908,8 +15439,8 @@
           "name": "PlayerLife",
           "persistentUuid": "6330654e-bdb1-4d0d-9922-7d89e2724edc",
           "width": 64,
-          "x": 512,
-          "y": 64,
+          "x": 364,
+          "y": 84,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -14941,15 +15472,65 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 64,
+          "height": 96,
           "keepRatio": true,
           "layer": "Score",
           "name": "ButtonRestart",
           "persistentUuid": "d965fba4-b00d-4103-9183-a7d0fda2ad29",
-          "width": 64,
-          "x": 640,
-          "y": 64,
+          "width": 96,
+          "x": 1536,
+          "y": 32,
           "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterCoins",
+          "persistentUuid": "e592a70e-573b-449f-9a20-88e571de8dc4",
+          "width": 64,
+          "x": 80,
+          "y": 3,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterLives",
+          "persistentUuid": "84b26305-490c-4381-a8b6-a9a02a904daa",
+          "width": 0,
+          "x": 84,
+          "y": 84,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterScore",
+          "persistentUuid": "ca0c67e3-955c-4219-ad9f-7cfaeebfd339",
+          "width": 128,
+          "x": 168,
+          "y": 0,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17833,11 +18414,137 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "counterCoins",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\Money.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "counterLives",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\UI\\menu\\Heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 56
+                          },
+                          {
+                            "x": 0,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "counterCoins"
+          },
+          {
+            "objectName": "counterLives"
+          },
           {
             "objectName": "PlayerLife"
           },
@@ -19060,7 +19767,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43071680420010533,
+        "zoomFactor": 1.9157084163800275,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19112,23 +19819,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Score",
-          "locked": true,
-          "name": "ScoreDisplay",
-          "persistentUuid": "1a4ee872-a2cf-4941-bcb7-2a26fdd725b3",
-          "width": 0,
-          "x": 32,
-          "y": 32,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 23,
@@ -19163,15 +19853,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 64,
           "keepRatio": true,
           "layer": "Score",
           "name": "ButtonRestart",
           "persistentUuid": "91ee36dd-4cf4-4a9c-88e9-c438dde6ff38",
-          "width": 0,
-          "x": 206,
-          "y": 19,
+          "width": 64,
+          "x": 224,
+          "y": 32,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -22129,10 +22820,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "ScoreDisplay",
+                "counterScore",
                 "Text",
                 "=",
-                "\"Score: \" + Score"
+                "Score"
               ]
             }
           ]
