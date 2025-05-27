@@ -4467,7 +4467,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245144465,
+        "zoomFactor": 0.737081631799478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4619,14 +4619,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "flippedX": true,
           "height": 127,
           "keepRatio": true,
           "layer": "",
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 1047,
-          "y": 0,
+          "x": 865,
+          "y": 576,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5209,6 +5210,27 @@
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "4e6feee2-b2fa-41f8-bf2d-fe27e2dfb068",
+          "width": 0,
+          "x": 1554,
+          "y": 354,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,87,87,63],[253,153,214,168],[-1,-1,237,168],[-1,-1,253,255]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -7282,6 +7304,17 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -7370,6 +7403,9 @@
           },
           {
             "objectName": "Enemy1"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -7777,6 +7813,47 @@
                 "Player.X()+1000",
                 "Boundary.Y()",
                 "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Change event"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Deco5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"sherry\"",
                 ""
               ]
             }
@@ -8845,6 +8922,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
