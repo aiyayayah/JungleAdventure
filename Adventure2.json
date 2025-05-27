@@ -2706,7 +2706,7 @@
       {
         "file": "assets/NewTiledSprite2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
         "name": "NewTiledSprite2",
         "smoothed": false,
         "userAdded": false
@@ -4743,6 +4743,214 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\b3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Pink_Monster_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Pink_Monster_Hurt_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hitted23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hitted23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Hitted/Hitted20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Hitted/Hitted21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Hitted/Hitted22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Hitted/Hitted23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Pink_Monster_Death_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Pink_Monster_Death_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die76",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die77",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die78",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die79",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die80",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die81",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die82",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Die83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die83",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die76.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die77.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die78.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die78.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die79.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die79.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die80.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die81.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die81.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die82.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Die/Die83.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Die\\Die83.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -15171,7 +15379,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44819780454110164,
+        "zoomFactor": 0.6244537826600915,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15198,7 +15406,7 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 169,
+          "x": 1100,
           "y": 387,
           "zOrder": 10,
           "numberProperties": [],
@@ -15374,11 +15582,12 @@
           "keepRatio": true,
           "layer": "",
           "name": "Boundary",
+          "opacity": 0,
           "persistentUuid": "09b50991-2e41-40e5-956b-8fba44440b33",
           "width": 1696,
-          "x": 0,
-          "y": 1056,
-          "zOrder": -1,
+          "x": -5,
+          "y": 1053,
+          "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16306,16 +16515,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1172,
+          "height": 1182,
           "keepRatio": true,
           "layer": "",
           "name": "bc1",
-          "opacity": 204,
+          "opacity": 179,
           "persistentUuid": "11ed530b-ec9b-4b14-846a-db1a423f37ed",
-          "width": 1928,
-          "x": -153,
+          "width": 2076,
+          "x": -232,
           "y": -54,
-          "zOrder": -1,
+          "zOrder": -5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18241,7 +18450,13 @@
           "name": "Enemy4",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -18487,6 +18702,536 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Hitted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted20.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted21.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted22.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted23.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Die",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die76.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die77.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die78.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die79.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die80.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die81.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die82.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die83.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -18496,7 +19241,13 @@
           "name": "Enemy5",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -18793,7 +19544,13 @@
           "name": "Enemy6",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -24405,6 +25162,143 @@
               "parameters": [
                 "arrow",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pink Enemy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy4",
+                "Lives",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy4",
+                "Animation",
+                "=",
+                "\"Die\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "Enemy4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy4",
+                "Lives",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy4",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy4",
+                "Animation",
+                "=",
+                "\"Run\""
               ]
             }
           ]
