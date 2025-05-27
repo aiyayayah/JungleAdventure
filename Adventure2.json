@@ -3982,6 +3982,398 @@
         "name": "jump14",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/LegacyAdventurePack/Assets/Assets.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LegacyAdventurePack\\Assets\\Assets.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Dude_Monster_Walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Dude_Monster_Walk_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Main Sprite/Run/Run15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Main Sprite\\Run\\Run15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Pink_Monster_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Pink_Monster_Run_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Run/Run16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Run\\Run16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Run/Run17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Run\\Run17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Run/Run18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Run\\Run18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Run/Run19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Run\\Run19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Main Sprite/Run/Run20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Main Sprite\\Run\\Run20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Main Sprite/Owlet_Monster_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Main Sprite\\Owlet_Monster_Run_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/2 Owlet_Monster/Run/Run26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/3 Dude_Monster/Run/Run15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\3 Dude_Monster\\Run\\Run15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Run/Run16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Run/Run17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Run/Run18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Run/Run19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/1 Pink_Monster/Run/Run20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\1 Pink_Monster\\Run\\Run20.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13287,7 +13679,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.201995813710378,
+        "zoomFactor": 0.9934433498260903,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13314,8 +13706,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 260,
-          "y": 392,
+          "x": 579,
+          "y": 242,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -13446,7 +13838,7 @@
           "height": 640,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
           "width": 1056,
           "x": -32,
@@ -13483,7 +13875,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "c29da923-d9db-40c3-8975-bc833383623c",
           "width": 0,
           "x": 1088,
@@ -13538,7 +13930,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "bb710303-c782-483b-9915-85c98861734a",
           "width": 0,
           "x": 1344,
@@ -13576,7 +13968,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "bf2ea03d-63f3-419d-8372-d64f7198a955",
           "width": 0,
           "x": 1344,
@@ -13629,7 +14021,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "76792d68-becb-4649-a7a9-9c21ec700d06",
           "width": 0,
           "x": 1344,
@@ -13730,11 +14122,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "a7472b94-bf10-4465-84f7-f9b9157f335d",
           "width": 0,
           "x": 1120,
-          "y": 320,
+          "y": 322,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [
@@ -13755,8 +14147,8 @@
           "name": "Enemy1",
           "persistentUuid": "4ed43f4c-4284-403c-8592-ce0cb04c98d1",
           "width": 32,
-          "x": 1201,
-          "y": 333,
+          "x": 1324,
+          "y": 343,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -13886,7 +14278,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "75d07de2-0687-4633-a065-5bed5c9082d6",
           "width": 0,
           "x": 1493,
@@ -13941,7 +14333,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "persistentUuid": "4e6feee2-b2fa-41f8-bf2d-fe27e2dfb068",
           "width": 0,
           "x": 1554,
@@ -14035,6 +14427,264 @@
           "x": 43,
           "y": 796,
           "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap1",
+          "persistentUuid": "65977a22-8e41-4158-9899-1e9e7cca35ad",
+          "width": 0,
+          "x": 730,
+          "y": 354,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,87,87,87,87,87,1,1,2],[32,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy4",
+          "persistentUuid": "de220e31-dc92-4de1-8de5-8319690ce22f",
+          "width": 23,
+          "x": 784,
+          "y": 322,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "79c588c9-f0a2-47d6-935d-115e2427ca53",
+          "width": 0,
+          "x": 994,
+          "y": 344,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "0b50f34b-02c6-4d6c-bc5a-077db9862c01",
+          "width": 0,
+          "x": 754,
+          "y": 344,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "2caf28b6-813f-4304-9a1f-fffbfe021594",
+          "width": 0,
+          "x": 1017,
+          "y": 361,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap1",
+          "persistentUuid": "75f20647-512e-49ea-a307-b685fb3176b0",
+          "width": 0,
+          "x": 165,
+          "y": 198,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":17,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[91,-1,123,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,86,87,87,87,87,87,1,1,2],[-1,-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "148bbcc2-e121-4429-b82e-ac630737c3ae",
+          "width": 0,
+          "x": 687,
+          "y": 252,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "df059680-8084-4579-8731-5f26e55864d7",
+          "width": 0,
+          "x": 436,
+          "y": 252,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap1",
+          "persistentUuid": "a632fd35-1934-4406-a3af-0d308efb09d5",
+          "width": 0,
+          "x": 116,
+          "y": 172,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,87,87,87,87,87,1,1,2],[32,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "059adabe-9d3a-47c7-a276-ee9a252dd853",
+          "width": 0,
+          "x": 378,
+          "y": 162,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "ffce0de0-8030-4c0c-af49-df2ff6745299",
+          "width": 0,
+          "x": 131,
+          "y": 162,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy5",
+          "persistentUuid": "49e9af54-2616-4f89-b72f-c02d7eae3b82",
+          "width": 25,
+          "x": 664,
+          "y": 229,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "84431367-7b88-44c3-a6f4-e23fb7faa2a5",
+          "width": 0,
+          "x": 708,
+          "y": 283,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "97e65a4e-970b-4950-9af9-29a0365a587a",
+          "width": 0,
+          "x": 401,
+          "y": 195,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy6",
+          "persistentUuid": "5537d309-54c8-4b3b-b6c7-8e2ef03f71c9",
+          "width": 26,
+          "x": 240,
+          "y": 145,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14741,7 +15391,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewTileMap",
+          "name": "TileMap1",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
@@ -15953,11 +16603,884 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TileMap2",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\LegacyAdventurePack\\Assets\\Assets.png",
+            "rowCount": 10,
+            "columnCount": 18,
+            "tileSize": 16,
+            "tilesWithHitBox": "1,18,6,4,8,2,3,7,19,37,55,20,38,56,21,39,57,22,40,58,36,54,73,74,75,59,60,77,79,78,44,24,23,5,25,26,62"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 150,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 150,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run16.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run17.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run18.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run19.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run20.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 19,
+                          "y": 25
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 1
+                          },
+                          {
+                            "x": 19,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 150,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 150,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run10.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run11.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run12.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run13.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run14.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run15.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 18,
+                          "y": 25.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 150,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 150,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run21.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run22.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run23.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run24.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run25.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run26.png",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 21,
+                          "y": 23
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 25
+                          },
+                          {
+                            "x": 1,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "Enemy4"
+          },
+          {
+            "objectName": "Enemy5"
+          },
+          {
+            "objectName": "Enemy6"
+          },
           {
             "objectName": "PassThrough2"
           },
@@ -16001,7 +17524,10 @@
             "objectName": "Deco10"
           },
           {
-            "objectName": "NewTileMap"
+            "objectName": "TileMap1"
+          },
+          {
+            "objectName": "TileMap2"
           },
           {
             "objectName": "LadderRight"
@@ -16312,6 +17838,369 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Pink Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy4",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy4.PointX(\"Checker\")",
+                    "Enemy4.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy4",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy4.PointX(\"Checker\")",
+                    "Enemy4.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy5",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy5",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy5.PointX(\"Checker\")",
+                    "Enemy5.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy5",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy5",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy5.PointX(\"Checker\")",
+                    "Enemy5.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "White Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy6",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy6",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy6.PointX(\"Checker\")",
+                    "Enemy6.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy6",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy6",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy6.PointX(\"Checker\")",
+                    "Enemy6.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Player Die and Restart the Scene"
         },
         {
@@ -16427,27 +18316,6 @@
           ]
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "Player.X()-500",
-                "Player.X()-1000",
-                "Player.X()+1000",
-                "Boundary.Y()",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -16521,6 +18389,27 @@
               "parameters": [
                 "Player",
                 "PlatformerObject",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "Player.X()-500",
+                "Player.X()-1000",
+                "Player.X()+1000",
+                "Boundary.Y()",
+                "",
                 ""
               ]
             }
@@ -16689,7 +18578,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3899264026826849,
+        "zoomFactor": 0.8360898815717824,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18351,10 +20240,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
@@ -18708,10 +20597,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
               "yGrabOffset": 0
             }
           ]
@@ -19485,7 +21374,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43071680420009956,
+        "zoomFactor": 0.47577431059809433,
         "windowMask": false
       },
       "objectsGroups": [],
