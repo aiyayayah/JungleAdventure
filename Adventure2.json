@@ -6237,6 +6237,14 @@
         "name": "assets\\Trap\\Trap4\\assets_Trap_Main Sprite_SpikeBall.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Trap5/assets_Trap_Main Sprite_SpikeBall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Trap5\\assets_Trap_Main Sprite_SpikeBall.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9434,7 +9442,13 @@
       "name": "Coins",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -24442,7 +24456,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7824324476176319,
+        "zoomFactor": 0.954696208806879,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24792,13 +24806,13 @@
           "persistentUuid": "403363f3-b9e8-47d3-bf3a-b07279950ca8",
           "width": 0,
           "x": 896,
-          "y": 224,
+          "y": 256,
           "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":10,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,54,57,58,58,58],[224,225,97,-1,-1,-1,-1,74,17,17],[-1,-1,18,-1,-1,-1,-1,74,17,17],[-1,-1,18,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[224,225,97],[-1,-1,18],[-1,-1,18]]}]}"
             }
           ],
           "initialVariables": []
@@ -25221,6 +25235,49 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trap4",
+          "persistentUuid": "3d45815b-5420-4bfc-a8a5-95c4cc5c611f",
+          "width": 0,
+          "x": 996,
+          "y": 417,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_1",
+          "persistentUuid": "8f30441d-d5e1-42f0-b8ae-bcf6d232db3f",
+          "width": 0,
+          "x": 1073,
+          "y": 240,
+          "zOrder": -9,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,87,87,87],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [
@@ -25228,7 +25285,13 @@
           "assetStoreId": "",
           "name": "Background_1",
           "type": "TileMap::SimpleTileMap",
-          "variables": [],
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -28229,7 +28292,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap4\\assets_Trap_Main Sprite_SpikeBall.png",
+                      "image": "assets\\Trap\\Trap5\\assets_Trap_Main Sprite_SpikeBall.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -29129,6 +29192,102 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Trap4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "1020"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Background_1",
+                "Variable",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Background_1",
+                "=",
+                "1019",
+                "=",
+                "240"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Trap4",
+                "=",
+                "942",
+                "=",
+                "417"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Background_1",
+                "=",
+                "1074",
+                "=",
+                "240"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Trap4",
+                "=",
+                "996",
+                "=",
+                "417"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Trap5"
         },
         {
@@ -29210,6 +29369,18 @@
                   },
                   "parameters": [
                     "Player",
+                    "Trap5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
                     "Trap3",
                     "",
                     "",
@@ -29222,7 +29393,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Trap5",
+                    "Trap4",
                     "",
                     "",
                     ""
