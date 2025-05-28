@@ -23588,7 +23588,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7569092189150274,
+        "zoomFactor": 0.5255453059127323,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23808,22 +23808,6 @@
           "x": 208,
           "y": 351,
           "zOrder": -3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Box",
-          "persistentUuid": "77df0bea-08dc-4b6f-8cbb-a07eedc92a70",
-          "width": 0,
-          "x": 64,
-          "y": 512,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25639,66 +25623,6 @@
               "yGrabOffset": 0
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Box",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\assets_village_TX Chest Animation.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -25727,9 +25651,6 @@
           },
           {
             "objectName": "ladder3"
-          },
-          {
-            "objectName": "Box"
           }
         ]
       },
