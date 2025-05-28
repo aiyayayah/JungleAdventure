@@ -12155,13 +12155,11 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Gun3",
-      "persistentUuid": "86afe220-986f-40e2-ae22-99b7d131db4f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "created",
-          "persistentUuid": "4bb389f6-087d-4353-ba31-05ca84e0a0ba",
           "type": "boolean",
           "value": false
         }
@@ -24124,7 +24122,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5432668671002325,
+        "zoomFactor": 0.9235536740703945,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29119,67 +29117,6 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Shoot DIstance\n"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "arrow",
-                "Player",
-                "200",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "bullet",
-                "Player",
-                "40",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "arrow",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "bullet",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Enemy Mushroom"
         },
         {
@@ -29939,6 +29876,74 @@
               "parameters": [
                 "Enemy6",
                 "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Distance Weapon\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "arrow",
+                "Player",
+                "280",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "bullet",
+                "Player",
+                "150",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bullet",
+                ""
               ]
             }
           ]
