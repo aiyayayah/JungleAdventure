@@ -23681,7 +23681,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7824324476176204,
+        "zoomFactor": 0.7322185671401833,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23923,23 +23923,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GunICONUNI",
-          "persistentUuid": "8c432a18-14a9-4263-81c6-4bed710fd459",
-          "width": 57,
-          "x": 64,
-          "y": 508,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -23950,6 +23933,23 @@
           "x": 21,
           "y": 404,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gun2ICONUI",
+          "persistentUuid": "9654bc9f-f336-4509-91a2-3ad0c1568757",
+          "width": 64,
+          "x": 69,
+          "y": 515,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26074,11 +26074,17 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Gun2",
+          "name": "Gun2ICONUI",
           "texture": "assets\\gun\\Shotgun.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "visible",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": []
         },
@@ -26138,7 +26144,7 @@
             "objectName": "PressE_TEXT"
           },
           {
-            "objectName": "Gun2"
+            "objectName": "Gun2ICONUI"
           }
         ]
       },
@@ -26189,7 +26195,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "GunICONUNI"
+                "Gun2ICONUI"
               ]
             }
           ]
@@ -26759,7 +26765,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "GunICONUNI",
+                "Gun2ICONUI",
                 ""
               ]
             },
@@ -26777,7 +26783,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "GunICONUNI",
+                "Gun2ICONUI",
                 "visible",
                 "True",
                 ""
@@ -26794,7 +26800,7 @@
               },
               "parameters": [
                 "Player",
-                "GunICONUNI",
+                "Gun2ICONUI",
                 "",
                 "",
                 ""
@@ -26805,7 +26811,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "GunICONUNI",
+                "Gun2ICONUI",
                 "visible",
                 "True",
                 ""
@@ -26827,7 +26833,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hasGun1",
+                "hasGun2",
                 "True",
                 ""
               ]
@@ -26845,7 +26851,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "GunICONUNI",
+                "Gun2ICONUI",
                 ""
               ]
             }
@@ -27793,38 +27799,130 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Weapon - 2 //BELOW CODE HAVENT DONE\n\n"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedWeapon",
+                "=",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"q\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetStringObjectVariable"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "Player",
-                "direction",
+                "Animation",
                 "=",
-                "\"left\""
+                "\"Teleport1\""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"left\""
+                  ]
+                }
+              ],
+              "actions": []
             },
             {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Player",
-                "Flippable",
-                "yes"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"right\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Teleport2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
               ]
             }
           ]
@@ -27839,7 +27937,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Weapon - 2\n"
+          "comment": "Weapon - 3\n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27851,7 +27949,7 @@
               "parameters": [
                 "selectedWeapon",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
