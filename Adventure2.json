@@ -13805,7 +13805,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5117784035210794,
+        "zoomFactor": 0.39251611754886995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24054,7 +24054,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5615860051805086,
+        "zoomFactor": 0.4307168042001084,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27427,11 +27427,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47577431059809433,
+        "zoomFactor": 0.7824324476176053,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -27456,13 +27462,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
-          "width": 0,
+          "width": 35,
           "x": 53,
           "y": 326,
           "zOrder": 2,
@@ -27478,13 +27485,21 @@
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "content": {
             "atlasImage": "assets\\village\\TX Tileset Ground.png",
             "rowCount": 16,
             "columnCount": 16,
             "tileSize": 32,
-            "tilesWithHitBox": ""
+            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,4,20,5,21,7,23,9,10,12,28,13,29,52,54,55,56,57,58,59,60,61,62,63,72,88,104,120,136,152,168,184,200,216,232,248,86,102,118,87,103,119,64,80,96,65,97,66,82,98,84,100,116,132,148,164,180,196,212,228,244,117,128,144,160,130,192,193,194,224,225,226,134,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,245,246,247,230,231,249,250,251,217,186,202,218,234,219,220,221,222,223,237,253,238,254,239,255,171,187,173,189,205,79,95,111,127,143,159,175,191,158,94,110,126,89,121,137,153,74,90,106,122,138,154,75,91,107,123,139,155,76,92,108,124,140,156,77,93,109,125,141,157"
           }
         }
       ],
@@ -27501,6 +27516,27 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "CameraEvents"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ScoreSystem"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Shoot-1"
         }
       ],
       "layers": [
