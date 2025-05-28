@@ -5917,6 +5917,150 @@
         "name": "assets\\broke box\\broke5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Fire/Fire_Spreadsheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fire\\Fire_Spreadsheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Fire_Fire_Spreadsheet.png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Fire_Fire_Spreadsheet2.png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Fire_Fire_Spreadsheet3.png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Fire_Fire_Spreadsheet4.png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fire/Fire01/Fire0_01_16x16_Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fire\\Fire01\\Fire0_01_16x16_Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Fire_Fire_Spreadsheet14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fire\\Fire_Spreadsheet14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/assets_village_TX Village Props722.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\assets_village_TX Village Props722.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deco/assets_village_TX Village Props7222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\assets_village_TX Village Props7222.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24113,7 +24257,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -24121,8 +24265,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.8642831083551404,
+        "snap": false,
+        "zoomFactor": 0.5084018284442026,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24144,8 +24288,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 178,
-          "y": 877,
+          "x": 620,
+          "y": 534,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24160,14 +24304,14 @@
           "name": "Background_1",
           "persistentUuid": "7ca977f6-bb36-4c71-b620-ea7c1f07d6b9",
           "width": 0,
-          "x": 0,
-          "y": 832,
-          "zOrder": -1,
+          "x": 1,
+          "y": 824,
+          "zOrder": -5,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,1073741963],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,1073741948,-1],[58,59,59,59,59,60,60,60,61,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,1073741931,-1,-1],[74,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741915,1073741916,1073741899,-1,-1],[90,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,1073741906,1073741962,1073741899,-1,-1,-1,-1],[106,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1073741888,-2147483551,-2147483551,-2147483551,-2147483551,1073741890,1073741962,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,1073741963],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,1073741948,-1],[58,59,59,59,59,60,60,60,61,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,1073741931,-1,-1],[74,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741915,1073741916,1073741899,-1,-1],[90,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,120,121,121,121,121,121,122,-1,-1,-1,-1,-1],[106,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -24522,15 +24666,100 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "5180158a-39b4-4f0d-b35d-04d604864417",
+          "width": 35,
+          "x": 704,
+          "y": 950,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 154,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "272cb1fb-e400-4b02-8495-52767ac2a555",
+          "width": 149,
+          "x": 655,
+          "y": 831,
+          "zOrder": -4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "e986adf7-d26a-45d1-ac12-b3c5b119f979",
+          "width": 35,
+          "x": 657,
+          "y": 950,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Orang",
+          "persistentUuid": "1b9018c3-41c2-4b4e-ac9e-75dca63918de",
+          "width": 56,
+          "x": 626,
+          "y": 905,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "7749e9a2-5a07-4f26-8eba-916e35abc8c3",
+          "width": 35,
+          "x": 754,
+          "y": 950,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
           "keepRatio": true,
           "layer": "",
           "name": "Boundary2",
-          "persistentUuid": "18fece35-703b-4c45-9915-7a7f8bc22a89",
-          "width": 160,
-          "x": 640,
-          "y": 928,
-          "zOrder": 34,
+          "persistentUuid": "f137007d-be0a-4a5c-8b8e-7e548855f8c1",
+          "width": 161,
+          "x": 638,
+          "y": 935,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26954,6 +27183,244 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fire",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Fire\\Fire_Spreadsheet",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Fire\\Fire_Spreadsheet10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Fire\\Fire_Spreadsheet11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Fire\\Fire_Spreadsheet12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Fire\\Fire_Spreadsheet13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Fire\\Fire_Spreadsheet14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Orang",
+          "texture": "assets\\Deco\\assets_village_TX Village Props7222.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Tree",
+          "texture": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -27000,6 +27467,18 @@
           },
           {
             "objectName": "Gun3_ICONUI"
+          },
+          {
+            "objectName": "fire"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Tree"
+          },
+          {
+            "objectName": "Orang"
           }
         ]
       },
