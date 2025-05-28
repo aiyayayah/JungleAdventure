@@ -23672,7 +23672,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -23680,8 +23680,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.6852272444698504,
+        "snap": false,
+        "zoomFactor": 0.8642831083551369,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23914,9 +23914,42 @@
           "name": "box",
           "persistentUuid": "1fa84482-b6f2-4539-a9dd-2e97480a1225",
           "width": 0,
-          "x": 96,
-          "y": 512,
+          "x": 81,
+          "y": 510,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GunICONUNI",
+          "persistentUuid": "8c432a18-14a9-4263-81c6-4bed710fd459",
+          "width": 57,
+          "x": 64,
+          "y": 508,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PressE_TEXT",
+          "persistentUuid": "696df127-8f28-490c-888e-8b55efb4c0e5",
+          "width": 0,
+          "x": 21,
+          "y": 404,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26024,11 +26057,17 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Gun1",
+          "name": "GunICONUNI",
           "texture": "assets\\gun\\Diana Raptor 4.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "visible",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": []
         },
@@ -26042,6 +26081,24 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "PressE_TEXT",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\n[outline=yellow]Press \"E\"[/outline] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -26075,7 +26132,10 @@
             "objectName": "ladder3"
           },
           {
-            "objectName": "Gun1"
+            "objectName": "GunICONUNI"
+          },
+          {
+            "objectName": "PressE_TEXT"
           },
           {
             "objectName": "Gun2"
@@ -26122,6 +26182,14 @@
                 "Animation",
                 "=",
                 "\"Teleport2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GunICONUNI"
               ]
             }
           ]
@@ -26669,16 +26737,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasGun1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -26698,14 +26756,105 @@
             },
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GunICONUNI",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
                 "box",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "GunICONUNI",
+                "visible",
+                "True",
+                ""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "GunICONUNI",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "GunICONUNI",
+                "visible",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasGun1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GunICONUNI",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
