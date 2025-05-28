@@ -5781,6 +5781,14 @@
         "name": "assets\\gun\\Shotgun_resize.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\Bullet.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12105,6 +12113,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bullet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Bullet\\Bullet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 11,
+                        "y": 2
+                      },
+                      {
+                        "x": 11,
+                        "y": 11
+                      },
+                      {
+                        "x": 3,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -12136,6 +12204,9 @@
       },
       {
         "objectName": "Gun3"
+      },
+      {
+        "objectName": "bullet"
       }
     ]
   },
@@ -16333,7 +16404,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488843,
+        "zoomFactor": 0.40575189059444655,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26226,17 +26297,6 @@
             "align": "left",
             "verticalTextAlignment": "top"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -26277,9 +26337,6 @@
           },
           {
             "objectName": "Gun3_ICONUI"
-          },
-          {
-            "objectName": "NewSprite"
           }
         ]
       },
@@ -28144,6 +28201,76 @@
                 "gun3Created",
                 "True",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() - 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() + 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
               ]
             }
           ]
