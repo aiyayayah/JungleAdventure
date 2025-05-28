@@ -6205,6 +6205,22 @@
         "name": "assets\\Trap\\Main Sprite\\Spear",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/SpikeBall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\SpikeBall.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_SpikeBall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\SpikeBall",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24410,7 +24426,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1648863155987614,
+        "zoomFactor": 1.1648863155987625,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24432,8 +24448,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 578,
-          "y": 525,
+          "x": 542,
+          "y": 512,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24761,7 +24777,7 @@
           "width": 0,
           "x": 896,
           "y": 224,
-          "zOrder": 33,
+          "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -25091,17 +25107,16 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 15,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Trap1",
-          "persistentUuid": "de2bcf2d-f7b6-4f2d-9bd7-6385fd8e4bd0",
-          "width": 32,
-          "x": 955,
-          "y": 243,
-          "zOrder": 38,
+          "name": "Trap5",
+          "persistentUuid": "e06b91b9-6eaf-430b-bba2-f2d9855fe0c6",
+          "width": 0,
+          "x": 970,
+          "y": 236,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27721,7 +27736,13 @@
           "name": "Trap1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -28146,6 +28167,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Trap5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Trap\\Main Sprite\\SpikeBall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Main Sprite\\SpikeBall",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -28185,6 +28267,9 @@
               },
               {
                 "objectName": "Jumper"
+              },
+              {
+                "objectName": "Trap5"
               }
             ]
           },
@@ -28280,7 +28365,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "trap4"
+                "Trap5"
               ]
             },
             {
@@ -28849,7 +28934,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Trap1\n\n"
+          "comment": "Trap3"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -28889,7 +28974,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Trap3\n"
+          "comment": "Trap1 -1\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -28930,7 +29015,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Trap4"
+          "comment": "Trap5"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -28941,7 +29026,7 @@
               },
               "parameters": [
                 "Player",
-                "trap4",
+                "Trap5",
                 "",
                 "",
                 ""
@@ -28954,7 +29039,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "trap4",
+                "Trap5",
                 ""
               ]
             }
@@ -29023,7 +29108,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "trap4",
+                    "Trap5",
                     "",
                     "",
                     ""
