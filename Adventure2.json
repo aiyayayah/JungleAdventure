@@ -5943,6 +5943,11 @@
           "name": "currentBlood",
           "type": "number",
           "value": 3
+        },
+        {
+          "name": "damage",
+          "type": "number",
+          "value": 15
         }
       ],
       "effects": [],
@@ -5950,10 +5955,10 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
+          "FireCooldown": 1,
           "HasJustFired": false,
           "RotateBullet": true,
-          "FiringArc": 45,
+          "FiringArc": 100,
           "BulletQuantity": 1,
           "AngleVariance": 0,
           "BulletSpeedVariance": 0,
@@ -9025,7 +9030,7 @@
           "FireCooldown": 0.1,
           "HasJustFired": false,
           "RotateBullet": true,
-          "FiringArc": 45,
+          "FiringArc": 42,
           "BulletQuantity": 1,
           "AngleVariance": 0,
           "BulletSpeedVariance": 0,
@@ -12156,6 +12161,11 @@
           "name": "created",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "damage",
+          "type": "number",
+          "value": 20
         }
       ],
       "effects": [],
@@ -24110,7 +24120,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8642831083551383,
+        "zoomFactor": 0.5805228706436392,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28494,6 +28504,16 @@
               "parameters": [
                 "",
                 "\"q\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "Player",
+                "FireBullet",
+                "="
               ]
             },
             {
