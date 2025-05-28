@@ -12160,6 +12160,11 @@
       "name": "hasGun2",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "gun3Created",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -23797,7 +23802,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6628748845605683,
+        "zoomFactor": 0.5615860051805086,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28093,6 +28098,16 @@
             },
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "gun3Created",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -28123,14 +28138,88 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "gun3Created",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Gun3",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
                 "Gun3",
                 "=",
-                "Player.X() +5",
+                "Player.X() +10",
                 "=",
-                "Player.Y() +5"
+                "Player.Y() -10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedWeapon",
+                "!=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "gun3Created",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Gun3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "gun3Created",
+                "False",
+                ""
               ]
             }
           ]
