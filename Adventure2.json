@@ -5789,6 +5789,78 @@
         "name": "assets\\gun\\Bullet\\Bullet.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/All_Fire_Bullet_Pixel_16x16_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\All_Fire_Bullet_Pixel_16x16_07.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_gun_Bullet_Bullet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\gun\\Bullet\\Bullet",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_gun_Bullet_Bullet2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\gun\\Bullet\\Bullet2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_gun_Bullet_Bullet3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\gun\\Bullet\\Bullet3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_gun_Bullet_Bullet4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\gun\\Bullet\\Bullet4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/assets_gun_Bullet_Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/assets_gun_Bullet_Bullet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/assets_gun_Bullet_Bullet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/assets_gun_Bullet_Bullet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12031,7 +12103,38 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -12094,16 +12197,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\gun\\Bullet\\Bullet",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\gun\\Bullet\\Bullet.png",
+                  "image": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12119,20 +12223,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 2
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 11,
-                        "y": 2
+                        "x": 15,
+                        "y": 0
                       },
                       {
-                        "x": 11,
-                        "y": 11
+                        "x": 15,
+                        "y": 9
                       },
                       {
-                        "x": 3,
-                        "y": 11
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Bullet\\assets_gun_Bullet_Bullet4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
                       }
                     ]
                   ]
@@ -28139,7 +28351,7 @@
               },
               "parameters": [
                 "",
-                "\"q\""
+                "\"Num3\""
               ]
             },
             {
@@ -28192,74 +28404,45 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "direction",
-                    "=",
-                    "\"left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Player",
-                    "FireBullet",
-                    "Player.BoundingBoxCenterX()",
-                    "Player.BoundingBoxCenterY()",
-                    "bullet",
-                    "Player.X() - 100",
-                    "Player.Y()",
-                    "150",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Gun3",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "direction",
-                    "=",
-                    "\"right\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Player",
-                    "FireBullet",
-                    "Player.BoundingBoxCenterX()",
-                    "Player.BoundingBoxCenterY()",
-                    "bullet",
-                    "Player.X() + 100",
-                    "Player.Y()",
-                    "150",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "direction",
+                "=",
+                "\"left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Gun3",
+                "=",
+                "Player.X() -65",
+                "=",
+                "Player.Y() -10"
               ]
             }
           ]
@@ -28276,6 +28459,17 @@
                 "Player",
                 "Gun3",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "direction",
+                "=",
+                "\"right\""
               ]
             }
           ],
@@ -28336,6 +28530,117 @@
                 "gun3Created",
                 "False",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedWeapon",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "gun3Created",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Gun3",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() - 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Gun3",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() + 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
               ]
             }
           ]
