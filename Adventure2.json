@@ -24122,7 +24122,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7322185671401854,
+        "zoomFactor": 0.8642831083551404,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24144,8 +24144,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 599,
-          "y": 531,
+          "x": 178,
+          "y": 877,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24219,23 +24219,6 @@
           "x": 224,
           "y": 32,
           "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ladder",
-          "persistentUuid": "4ae2f0fd-b10e-409f-8fe5-5d5fca2eed5f",
-          "width": 32,
-          "x": 640,
-          "y": 832,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24469,13 +24452,13 @@
           "persistentUuid": "d205de81-755d-426d-b979-eb78f0b8965d",
           "width": 0,
           "x": 736,
-          "y": 128,
+          "y": 384,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,226,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,225,226],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1],[-1,-1,-1,-1,54,55,56,-1,-1,23,-1,-1,-1,-1],[4,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[20,21,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,225,226],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1],[-1,-1,-1,-1,54,55,56,-1,-1,23,-1,-1,-1,-1],[4,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[20,21,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -24499,6 +24482,57 @@
               "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[57,58,58,58],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17]]}]}"
             }
           ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "d76509c8-53d6-4be4-a02d-db26a3233afc",
+          "width": 544,
+          "x": 736,
+          "y": 640,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "47b8b5c8-8a6d-4b72-8185-e55bb1e4d1ba",
+          "width": 640,
+          "x": 736,
+          "y": 704,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "18fece35-703b-4c45-9915-7a7f8bc22a89",
+          "width": 160,
+          "x": 640,
+          "y": 928,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
           "initialVariables": []
         }
       ],
@@ -26659,17 +26693,6 @@
           }
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "BrokeBox",
@@ -26920,6 +26943,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Boundary2",
+          "texture": "assets\\NewTiledSprite2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -26944,9 +26978,6 @@
             "objectName": "Deco_2"
           },
           {
-            "objectName": "NewTiledSprite"
-          },
-          {
             "objectName": "Enemy3"
           },
           {
@@ -26954,6 +26985,9 @@
           },
           {
             "objectName": "Boundary"
+          },
+          {
+            "objectName": "Boundary2"
           },
           {
             "objectName": "ladder3"
@@ -27135,6 +27169,18 @@
                     "Player",
                     ">",
                     "Boundary.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Boundary2",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
