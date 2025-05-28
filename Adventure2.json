@@ -6061,6 +6061,22 @@
         "name": "assets\\Deco\\assets_village_TX Village Props7222.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/Be_Xich.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\Be_Xich.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Trap3/Be_Xich.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Trap3\\Be_Xich.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24266,7 +24282,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5084018284442026,
+        "zoomFactor": 2.337479187968498,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24763,6 +24779,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trap1",
+          "persistentUuid": "b40e1ff0-84ea-437b-bda8-64abe81d371d",
+          "width": 0,
+          "x": 913,
+          "y": 469,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trap3",
+          "persistentUuid": "5ef4492e-f02d-415b-a5b8-77f33e186a53",
+          "width": 20,
+          "x": 738,
+          "y": 502,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -24787,36 +24836,6 @@
             "columnCount": 16,
             "tileSize": 32,
             "tilesWithHitBox": "103,74,75,76,0,1,2,17,18,16,34,33,32,55,56,54,58,57,90,89,4,20,21,5,7,23,9,10,28,29,13,64,65,66,82,98,97,96,80,128,144,160,130,192,193,194,226,225,224,244,245,248,247,246,249,251,250,234,218,217,215,216,232,231,230,166,182,198,214,183,199,184,200,151,167,152,168,148,149,150,164,180,196,212,165,181,197,213,228,84,100,116,132,117,86,102,134,87,118,119,120,88,104,72,52,121,122,123,136,137,138,139,140,153,154,155,156,157,93,109,125,141,106,91,107,92,108,124,171,187,186,202,219,220,173,189,205,221,237,253,254,255,238,239,222,223,143,159,175,158,191,127,126,110,111,95,94,77,79,59,60,61,62,63,12"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Deco_1",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "assets\\village\\TX Village Props.png",
-            "rowCount": 16,
-            "columnCount": 16,
-            "tileSize": 64,
-            "tilesWithHitBox": ""
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Deco_2",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "assets\\village\\TX Village Props.png",
-            "rowCount": 32,
-            "columnCount": 32,
-            "tileSize": 32,
-            "tilesWithHitBox": "63,265"
           }
         },
         {
@@ -27401,21 +27420,381 @@
           "behaviors": []
         },
         {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Tree",
+          "texture": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Trap1",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "trap",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Tree",
-          "texture": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
+          "name": "Trap3",
+          "texture": "assets\\Trap\\Trap3\\Be_Xich.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -27427,6 +27806,40 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "Deco",
+            "children": [
+              {
+                "objectName": "Ladder2"
+              },
+              {
+                "objectName": "ladder3"
+              },
+              {
+                "objectName": "fire"
+              },
+              {
+                "objectName": "Tree"
+              },
+              {
+                "objectName": "Orang"
+              }
+            ]
+          },
+          {
+            "folderName": "Trap",
+            "children": [
+              {
+                "objectName": "Trap3"
+              },
+              {
+                "objectName": "Trap1"
+              },
+              {
+                "objectName": "Jumper"
+              }
+            ]
+          },
+          {
             "objectName": "Background_1"
           },
           {
@@ -27436,28 +27849,13 @@
             "objectName": "box"
           },
           {
-            "objectName": "Ladder2"
-          },
-          {
-            "objectName": "Deco_1"
-          },
-          {
-            "objectName": "Deco_2"
+            "objectName": "Boundary"
           },
           {
             "objectName": "Enemy3"
           },
           {
-            "objectName": "Jumper"
-          },
-          {
-            "objectName": "Boundary"
-          },
-          {
             "objectName": "Boundary2"
-          },
-          {
-            "objectName": "ladder3"
           },
           {
             "objectName": "Gun2_CONUNI"
@@ -27467,18 +27865,6 @@
           },
           {
             "objectName": "Gun3_ICONUI"
-          },
-          {
-            "objectName": "fire"
-          },
-          {
-            "objectName": "NewSprite"
-          },
-          {
-            "objectName": "Tree"
-          },
-          {
-            "objectName": "Orang"
           }
         ]
       },
