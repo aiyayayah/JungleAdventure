@@ -12031,38 +12031,7 @@
         }
       ],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "FireBullet",
-          "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
-          "HasJustFired": false,
-          "RotateBullet": true,
-          "FiringArc": 45,
-          "BulletQuantity": 1,
-          "AngleVariance": 0,
-          "BulletSpeedVariance": 0,
-          "AmmoQuantity": 0,
-          "ShotsPerReload": 0,
-          "ReloadDuration": 1,
-          "MaxAmmo": 0,
-          "ShotsBeforeNextReload": 0,
-          "TotalShotsFired": 0,
-          "TotalBulletsCreated": 0,
-          "StartingAmmo": 0,
-          "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": true,
-          "ReloadInProgress": false,
-          "HeatIncreasePerShot": 0,
-          "HeatLevel": 0,
-          "AutomaticReloading": true,
-          "OverheatDuration": 0,
-          "LinearCoolingRate": 0.1,
-          "ExponentialCoolingRate": 0.3,
-          "BulletLayer": "",
-          "RandomizedAngle": 0
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -27655,6 +27624,16 @@
                 "Flippable",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Gun3",
+                "Flippable",
+                "no"
+              ]
             }
           ]
         },
@@ -27692,8 +27671,23 @@
                 "Flippable",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Gun3",
+                "Flippable",
+                "yes"
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -28003,6 +27997,7 @@
           "comment": "Weapon - 2 //BELOW CODE HAVENT DONE\n\n"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -28023,12 +28018,6 @@
                 "",
                 "\"q\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
