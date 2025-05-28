@@ -5693,6 +5693,62 @@
         "name": "assets\\Trap\\Trap2-Jumper\\after jump\\jump14.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/box/idle/assets_village_TX Chest Animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\idle\\assets_village_TX Chest Animation.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/box/open/assets_village_TX Chest Animation7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box\\open\\assets_village_TX Chest Animation7.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -23588,7 +23644,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5255453059127323,
+        "zoomFactor": 0.561586005180507,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23808,6 +23864,22 @@
           "x": 208,
           "y": 351,
           "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "box",
+          "persistentUuid": "1fa84482-b6f2-4539-a9dd-2e97480a1225",
+          "width": 0,
+          "x": 96,
+          "y": 512,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25616,11 +25688,299 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "box",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\idle\\assets_village_TX Chest Animation.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -25630,6 +25990,9 @@
         "children": [
           {
             "objectName": "Background_1"
+          },
+          {
+            "objectName": "box"
           },
           {
             "objectName": "Ladder2"
