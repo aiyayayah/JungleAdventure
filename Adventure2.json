@@ -24282,7 +24282,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5432668671002372,
+        "zoomFactor": 0.41666666666667956,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24921,6 +24921,22 @@
           "x": 381,
           "y": 109,
           "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy3",
+          "persistentUuid": "fe9eebd8-ab48-45c8-b348-47eea0d8e90e",
+          "width": 0,
+          "x": 154,
+          "y": 858,
+          "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28063,7 +28079,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player Die and collision with enemy\n"
+          "comment": "Player Die and Restart the Scene\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -28137,6 +28153,107 @@
                     "",
                     ""
                   ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "PlayerLife",
+                "id",
+                "=",
+                "Player.currentBlood"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "currentBlood",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerHurt.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerLife",
+                "Animation",
+                "=",
+                "\"Empty\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Die Condition"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Boundary2",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -28150,14 +28267,13 @@
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "Player",
-                    "Boundary2",
-                    "",
-                    "",
-                    ""
+                    "currentBlood",
+                    "=",
+                    "0"
                   ]
                 }
               ]
