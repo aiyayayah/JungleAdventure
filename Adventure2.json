@@ -6221,6 +6221,22 @@
         "name": "assets\\Trap\\Main Sprite\\SpikeBall",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/Suriken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\Suriken.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Trap4/assets_Trap_Main Sprite_SpikeBall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Trap4\\assets_Trap_Main Sprite_SpikeBall.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24426,7 +24442,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1648863155987625,
+        "zoomFactor": 0.7824324476176319,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25116,7 +25132,92 @@
           "width": 0,
           "x": 970,
           "y": 236,
-          "zOrder": 82,
+          "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "b6e9e644-4e9e-4f81-a3d2-36fd95a75b32",
+          "width": 29,
+          "x": 336,
+          "y": 327,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "c3b46cfd-4da0-4bef-8ef0-7314cf661581",
+          "width": 29,
+          "x": 923,
+          "y": 236,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "83379738-068e-4e31-9f7b-c3a7f3809895",
+          "width": 29,
+          "x": 547,
+          "y": 519,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "4255c43c-75a1-46b3-807c-8d244fb3b0ac",
+          "width": 29,
+          "x": 736,
+          "y": 486,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "d72b3ed6-c00e-4dfb-8226-68c41b85daae",
+          "width": 29,
+          "x": 1026,
+          "y": 426,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28110,67 +28211,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "trap4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Trap\\Main Sprite\\Spear",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Main Sprite\\Spear",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 15
-                          },
-                          {
-                            "x": 0,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Trap5",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -28189,7 +28229,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Main Sprite\\SpikeBall",
+                      "image": "assets\\Trap\\Trap4\\assets_Trap_Main Sprite_SpikeBall.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28219,6 +28259,77 @@
                           {
                             "x": 0,
                             "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Trap4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Main Sprite\\Suriken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -28263,10 +28374,10 @@
                 "objectName": "Trap1"
               },
               {
-                "objectName": "trap4"
+                "objectName": "Jumper"
               },
               {
-                "objectName": "Jumper"
+                "objectName": "Trap4"
               },
               {
                 "objectName": "Trap5"
@@ -28299,6 +28410,9 @@
           },
           {
             "objectName": "Gun3_ICONUI"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
