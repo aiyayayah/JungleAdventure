@@ -5461,6 +5461,96 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/audio/jungle-party-156395.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\jungle-party-156395.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/bat/Bat-IdleFly.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemy_bat_Bat-IdleFly9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemy\\bat\\Bat-IdleFly9",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15878,7 +15968,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -15886,8 +15976,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.2121641972175479,
+        "snap": false,
+        "zoomFactor": 2.599152591680049,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15914,8 +16004,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 437,
-          "y": 242,
+          "x": 1248,
+          "y": 879,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -16267,22 +16357,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Right",
-          "persistentUuid": "773b24cc-1b2d-48cd-bfa3-a062ac74f9f5",
-          "width": 0,
-          "x": 1463,
-          "y": 606,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Left",
           "persistentUuid": "7c9d3769-e6de-4f0b-99b8-968e496b1468",
           "width": 0,
@@ -16422,23 +16496,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "Coins",
-          "persistentUuid": "ae6b4017-0cb0-4a14-9fd9-39af7523e0df",
-          "width": 33,
-          "x": 1132,
-          "y": 865,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
           "persistentUuid": "35a5ddf6-5544-40ff-8802-4561ea65e39d",
           "width": 33,
           "x": 850,
@@ -16471,11 +16528,13 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "TileMap1",
           "persistentUuid": "75d07de2-0687-4633-a065-5bed5c9082d6",
+          "sealed": true,
           "width": 0,
-          "x": 1493,
-          "y": 68,
+          "x": 1491,
+          "y": 74,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [
@@ -16513,8 +16572,8 @@
           "name": "Coins",
           "persistentUuid": "ef3709d4-1d61-4cba-877b-0a3b6f2d4c9f",
           "width": 33,
-          "x": 1455,
-          "y": 574,
+          "x": 1378,
+          "y": 510,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -17036,6 +17095,75 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco2",
+          "opacity": 179,
+          "persistentUuid": "cb0c2bae-5deb-414a-9fd1-deefb41dfd8e",
+          "width": 82,
+          "x": 777,
+          "y": 625,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flower",
+          "opacity": 230,
+          "persistentUuid": "d88fabe0-7255-40f2-9cbd-bdbe75bb30df",
+          "width": 0,
+          "x": 1581,
+          "y": 293,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "b867fcc0-0543-42ba-bd62-3a1a773f6d51",
+          "width": 33,
+          "x": 1505,
+          "y": 452,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 45,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy7",
+          "persistentUuid": "b852a0c0-756b-419a-b5c8-a336d459ad14",
+          "width": 54,
+          "x": 1127,
+          "y": 819,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -17288,25 +17416,6 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Platform7",
-          "texture": "assets\\village\\TX Village Props.png4",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "NormalPlatform",
-              "canBeGrabbed": true,
-              "yGrabOffset": 0
             }
           ]
         },
@@ -17757,7 +17866,7 @@
             "rowCount": 16,
             "columnCount": 16,
             "tileSize": 32,
-            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,28,65,66,80,96,97,98,82,64,95,111,127,63,22"
+            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,65,66,80,96,97,98,82,64,95,111,127,63,22,9,28"
           }
         },
         {
@@ -21780,6 +21889,437 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": true,
+              "isFolded": true,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "name": "TopDownMovement",
+              "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets\\Enemy\\bat\\Bat-IdleFly",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly2",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly3",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly4",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly5",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly6",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly7",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly8",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\bat\\Bat-IdleFly9",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 17,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -21842,13 +22382,16 @@
             "objectName": "Enemy6"
           },
           {
+            "objectName": "Enemy7"
+          },
+          {
             "objectName": "PassThrough2"
           },
           {
-            "objectName": "Platform7"
+            "objectName": "Deco5"
           },
           {
-            "objectName": "Deco5"
+            "objectName": "NewSprite"
           },
           {
             "objectName": "Deco7"
@@ -21915,6 +22458,33 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\jungle-party-156395.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -22047,7 +22617,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Flying Enemy"
+          "comment": "Octopus Enemy"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -22892,6 +23462,167 @@
               ]
             }
           ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy7",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "Enemy7",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy7.PointX(\"Checker\")",
+                    "Enemy7.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy7",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy7",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "Enemy7",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco7",
+                    "Enemy7.PointX(\"Checker\")",
+                    "Enemy7.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy7",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "Enemy7",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "Enemy7",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "Enemy7",
+                "TopDownMovement"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -23033,6 +23764,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
