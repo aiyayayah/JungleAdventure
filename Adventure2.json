@@ -5441,6 +5441,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/audio/teleport.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\teleport.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/male-hurt-sound-95206.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\male-hurt-sound-95206.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15867,7 +15887,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4307927813136403,
+        "zoomFactor": 1.2121641972175479,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15894,8 +15914,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 167,
-          "y": 399,
+          "x": 437,
+          "y": 242,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -15928,8 +15948,8 @@
           "name": "Coins",
           "persistentUuid": "52b55f72-33b4-4d8a-8778-1f10b27cbff3",
           "width": 33,
-          "x": 191,
-          "y": 389,
+          "x": 256,
+          "y": 384,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -22668,6 +22688,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\male-hurt-sound-95206.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -22795,6 +22827,18 @@
               },
               "parameters": [
                 "1.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\teleport.mp3",
+                "",
+                "",
+                ""
               ]
             },
             {
