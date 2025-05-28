@@ -6197,6 +6197,14 @@
         "name": "assets\\Fire\\assets_Fire_Fire_Spreadsheet14.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Spear.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Spear",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24402,7 +24410,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2867456721555663,
+        "zoomFactor": 1.1648863155987614,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24909,8 +24917,8 @@
           "name": "Trap1",
           "persistentUuid": "b40e1ff0-84ea-437b-bda8-64abe81d371d",
           "width": 32,
-          "x": 729,
-          "y": 500,
+          "x": 911,
+          "y": 468,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -24926,8 +24934,8 @@
           "name": "Trap3",
           "persistentUuid": "5ef4492e-f02d-415b-a5b8-77f33e186a53",
           "width": 23,
-          "x": 885,
-          "y": 470,
+          "x": 724,
+          "y": 501,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -25077,6 +25085,23 @@
           "x": 990,
           "y": 259,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trap1",
+          "persistentUuid": "de2bcf2d-f7b6-4f2d-9bd7-6385fd8e4bd0",
+          "width": 32,
+          "x": 955,
+          "y": 243,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28060,6 +28085,67 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "trap4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Trap\\Main Sprite\\Spear",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Main Sprite\\Spear",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -28093,6 +28179,9 @@
               },
               {
                 "objectName": "Trap1"
+              },
+              {
+                "objectName": "trap4"
               },
               {
                 "objectName": "Jumper"
@@ -28183,7 +28272,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Trap1"
+                "Trap3"
               ]
             },
             {
@@ -28191,7 +28280,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Trap4"
+                "trap4"
               ]
             },
             {
@@ -28771,7 +28860,7 @@
               },
               "parameters": [
                 "Player",
-                "Trap1",
+                "Trap3",
                 "",
                 "",
                 ""
@@ -28784,7 +28873,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Trap1",
+                "Trap3",
                 ""
               ]
             }
@@ -28807,18 +28896,29 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "PosX"
               },
               "parameters": [
                 "Player",
-                "Trap3",
-                "",
-                "",
-                ""
+                ">",
+                "859"
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Trap1",
+                "=",
+                "882",
+                "=",
+                "470"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -28830,7 +28930,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Trap4\n"
+          "comment": "Trap4"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -28841,7 +28941,7 @@
               },
               "parameters": [
                 "Player",
-                "Trap4",
+                "trap4",
                 "",
                 "",
                 ""
@@ -28851,32 +28951,10 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Trap4",
-                "Animation",
-                "=",
-                "\"trap1\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Trap4",
-                "Animation",
-                "=",
-                "\"trap2\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
-                "Trap4",
+                "trap4",
                 ""
               ]
             }
@@ -28945,7 +29023,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Trap4",
+                    "trap4",
                     "",
                     "",
                     ""
