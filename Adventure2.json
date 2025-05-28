@@ -24282,7 +24282,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41666666666667956,
+        "zoomFactor": 1.4692812842037501,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24304,8 +24304,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 109,
-          "y": 871,
+          "x": 578,
+          "y": 525,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24427,7 +24427,7 @@
           "width": 0,
           "x": 0,
           "y": 352,
-          "zOrder": 25,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -24611,13 +24611,13 @@
           "persistentUuid": "d205de81-755d-426d-b979-eb78f0b8965d",
           "width": 0,
           "x": 736,
-          "y": 384,
+          "y": 448,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,225,226],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,-1],[-1,-1,-1,-1,54,55,56,-1,-1,23,-1,-1,-1,-1],[4,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[20,21,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":10,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,7],[-1,-1,-1,-1,54,55,56,-1,-1,23],[4,5,-1,-1,-1,-1,-1,-1,-1,-1],[20,21,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -24631,14 +24631,14 @@
           "name": "Background_1",
           "persistentUuid": "403363f3-b9e8-47d3-bf3a-b07279950ca8",
           "width": 0,
-          "x": 1248,
-          "y": 320,
+          "x": 896,
+          "y": 224,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[57,58,58,58],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17],[-1,74,17,17]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":10,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,54,57,58,58,58],[224,225,97,-1,-1,-1,-1,74,17,17],[-1,-1,18,-1,-1,-1,-1,74,17,17],[-1,-1,18,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17],[-1,-1,-1,-1,-1,-1,-1,74,17,17]]}]}"
             }
           ],
           "initialVariables": []
@@ -24788,8 +24788,8 @@
           "name": "Trap1",
           "persistentUuid": "b40e1ff0-84ea-437b-bda8-64abe81d371d",
           "width": 0,
-          "x": 913,
-          "y": 469,
+          "x": 907,
+          "y": 470,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -24805,8 +24805,8 @@
           "name": "Trap3",
           "persistentUuid": "5ef4492e-f02d-415b-a5b8-77f33e186a53",
           "width": 20,
-          "x": 738,
-          "y": 502,
+          "x": 746,
+          "y": 503,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -24945,15 +24945,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
           "keepRatio": true,
           "layer": "",
-          "name": "Enemy3",
-          "persistentUuid": "fe9eebd8-ab48-45c8-b348-47eea0d8e90e",
-          "width": 0,
-          "x": 154,
-          "y": 858,
+          "name": "Ladder2",
+          "persistentUuid": "69303385-b64c-4c65-873e-af3443537aad",
+          "width": 16,
+          "x": 990,
+          "y": 259,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -28652,6 +28653,30 @@
                   "parameters": [
                     "Player",
                     "Enemy3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Trap1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Trap3",
                     "",
                     "",
                     ""
