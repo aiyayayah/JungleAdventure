@@ -5765,6 +5765,22 @@
         "name": "assets\\gun\\Shotgun.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/gun/Shotgun2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Shotgun2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gun/Shotgun_resize.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Shotgun_resize.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11992,6 +12008,66 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Gun3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Shotgun_resize.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 49,
+                        "y": 6
+                      },
+                      {
+                        "x": 49,
+                        "y": 19
+                      },
+                      {
+                        "x": 1,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -12020,6 +12096,9 @@
       },
       {
         "objectName": "Enemy1"
+      },
+      {
+        "objectName": "Gun3"
       }
     ]
   },
@@ -23681,7 +23760,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7322185671401833,
+        "zoomFactor": 0.6628748845605683,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23703,8 +23782,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 54,
-          "y": 900,
+          "x": 40,
+          "y": 519,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -23944,7 +24023,7 @@
           "height": 32,
           "keepRatio": true,
           "layer": "",
-          "name": "Gun2ICONUI",
+          "name": "Gun3_ICONUI",
           "persistentUuid": "9654bc9f-f336-4509-91a2-3ad0c1568757",
           "width": 64,
           "x": 69,
@@ -26057,7 +26136,7 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "GunICONUNI",
+          "name": "Gun2_CONUNI",
           "texture": "assets\\gun\\Diana Raptor 4.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -26074,7 +26153,7 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Gun2ICONUI",
+          "name": "Gun3_ICONUI",
           "texture": "assets\\gun\\Shotgun.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -26138,13 +26217,13 @@
             "objectName": "ladder3"
           },
           {
-            "objectName": "GunICONUNI"
+            "objectName": "Gun2_CONUNI"
           },
           {
             "objectName": "PressE_TEXT"
           },
           {
-            "objectName": "Gun2ICONUI"
+            "objectName": "Gun3_ICONUI"
           }
         ]
       },
@@ -26195,7 +26274,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Gun2ICONUI"
+                "Gun3_ICONUI"
               ]
             }
           ]
@@ -26765,7 +26844,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Gun2ICONUI",
+                "Gun3_ICONUI",
                 ""
               ]
             },
@@ -26783,7 +26862,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "Gun2ICONUI",
+                "Gun3_ICONUI",
                 "visible",
                 "True",
                 ""
@@ -26800,7 +26879,7 @@
               },
               "parameters": [
                 "Player",
-                "Gun2ICONUI",
+                "Gun3_ICONUI",
                 "",
                 "",
                 ""
@@ -26811,7 +26890,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Gun2ICONUI",
+                "Gun3_ICONUI",
                 "visible",
                 "True",
                 ""
@@ -26851,7 +26930,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Gun2ICONUI",
+                "Gun3_ICONUI",
                 ""
               ]
             }
@@ -27971,17 +28050,56 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "Create"
               },
               "parameters": [
+                "",
+                "Gun3",
+                " Player.X()",
+                " Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
                 "Player",
-                "Animation",
-                "=",
-                "\"Teleport1\""
+                "Gun3"
               ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "arrow",
+                    "TileMap1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "arrow",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
