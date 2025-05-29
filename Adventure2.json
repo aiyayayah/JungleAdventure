@@ -6340,6 +6340,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 1,
@@ -14775,6 +14776,10 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -17638,6 +17643,10 @@
         {
           "name": "RectangleMovement2",
           "type": "RectangleMovement::RectangleMovement"
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
         },
         {
           "name": "Resizable",
@@ -24938,6 +24947,10 @@
           "type": "RectangleMovement::RectangleMovement"
         },
         {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -30876,6 +30889,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
         },
         {
           "name": "Resizable",
