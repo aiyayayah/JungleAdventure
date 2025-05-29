@@ -6293,6 +6293,14 @@
         "name": "assets\\gun\\Diana Raptor 4_resize.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/gun/Bullet/bullet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Bullet\\bullet2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13166,7 +13174,7 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
+          "FireCooldown": 0.5,
           "HasJustFired": false,
           "RotateBullet": true,
           "FiringArc": 45,
@@ -13244,6 +13252,72 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BulletGun2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "damage",
+          "type": "number",
+          "value": 0.5
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\gun\\Bullet\\bullet2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "x": 3,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13299,6 +13373,9 @@
       },
       {
         "objectName": "Gun2"
+      },
+      {
+        "objectName": "BulletGun2"
       }
     ]
   },
@@ -17501,7 +17578,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693716249,
+        "zoomFactor": 1.928431685517667,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31682,7 +31759,7 @@
                     "FireBullet",
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
-                    "bullet",
+                    "BulletGun2",
                     "Player.X() - 100",
                     "Player.Y()",
                     "150",
@@ -31716,7 +31793,7 @@
                     "FireBullet",
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
-                    "bullet",
+                    "BulletGun2",
                     "Player.X() + 100",
                     "Player.Y()",
                     "150",
@@ -32888,6 +32965,34 @@
               },
               "parameters": [
                 "bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Player",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
                 ""
               ]
             }
