@@ -10002,16 +10002,6 @@
           "name": "Variable",
           "type": "number",
           "value": 1
-        },
-        {
-          "name": "hasColl",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "isHit",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [],
@@ -13273,7 +13263,7 @@
         {
           "name": "damage",
           "type": "number",
-          "value": 1
+          "value": 0.5
         }
       ],
       "effects": [],
@@ -17588,7 +17578,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8993607583668058,
+        "zoomFactor": 1.061571430522168,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17615,9 +17605,9 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 480,
-          "y": 595,
-          "zOrder": 10,
+          "x": 94,
+          "y": 819,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18255,8 +18245,8 @@
           "name": "Chest",
           "persistentUuid": "243d97b8-fbb9-423f-a383-81cbe9aab3af",
           "width": 0,
-          "x": 424,
-          "y": 574,
+          "x": 55,
+          "y": 800,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -18802,8 +18792,8 @@
           "name": "Gun2_CONUNI",
           "persistentUuid": "912729ec-2a45-4d5d-ad15-1ad26aa5a4ab",
           "width": 67,
-          "x": 409,
-          "y": 579,
+          "x": 37,
+          "y": 797,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -24198,54 +24188,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Enemy1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Enemy4",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Enemy5",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Enemy6",
-                    "",
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -24960,8 +24902,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 172,
-          "y": 905,
+          "x": 46,
+          "y": 526,
           "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
@@ -32156,15 +32098,85 @@
           "conditions": [
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Enemy",
-                "isHit",
-                "=",
-                "1"
+                "Lives",
+                "-",
+                "arrow.damage"
               ]
             },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "CollisionNP"
@@ -32181,21 +32193,10 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Enemy",
-                "isHit",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
-                "bullet",
+                "BulletGun2",
                 ""
               ]
             },
@@ -32250,17 +32251,6 @@
                 "Animation",
                 "=",
                 "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Enemy",
-                "isHit",
-                "False",
-                ""
               ]
             }
           ]
@@ -32380,6 +32370,87 @@
                 "Lives",
                 "-",
                 "arrow.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy1",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy1",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Enemy1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy1",
+                "Lives",
+                "-",
+                "BulletGun2.damage"
               ]
             },
             {
@@ -32596,6 +32667,87 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Enemy4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy4",
+                "Lives",
+                "-",
+                "BulletGun2.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy4",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy4",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "NumberObjectVariable"
               },
               "parameters": [
@@ -32757,6 +32909,87 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Enemy5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy5",
+                "Lives",
+                "-",
+                "BulletGun2.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy5",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy5",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "NumberObjectVariable"
               },
               "parameters": [
@@ -32867,6 +33100,87 @@
                 "Lives",
                 "-",
                 "arrow.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy6",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemy6",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Enemy6",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy6",
+                "Lives",
+                "-",
+                "BulletGun2.damage"
               ]
             },
             {
