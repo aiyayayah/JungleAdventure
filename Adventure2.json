@@ -6277,6 +6277,14 @@
         "name": "assets\\assets_village_TX Village Props10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Deco/assets_village_TX Village Props911.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Deco\\assets_village_TX Village Props911.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -17345,7 +17353,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0269425874982692,
+        "zoomFactor": 0.8141881203711202,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24488,7 +24496,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36490223882174944,
+        "zoomFactor": 0.9546962088068881,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24510,9 +24518,9 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 1192,
-          "y": 219,
-          "zOrder": 90,
+          "x": 1535,
+          "y": 341,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24844,7 +24852,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2],[16,17,18],[32,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2],[20,33,21]]}]}"
             }
           ],
           "initialVariables": []
@@ -24858,7 +24866,7 @@
           "layer": "",
           "name": "Boundary",
           "persistentUuid": "d76509c8-53d6-4be4-a02d-db26a3233afc",
-          "width": 544,
+          "width": 948,
           "x": 736,
           "y": 640,
           "zOrder": 24,
@@ -25339,14 +25347,14 @@
           "name": "Background_1",
           "persistentUuid": "01e303f0-5545-403c-a75b-8c398bb0e921",
           "width": 0,
-          "x": 1311,
-          "y": 241,
+          "x": 1279,
+          "y": 242,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":12,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[149,150,151,152,-1,-1,-1,-1,-1,-1,-1,-1],[165,165,165,165,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,54,55,56,57,55,58,58,58,58,58],[-1,-1,-1,-1,72,-1,-1,-1,-1,-1,-1,-1],[-1,-1,86,87,88,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":12,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1],[32,33,33,34,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,54,55,56,58,58,58],[-1,-1,-1,-1,-1,-1,-1,-1,72,-1,-1,-1],[-1,-1,-1,-1,-1,-1,86,87,88,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -25360,8 +25368,8 @@
           "name": "Enemy1",
           "persistentUuid": "fb2fa403-1a6e-4a90-b17e-e29532ff2375",
           "width": 0,
-          "x": 1367,
-          "y": 218,
+          "x": 1338,
+          "y": 219,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -25377,8 +25385,8 @@
           "name": "Deco4",
           "persistentUuid": "b4e0abc0-86da-4e8b-b2c1-0292ae74d59e",
           "width": 13,
-          "x": 1312,
-          "y": 231,
+          "x": 1282,
+          "y": 232,
           "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
@@ -25394,9 +25402,26 @@
           "name": "Deco4",
           "persistentUuid": "502ac5ce-8fd0-4ac3-ad27-dd6e211754a6",
           "width": 13,
-          "x": 1425,
-          "y": 231,
+          "x": 1392,
+          "y": 233,
           "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tele",
+          "persistentUuid": "a50e5223-0134-44ca-99cd-a963846c3a12",
+          "width": 45,
+          "x": 1604,
+          "y": 269,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28557,6 +28582,17 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "tele",
+          "texture": "assets\\Deco\\assets_village_TX Village Props911.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -28640,6 +28676,9 @@
           },
           {
             "objectName": "Deco4"
+          },
+          {
+            "objectName": "tele"
           }
         ]
       },
@@ -29614,9 +29653,95 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Change to next scene\n"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "tele",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Teleport1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerTeleport.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"ccp\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -29694,6 +29819,18 @@
                   "parameters": [
                     "Player",
                     "Trap4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy1",
                     "",
                     "",
                     ""
