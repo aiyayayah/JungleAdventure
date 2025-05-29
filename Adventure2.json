@@ -14806,7 +14806,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330859,
+        "zoomFactor": 0.3797121001948436,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17671,7 +17671,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0269425874982718,
+        "zoomFactor": 0.29122588669115823,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24973,7 +24973,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5805228706436546,
+        "zoomFactor": 0.3529989961534629,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25568,7 +25568,7 @@
           "persistentUuid": "00a32634-11b9-4eb6-b469-286bdb7b4cc3",
           "width": 64,
           "x": 297,
-          "y": 108,
+          "y": 109,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -30958,6 +30958,158 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterCoins",
+          "persistentUuid": "52df69b9-12cf-4e61-8d49-602b63d41121",
+          "width": 64,
+          "x": 97,
+          "y": 28,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "Score",
+          "name": "counterScore",
+          "persistentUuid": "31976fc6-6abf-491e-88de-84e1777bf3c4",
+          "width": 128,
+          "x": 185,
+          "y": 25,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 144,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonHome",
+          "persistentUuid": "c4f1323f-a966-4651-847b-dde5f0cfd5c7",
+          "width": 96,
+          "x": 1419,
+          "y": 31,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonRestart",
+          "persistentUuid": "95790858-b918-46ee-b14d-a1cdea000a47",
+          "width": 96,
+          "x": 1547,
+          "y": 31,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterLives",
+          "persistentUuid": "6247bd9a-5dd5-4e70-b908-4df0ff139b9d",
+          "width": 0,
+          "x": 101,
+          "y": 109,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "0f6883a1-2ca3-4317-b9b5-221de32b87b4",
+          "width": 64,
+          "x": 213,
+          "y": 109,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "3f79c996-6bcf-45f5-8cb8-9b20f86327a2",
+          "width": 64,
+          "x": 297,
+          "y": 109,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "d337d1d2-d0ab-4c19-884e-19803e581d0e",
+          "width": 64,
+          "x": 381,
+          "y": 109,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 3
+            }
+          ]
         }
       ],
       "objects": [
@@ -31048,6 +31200,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Score",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
