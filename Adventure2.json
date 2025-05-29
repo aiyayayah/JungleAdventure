@@ -24417,7 +24417,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hasGun2",
+                "hasGun1",
                 "True",
                 ""
               ]
@@ -31027,6 +31027,16 @@
                 "Flippable",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Gun2",
+                "Flippable",
+                "no"
+              ]
             }
           ]
         },
@@ -31071,6 +31081,16 @@
               },
               "parameters": [
                 "Gun3",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Gun2",
                 "Flippable",
                 "yes"
               ]
@@ -31392,7 +31412,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Weapon - 2 //BELOW CODE HAVENT DONE\n\n"
+          "comment": "Weapon - 2 \n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -31413,7 +31433,7 @@
               },
               "parameters": [
                 "",
-                "\"Num3\""
+                "\"Num2\""
               ]
             },
             {
@@ -31440,7 +31460,7 @@
               },
               "parameters": [
                 "",
-                "Gun3",
+                "Gun2",
                 " Player.X()",
                 " Player.Y()",
                 ""
@@ -31453,7 +31473,7 @@
               "parameters": [
                 "",
                 "Player",
-                "Gun"
+                "Gun2"
               ]
             },
             {
@@ -31464,6 +31484,245 @@
                 "gun2Created",
                 "True",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Gun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "direction",
+                "=",
+                "\"left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Gun2",
+                "=",
+                "Player.X() ",
+                "=",
+                "Player.Y() "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Gun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "direction",
+                "=",
+                "\"right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Gun3",
+                "=",
+                "Player.X() ",
+                "=",
+                "Player.Y() "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedWeapon",
+                "!=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "gun2Created",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Gun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "gun2Created",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedWeapon",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "gun2Created",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Gun2",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() - 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "direction",
+                    "=",
+                    "\"right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "Gun2",
+                    "FireBullet",
+                    "Player.BoundingBoxCenterX()",
+                    "Player.BoundingBoxCenterY()",
+                    "bullet",
+                    "Player.X() + 100",
+                    "Player.Y()",
+                    "150",
+                    ""
+                  ]
+                }
               ]
             }
           ]
