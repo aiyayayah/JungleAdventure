@@ -10002,6 +10002,16 @@
           "name": "Variable",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "hasColl",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "isHit",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -13263,7 +13273,7 @@
         {
           "name": "damage",
           "type": "number",
-          "value": 0.5
+          "value": 1
         }
       ],
       "effects": [],
@@ -17578,7 +17588,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.928431685517667,
+        "zoomFactor": 0.8993607583668058,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17605,8 +17615,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 111,
-          "y": 812,
+          "x": 480,
+          "y": 595,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -18245,8 +18255,8 @@
           "name": "Chest",
           "persistentUuid": "243d97b8-fbb9-423f-a383-81cbe9aab3af",
           "width": 0,
-          "x": 57,
-          "y": 800,
+          "x": 424,
+          "y": 574,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -18792,8 +18802,8 @@
           "name": "Gun2_CONUNI",
           "persistentUuid": "912729ec-2a45-4d5d-ad15-1ad26aa5a4ab",
           "width": 67,
-          "x": 36,
-          "y": 800,
+          "x": 409,
+          "y": 579,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -32146,10 +32156,21 @@
           "conditions": [
             {
               "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isHit",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
-                "arrow",
+                "BulletGun2",
                 "Enemy",
                 "",
                 "",
@@ -32160,10 +32181,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isHit",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
-                "arrow",
+                "bullet",
                 ""
               ]
             },
@@ -32187,7 +32219,7 @@
                 "Enemy",
                 "Lives",
                 "-",
-                "arrow.damage"
+                "BulletGun2.damage"
               ]
             },
             {
@@ -32218,6 +32250,17 @@
                 "Animation",
                 "=",
                 "\"Run\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isHit",
+                "False",
+                ""
               ]
             }
           ]
@@ -32615,6 +32658,18 @@
             "textR": 0
           },
           "comment": "Blue Enemy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
