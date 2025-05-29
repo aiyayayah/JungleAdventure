@@ -6301,6 +6301,14 @@
         "name": "assets\\gun\\Bullet\\bullet2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -14789,7 +14797,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -14797,8 +14805,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.39251611754886995,
+        "snap": false,
+        "zoomFactor": 0.6672773998330859,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14825,9 +14833,9 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 309,
-          "y": 487,
-          "zOrder": 10,
+          "x": 120,
+          "y": 959,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14861,41 +14869,9 @@
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 1248,
-          "y": 161,
+          "x": 1591,
+          "y": 33,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco7",
-          "persistentUuid": "dfe3da1d-81f8-45df-a086-9cee973cb1f6",
-          "width": 0,
-          "x": 416,
-          "y": 566,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco7",
-          "persistentUuid": "289aefe1-64ea-4b74-95fe-021f0eac7eb4",
-          "width": 0,
-          "x": 704,
-          "y": 566,
-          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14904,20 +14880,20 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "NewTileMap",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
-          "width": 704,
-          "x": 224,
-          "y": 512,
+          "width": 608,
+          "x": 0,
+          "y": 992,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":22,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[102,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[102,182,182,182,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1,-1],[253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5],[20,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,21]]}]}"
             }
           ],
           "initialVariables": []
@@ -14949,8 +14925,8 @@
           "name": "SignBoard",
           "persistentUuid": "a705d0e7-4142-4b5e-b460-b8012b71daa7",
           "width": 44,
-          "x": 356,
-          "y": 455,
+          "x": 29,
+          "y": 946,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -14960,14 +14936,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "flippedX": true,
           "height": 46,
           "keepRatio": true,
           "layer": "",
           "name": "SignBoard",
           "persistentUuid": "50d0f3ad-0c06-4c6b-a7c0-64e814fac838",
           "width": 44,
-          "x": 691,
-          "y": 530,
+          "x": 934,
+          "y": 529,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -14982,14 +14959,14 @@
           "name": "NewTileMap",
           "persistentUuid": "a22c2cf7-2576-4f6e-88ac-c25cb54fd5c4",
           "width": 0,
-          "x": 896,
-          "y": 288,
+          "x": 608,
+          "y": 576,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":13,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1,1,1,1,1,1,1,1,1,13],[17,91,17,17,17,17,17,17,123,17,17,17,18],[33,153,154,33,33,33,33,33,33,33,153,33,21]]}]}"
             }
           ],
           "initialVariables": []
@@ -15004,26 +14981,9 @@
           "name": "Ladder",
           "persistentUuid": "1d380bd9-4a42-463b-a95b-8503d6e3f1c9",
           "width": 32,
-          "x": 824,
-          "y": 312,
+          "x": 1093,
+          "y": 609,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PassThrough2",
-          "persistentUuid": "70278bfe-99d9-47d8-91b0-824770f8fdde",
-          "width": 72,
-          "x": 803,
-          "y": 310,
-          "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15053,9 +15013,305 @@
           "name": "GuideLadder",
           "persistentUuid": "7c60cde2-cccf-4c39-9992-0ee8befbb52d",
           "width": 0,
-          "x": 888,
-          "y": 500,
-          "zOrder": 65,
+          "x": 1145,
+          "y": 760,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "996a310a-4a85-4750-a308-6852f7752b71",
+          "width": 0,
+          "x": 224,
+          "y": 96,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideMovement",
+          "persistentUuid": "914787c3-cbe2-48b2-83ec-49b3cf28e6e7",
+          "width": 0,
+          "x": 84,
+          "y": 872,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideJump",
+          "persistentUuid": "30081f5f-b77e-4c94-b75c-abd6096707fd",
+          "width": 0,
+          "x": 503,
+          "y": 872,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "74fdaf64-5860-423f-be06-1817b9fb8289",
+          "width": 0,
+          "x": 960,
+          "y": 864,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[224,225,225,225,225,226]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 10,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PassThrough2",
+          "persistentUuid": "947fc8f6-c9f9-4383-ab74-f9287b79d8b1",
+          "width": 89,
+          "x": 1063,
+          "y": 606,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideLadderJump",
+          "persistentUuid": "1d407fdf-8265-481f-b278-161a0e8f0b4c",
+          "width": 0,
+          "x": 928,
+          "y": 640,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderLadder",
+          "persistentUuid": "48c7376d-8116-4f07-9a0e-6aa640393097",
+          "width": 95,
+          "x": 1060,
+          "y": 640,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "0baa589c-4b50-41bf-b404-7ccc3773bd34",
+          "width": 0,
+          "x": 672,
+          "y": 896,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,12,13,-1,28,29],[12,13,-1,28,29,-1,-1,-1],[28,29,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "47410b47-8287-44c1-8d21-c74c0bb9320a",
+          "width": 0,
+          "x": 951,
+          "y": 566,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LadderLeft",
+          "persistentUuid": "006c1465-2d5c-4abd-8000-a40550853dd6",
+          "width": 19,
+          "x": 572,
+          "y": 351,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "d9aff354-4de6-48df-ae32-2772118a5429",
+          "width": 0,
+          "x": 128,
+          "y": 128,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":15,\"dimY\":17,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[84,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[132,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[132,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[23,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,4,59,59,59,59,59,59,59,59,59,59,59,5,-1],[-1,164,182,123,182,182,182,182,182,182,182,182,108,168,-1],[-1,28,33,33,33,33,33,33,33,33,154,33,214,168,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,168,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,168,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,168,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,168,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,93,94],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,182,123],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20,254,254]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "52e22bcd-f5db-4cb4-875b-fa9ace5b31b8",
+          "width": 0,
+          "x": 605,
+          "y": 566,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy1",
+          "persistentUuid": "7b8ff110-450f-43d1-b2e0-5fe9329a77ac",
+          "width": 0,
+          "x": 670,
+          "y": 549,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "5a39824f-5bbd-46ca-9486-348fa835b0b3",
+          "width": 0,
+          "x": 156,
+          "y": 320,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "1d6f0e10-1c04-4ad9-9aff-6779fb3d5ea7",
+          "width": 0,
+          "x": 155,
+          "y": 255,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "c58c0387-97a5-44d5-807d-372a6a7076d1",
+          "width": 0,
+          "x": 156,
+          "y": 191,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "208a21c2-3629-4849-9d09-8715f944a74d",
+          "width": 0,
+          "x": 192,
+          "y": 128,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15829,7 +16085,7 @@
             "rowCount": 16,
             "columnCount": 16,
             "tileSize": 32,
-            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,28,65,66,80,96,97,98,82,64,95,111,127,63,22"
+            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,28,65,66,80,96,97,98,82,64,95,111,127,63,9"
           }
         },
         {
@@ -16376,378 +16632,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SignArrow",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props26.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 51,
-                            "y": 77
-                          },
-                          {
-                            "x": 461,
-                            "y": 77
-                          },
-                          {
-                            "x": 461,
-                            "y": 435
-                          },
-                          {
-                            "x": 51,
-                            "y": 435
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Trap1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Trap\\Trap1\\assets_Trap_Main Sprite_Spike_B16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 12
-                          },
-                          {
-                            "x": 0,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -16830,6 +16714,174 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideMovement",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Use left and right arrow key to move",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Use left and right arrow key to move",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideJump",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press space key to jump",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press space key to jump",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideLadderJump",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colliderLadder",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16890,6 +16942,9 @@
             "objectName": "NewTileMap"
           },
           {
+            "objectName": "colliderLadder"
+          },
+          {
             "objectName": "LadderRight"
           },
           {
@@ -16914,16 +16969,24 @@
             "objectName": "SignBoard"
           },
           {
-            "objectName": "SignArrow"
+            "objectName": "guideLadderJump"
           },
           {
-            "objectName": "Trap1"
-          },
-          {
-            "objectName": "GuideLadder"
-          },
-          {
-            "objectName": "GuideTeleport"
+            "folderName": "textGuide",
+            "children": [
+              {
+                "objectName": "guideJump"
+              },
+              {
+                "objectName": "guideMovement"
+              },
+              {
+                "objectName": "GuideTeleport"
+              },
+              {
+                "objectName": "GuideLadder"
+              }
+            ]
           }
         ]
       },
@@ -17411,6 +17474,36 @@
                 "Player",
                 "PlatformerObject",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "colliderLadder",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideLadderJump",
+                "Text",
+                "=",
+                "\"Jump once to reach the platform\""
               ]
             }
           ]
@@ -24880,7 +24973,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7083333333333661,
+        "zoomFactor": 0.5805228706436546,
         "windowMask": false
       },
       "objectsGroups": [],
