@@ -13110,6 +13110,24 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "PressE_TEXT",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[outline=yellow]Press \"E\"[/outline] ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13156,6 +13174,9 @@
       },
       {
         "objectName": "PlayerLife"
+      },
+      {
+        "objectName": "PressE_TEXT"
       }
     ]
   },
@@ -17353,7 +17374,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203711202,
+        "zoomFactor": 0.6672773998331035,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18537,6 +18558,22 @@
           "x": 1464,
           "y": 625,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PressE_TEXT",
+          "persistentUuid": "86cf9c29-9ddc-4b1a-b836-72f9b9103a18",
+          "width": 0,
+          "x": 44,
+          "y": 711,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19859,7 +19896,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\village\\TX Chest Animation",
+              "name": "idle",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -19869,223 +19906,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 5
-                          },
-                          {
-                            "x": 34,
-                            "y": 34
-                          },
-                          {
-                            "x": 0,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Chest Animation7",
+                      "image": "assets\\box\\idle\\assets_village_TX Chest Animation.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24096,6 +23917,23 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Player open chest\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Teleport to other scenes"
         },
         {
@@ -24496,7 +24334,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33034470892971973,
+        "zoomFactor": 0.4602543809515539,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27496,24 +27334,6 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "",
-          "name": "PressE_TEXT",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "\n[outline=yellow]Press \"E\"[/outline] ",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "BrokeBox",
@@ -28537,17 +28357,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -28621,9 +28430,6 @@
             "objectName": "Gun2_CONUNI"
           },
           {
-            "objectName": "PressE_TEXT"
-          },
-          {
             "objectName": "Gun3_ICONUI"
           },
           {
@@ -28634,9 +28440,6 @@
           },
           {
             "objectName": "tele"
-          },
-          {
-            "objectName": "NewTiledSprite"
           }
         ]
       },
