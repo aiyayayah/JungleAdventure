@@ -17501,7 +17501,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8046714318876813,
+        "zoomFactor": 0.9610368693716249,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31522,9 +31522,9 @@
               "parameters": [
                 "Gun2",
                 "=",
-                "Player.X() ",
+                "Player.X() -35",
                 "=",
-                "Player.Y() "
+                "Player.Y() -5"
               ]
             }
           ]
@@ -31561,11 +31561,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "Gun3",
+                "Gun2",
                 "=",
-                "Player.X() ",
+                "Player.X() +1",
                 "=",
-                "Player.Y() "
+                "Player.Y() -5"
               ]
             }
           ]
