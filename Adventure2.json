@@ -24496,7 +24496,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9546962088068881,
+        "zoomFactor": 0.33034470892971973,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24518,9 +24518,9 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 1535,
-          "y": 341,
-          "zOrder": 92,
+          "x": 172,
+          "y": 905,
+          "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24760,8 +24760,8 @@
           "name": "BrokeBox",
           "persistentUuid": "0c7907e1-3a2f-48f5-8f2f-b28259f97f1c",
           "width": 0,
-          "x": 704,
-          "y": 576,
+          "x": 672,
+          "y": 512,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -24776,24 +24776,8 @@
           "name": "BrokeBox",
           "persistentUuid": "6c7ff2b7-bb43-4357-a8e3-6edec0a8ca43",
           "width": 0,
-          "x": 704,
-          "y": 640,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BrokeBox",
-          "persistentUuid": "2365a5ff-a959-4bbf-b23d-0f2b5c1cd495",
-          "width": 0,
-          "x": 704,
-          "y": 672,
+          "x": 672,
+          "y": 448,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -24808,8 +24792,8 @@
           "name": "BrokeBox",
           "persistentUuid": "386dfeb2-42b3-4a82-b3d3-8052bd7b1642",
           "width": 0,
-          "x": 704,
-          "y": 608,
+          "x": 672,
+          "y": 480,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -25122,28 +25106,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "Score",
-          "name": "PlayerLife",
-          "persistentUuid": "1ae858bb-28cb-4a3c-8d19-000dfc8f0706",
-          "width": 64,
-          "x": 381,
-          "y": 109,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 123,
           "keepRatio": true,
@@ -25331,8 +25293,8 @@
           "opacity": 179,
           "persistentUuid": "5054ad5f-e310-4f2b-89b5-bda3dc1292b4",
           "width": 2216,
-          "x": -309,
-          "y": -82,
+          "x": -296,
+          "y": -87,
           "zOrder": -11,
           "numberProperties": [],
           "stringProperties": [],
@@ -27557,7 +27519,13 @@
           "name": "BrokeBox",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 50
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -27610,49 +27578,13 @@
               ]
             },
             {
-              "name": "boke",
+              "name": "hurt",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\broke box\\broke.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 0
-                          },
-                          {
-                            "x": 32,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\broke box\\broke2.png",
@@ -27724,7 +27656,19 @@
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "broke",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\broke box\\broke4.png",
@@ -28593,6 +28537,17 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -28679,6 +28634,9 @@
           },
           {
             "objectName": "tele"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },
@@ -29309,6 +29267,105 @@
               },
               "parameters": [
                 "Gun3_ICONUI",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Shoot Box"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bullet",
+                "BrokeBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "BrokeBox",
+                "Lives",
+                "-",
+                "bullet.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "BrokeBox",
+                "Animation",
+                "=",
+                "\"hurt\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "BrokeBox",
+                "Lives",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "BrokeBox",
+                "Animation",
+                "=",
+                "\"broke\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BrokeBox",
                 ""
               ]
             }
