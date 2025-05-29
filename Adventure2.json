@@ -6269,6 +6269,14 @@
         "name": "assets\\q0v5_142a_211202.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_village_TX Village Props10.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -17337,7 +17345,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827597234,
+        "zoomFactor": 1.0269425874982692,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24480,7 +24488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.460254380951551,
+        "zoomFactor": 0.36490223882174944,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24502,9 +24510,9 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 122,
-          "y": 854,
-          "zOrder": 1,
+          "x": 1192,
+          "y": 219,
+          "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24525,7 +24533,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,1073741963],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,1073741948,-1],[58,59,59,59,59,60,60,60,61,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,1073741931,-1,-1],[74,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741915,1073741916,1073741899,-1,-1],[90,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,120,121,121,121,121,121,122,-1,-1,-1,-1,-1],[106,75,75,75,75,75,75,75,75,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,-2147483495],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,-2147483494,-1],[58,59,59,59,59,60,60,60,61,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,-2147483484,-1,-1],[74,75,75,75,75,75,75,75,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,153,154,-2147483436,-1,-1],[90,75,75,75,75,75,75,75,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,96,121,121,121,121,121,122,-1,-1,-1,-1,-1],[118,65,65,65,65,65,65,65,-2147483530,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -24630,7 +24638,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":20,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483552,-1,-1,-1,-1,-1,-1,-2147483550,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483568,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483568,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483568,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483568,-1,-1,-1,-1,-1,-1,-2147483566,-1,-1,-1,-1,-1],[65,65,65,65,65,65,65,-2147483552,-1,-1,-1,-1,-1,-1,-2147483550,65,65,65,65,33]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":20,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[65,65,65,65,65,65,65,-2147483530,-1,-1,-1,-1,-1,-1,118,65,65,65,65,33]]}]}"
             }
           ],
           "initialVariables": []
@@ -24810,7 +24818,7 @@
           "width": 0,
           "x": 704,
           "y": 448,
-          "zOrder": 32,
+          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -24831,12 +24839,12 @@
           "width": 0,
           "x": 896,
           "y": 256,
-          "zOrder": -7,
+          "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[224,225,97],[-1,-1,18],[-1,-1,18]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2],[16,17,18],[32,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -24896,23 +24904,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 154,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "272cb1fb-e400-4b02-8495-52767ac2a555",
-          "width": 149,
-          "x": 655,
-          "y": 831,
-          "zOrder": -4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 34,
           "keepRatio": true,
           "layer": "",
@@ -24936,7 +24927,7 @@
           "name": "Orang",
           "persistentUuid": "1b9018c3-41c2-4b4e-ac9e-75dca63918de",
           "width": 56,
-          "x": 626,
+          "x": 691,
           "y": 905,
           "zOrder": 36,
           "numberProperties": [],
@@ -25154,7 +25145,7 @@
           "width": 16,
           "x": 990,
           "y": 259,
-          "zOrder": 81,
+          "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25287,12 +25278,12 @@
           "width": 0,
           "x": 1073,
           "y": 240,
-          "zOrder": -9,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,87,87,87],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103],[-1,-1,82,103,103]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,87,87,87],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,32,33,34]]}]}"
             }
           ],
           "initialVariables": [
@@ -25335,6 +25326,77 @@
           "x": -309,
           "y": -82,
           "zOrder": -11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_1",
+          "persistentUuid": "01e303f0-5545-403c-a75b-8c398bb0e921",
+          "width": 0,
+          "x": 1311,
+          "y": 241,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":12,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[149,150,151,152,-1,-1,-1,-1,-1,-1,-1,-1],[165,165,165,165,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,54,55,56,57,55,58,58,58,58,58],[-1,-1,-1,-1,72,-1,-1,-1,-1,-1,-1,-1],[-1,-1,86,87,88,-1,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy1",
+          "persistentUuid": "fb2fa403-1a6e-4a90-b17e-e29532ff2375",
+          "width": 0,
+          "x": 1367,
+          "y": 218,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco4",
+          "persistentUuid": "b4e0abc0-86da-4e8b-b2c1-0292ae74d59e",
+          "width": 13,
+          "x": 1312,
+          "y": 231,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco4",
+          "persistentUuid": "502ac5ce-8fd0-4ac3-ad27-dd6e211754a6",
+          "width": 13,
+          "x": 1425,
+          "y": 231,
+          "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28473,6 +28535,28 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "deco3",
+          "texture": "assets\\Deco\\assets_village_TX Village Props8.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Deco4",
+          "texture": "assets\\assets_village_TX Village Props10.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -28495,6 +28579,9 @@
               },
               {
                 "objectName": "Orang"
+              },
+              {
+                "objectName": "deco3"
               }
             ]
           },
@@ -28550,6 +28637,9 @@
           },
           {
             "objectName": "BGBG2"
+          },
+          {
+            "objectName": "Deco4"
           }
         ]
       },
@@ -28629,6 +28719,16 @@
                 "=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Enemy1",
+                "Flippable",
+                "yes"
+              ]
             }
           ]
         },
@@ -28663,7 +28763,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player Shoot Enemy"
+          "comment": "Player Shoot Enemy3"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -29391,6 +29491,132 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Octopus\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy1",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy1",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco4",
+                    "Enemy1.PointX(\"Checker\")",
+                    "Enemy1.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy1",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy1",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Deco4",
+                    "Enemy1.PointX(\"Checker\")",
+                    "Enemy1.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
