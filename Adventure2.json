@@ -6245,6 +6245,30 @@
         "name": "assets\\Trap\\Trap5\\assets_Trap_Main Sprite_SpikeBall.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/g967_ucaj_210816.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\g967_ucaj_210816.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/g967_ucaj_2108162.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\g967_ucaj_2108162.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/q0v5_142a_211202.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\q0v5_142a_211202.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -24456,7 +24480,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49181757739517784,
+        "zoomFactor": 0.460254380951551,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24478,8 +24502,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 612,
-          "y": 533,
+          "x": 122,
+          "y": 854,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -25278,6 +25302,42 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1525,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BGBG",
+          "opacity": 179,
+          "persistentUuid": "8efeabd8-eb91-4313-88f0-97a41a30c0dc",
+          "width": 2370,
+          "x": -1126,
+          "y": -1957,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1527,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BGBG2",
+          "opacity": 179,
+          "persistentUuid": "5054ad5f-e310-4f2b-89b5-bda3dc1292b4",
+          "width": 2216,
+          "x": -309,
+          "y": -82,
+          "zOrder": -11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -25331,6 +25391,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -25343,9 +25405,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -28335,17 +28395,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Trap4",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -28402,6 +28451,28 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BGBG",
+          "texture": "assets\\g967_ucaj_210816.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BGBG2",
+          "texture": "assets\\q0v5_142a_211202.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -28454,6 +28525,9 @@
             "objectName": "BrokeBox"
           },
           {
+            "objectName": "BGBG"
+          },
+          {
             "objectName": "box"
           },
           {
@@ -28475,7 +28549,7 @@
             "objectName": "Gun3_ICONUI"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "BGBG2"
           }
         ]
       },
