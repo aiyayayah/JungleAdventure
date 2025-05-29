@@ -6309,6 +6309,18 @@
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/DungeonTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonTileset.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Tilemap/f469d4ca0e9db04881240e083c902868979588fa9b36e7017c19f4f111b6189c_DungeonTileset.png",
+          "name": "DungeonTileset.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -17690,7 +17702,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001948545,
+        "zoomFactor": 0.31119749424457044,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30927,7 +30939,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -30935,8 +30947,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4307168042001001,
+        "snap": true,
+        "zoomFactor": 0.4602543809515332,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30957,8 +30969,8 @@
           "name": "PlatformGround",
           "persistentUuid": "05296903-c984-494d-bf3a-937ad1326e1b",
           "width": 0,
-          "x": -5,
-          "y": 400,
+          "x": -32,
+          "y": 608,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
@@ -30979,8 +30991,8 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": 53,
-          "y": 326,
+          "x": 50,
+          "y": 562,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -31137,6 +31149,27 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "d033b954-4201-4da2-b850-77bfb093ed4d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":20,\"dimY\":10,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[180,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,184],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[196,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,197,198,199,200],[212,213,214,215,213,214,215,213,214,215,213,214,215,213,214,215,213,214,215,216]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31148,9 +31181,9 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
