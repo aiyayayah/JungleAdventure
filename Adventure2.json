@@ -30948,7 +30948,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2450980392156875,
+        "zoomFactor": 0.43071680420010194,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31201,7 +31201,7 @@
           "name": "PlatformGround",
           "persistentUuid": "5093d0c7-86f0-441e-80b4-c5e3e5873e71",
           "width": 0,
-          "x": 384,
+          "x": 576,
           "y": 768,
           "zOrder": 13,
           "numberProperties": [],
@@ -31244,13 +31244,97 @@
           "persistentUuid": "7858d8b7-4505-4776-961c-4bff21625b25",
           "width": 0,
           "x": -128,
-          "y": 800,
+          "y": 544,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,18]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "17e0bd75-4dba-4763-89b4-ac78922cfdcb",
+          "width": 0,
+          "x": 448,
+          "y": 704,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[9,10]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "93d93b71-449b-49c5-9063-52bba198cdfe",
+          "width": 0,
+          "x": 192,
+          "y": 608,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[9,10]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "b9d76063-e881-431d-adad-c5898fc4feb2",
+          "width": 0,
+          "x": 352,
+          "y": 640,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[7],[23]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformGround",
+          "persistentUuid": "56d8b2b7-c40c-4393-91b3-e00dcb974041",
+          "width": 0,
+          "x": 704,
+          "y": 832,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[224,225,225,225,225,225,225,225,225,225,225,225,225,226]]}]}"
             }
           ],
           "initialVariables": []
@@ -31265,9 +31349,9 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
