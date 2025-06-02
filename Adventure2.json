@@ -13425,55 +13425,2529 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Lives",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 150,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run16.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run17.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run18.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run19.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run20.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hitted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted20.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted21.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted22.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted23.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Die",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die76.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die77.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die78.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die79.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die80.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die81.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die82.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die83.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 19,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 19,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Lives",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 150,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run10.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run11.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run12.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run13.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run14.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run15.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hitted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted24.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted25.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted26.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted27.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Die",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die84.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die85.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die86.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die87.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die88.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die89.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die90.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die91.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 18,
+                      "y": 25.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 17,
+                        "y": 26
+                      },
+                      {
+                        "x": 0,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Lives",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 150,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run21.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run22.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run23.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run24.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run25.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run26.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hitted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted32.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted33.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted34.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted35.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Die",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die92.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die93.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die94.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die95.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die96.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die97.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die98.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die99.png",
+                  "points": [
+                    {
+                      "name": "Checker",
+                      "x": 21,
+                      "y": 23
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 25
+                      },
+                      {
+                        "x": 1,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "counters",
+        "children": [
+          {
+            "objectName": "counterScore"
+          },
+          {
+            "objectName": "counterLives"
+          },
+          {
+            "objectName": "counterCoins"
+          },
+          {
+            "objectName": "PlayerLife"
+          },
+          {
+            "objectName": "Coins"
+          }
+        ]
+      },
+      {
+        "folderName": "enemies",
+        "children": [
+          {
+            "objectName": "Enemy6"
+          },
+          {
+            "objectName": "Enemy5"
+          },
+          {
+            "objectName": "Enemy"
+          },
+          {
+            "objectName": "Enemy1"
+          },
+          {
+            "objectName": "Enemy4"
+          }
+        ]
+      },
+      {
         "objectName": "Player"
-      },
-      {
-        "objectName": "arrow"
-      },
-      {
-        "objectName": "counterScore"
-      },
-      {
-        "objectName": "Coins"
-      },
-      {
-        "objectName": "buttonRestart"
-      },
-      {
-        "objectName": "Ladder"
-      },
-      {
-        "objectName": "Enemy"
-      },
-      {
-        "objectName": "Enemy1"
       },
       {
         "objectName": "Gun3"
       },
       {
-        "objectName": "bullet"
+        "objectName": "PressE_TEXT"
+      },
+      {
+        "objectName": "arrow"
+      },
+      {
+        "objectName": "buttonRestart"
       },
       {
         "objectName": "buttonHome"
       },
       {
-        "objectName": "counterCoins"
+        "objectName": "Ladder"
       },
       {
-        "objectName": "counterLives"
-      },
-      {
-        "objectName": "PlayerLife"
-      },
-      {
-        "objectName": "PressE_TEXT"
+        "objectName": "bullet"
       },
       {
         "objectName": "Gun2_CONUNI"
@@ -14912,10 +17386,22 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.21216419721753,
+        "zoomFactor": 0.7619362677198632,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "enemies",
+          "objects": [
+            {
+              "name": "Enemy"
+            },
+            {
+              "name": "Enemy1"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "Score",
@@ -14939,8 +17425,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 120,
-          "y": 959,
+          "x": 129,
+          "y": 969,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -15090,22 +17576,6 @@
           "x": 1093,
           "y": 609,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GuideLadder",
-          "persistentUuid": "73648791-9da7-4639-be6d-4414123e1883",
-          "width": 0,
-          "x": 960,
-          "y": 192,
-          "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16067,110 +18537,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "movingPlatform",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "isFolded": true,
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 100,
-              "Height": 0,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 4,
-              "VerticalEdgeDuration": 1,
-              "Left": 1.00000000000091,
-              "Top": 1.00000000000091,
-              "Progress": 1.00000000000091,
-              "OldX": 1.00000000000091,
-              "OldY": 1.00000000000091,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
-            },
-            {
-              "name": "RectangleMovement2",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 100,
-              "Height": 0,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 3.5,
-              "VerticalEdgeDuration": 0.7,
-              "Left": 1.00000000000091,
-              "Top": 1.00000000000091,
-              "Progress": 1.00000000000091,
-              "OldX": 1.00000000000091,
-              "OldY": 1.00000000000091,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
-            }
-          ],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\platform\\movingPlatform.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 7
-                          },
-                          {
-                            "x": 0,
-                            "y": 7
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "LadderRight",
@@ -16790,9 +19156,6 @@
             "objectName": "Boundary"
           },
           {
-            "objectName": "movingPlatform"
-          },
-          {
             "objectName": "LadderLeft"
           },
           {
@@ -17361,7 +19724,7 @@
                 "guideWeapon1",
                 "Text",
                 "=",
-                "\"Press 1 to equip your default weapon\""
+                "\"Press 1 to equip your default weapon \n Press Q to shoot\""
               ]
             }
           ]
@@ -17533,10 +19896,31 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.31119749424457044,
+        "zoomFactor": 0.8700232859858703,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "enemies",
+          "objects": [
+            {
+              "name": "Enemy"
+            },
+            {
+              "name": "Enemy1"
+            },
+            {
+              "name": "Enemy4"
+            },
+            {
+              "name": "Enemy5"
+            },
+            {
+              "name": "Enemy6"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "Score",
@@ -17560,8 +19944,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 193,
-          "y": 396,
+          "x": 450,
+          "y": 587,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -18684,23 +21068,6 @@
           "x": 1505,
           "y": 452,
           "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Enemy7",
-          "persistentUuid": "b852a0c0-756b-419a-b5c8-a336d459ad14",
-          "width": 54,
-          "x": 1133,
-          "y": 822,
-          "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20353,2461 +22720,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Enemy4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Lives",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 150,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run16.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run17.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run18.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run19.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Run\\Run20.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hitted",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted20.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted21.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted22.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Hitted\\Hitted23.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Die",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die76.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die77.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die78.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die79.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die80.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die81.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die82.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\1 Pink_Monster\\Die\\Die83.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 19,
-                          "y": 25
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 1
-                          },
-                          {
-                            "x": 19,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Enemy5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Lives",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 150,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run10.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run11.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run12.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run13.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run14.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Run\\Run15.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hitted",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted24.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted25.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted26.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Hitted\\Hitted27.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Die",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die84.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die85.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die86.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die87.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die88.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die89.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die90.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\3 Dude_Monster\\Die\\Die91.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 18,
-                          "y": 25.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 26
-                          },
-                          {
-                            "x": 0,
-                            "y": 26
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Enemy6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Lives",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 150,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run21.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run22.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run23.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run24.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run25.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Run\\Run26.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hitted",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted32.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted33.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted34.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Hitted\\Hitted35.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Die",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die92.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die93.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die94.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die95.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die96.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die97.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die98.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\2 Owlet_Monster\\Die\\Die99.png",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 21,
-                          "y": 23
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 25
-                          },
-                          {
-                            "x": 1,
-                            "y": 25
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -22815,426 +22727,6 @@
           "effects": [],
           "behaviors": [],
           "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Enemy7",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "isFolded": true,
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 800,
-              "ignoreDefaultControls": true,
-              "maxSpeed": 200,
-              "movementAngleOffset": 0,
-              "rotateObject": true,
-              "viewpoint": "TopDown"
-            }
-          ],
-          "animations": [
-            {
-              "name": "assets\\Enemy\\bat\\Bat-IdleFly",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly2",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly3",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly4",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly5",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly6",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly7",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly8",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\bat\\Bat-IdleFly9",
-                      "points": [
-                        {
-                          "name": "Checker",
-                          "x": 17,
-                          "y": 11
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 3
-                          },
-                          {
-                            "x": 34,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -23274,18 +22766,6 @@
                 "objectName": "Bush1"
               }
             ]
-          },
-          {
-            "objectName": "Enemy4"
-          },
-          {
-            "objectName": "Enemy5"
-          },
-          {
-            "objectName": "Enemy6"
-          },
-          {
-            "objectName": "Enemy7"
           },
           {
             "objectName": "PassThrough2"
@@ -24075,7 +23555,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Enemy",
+                    "enemies",
                     "",
                     "",
                     ""
@@ -24470,56 +23950,6 @@
                 "Boundary.Y()",
                 "",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BehaviorActivated"
-              },
-              "parameters": [
-                "Enemy7",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateUpKey"
-              },
-              "parameters": [
-                "Enemy7",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::SimulateDownKey"
-              },
-              "parameters": [
-                "Enemy7",
-                "TopDownMovement"
               ]
             }
           ]
