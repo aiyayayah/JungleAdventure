@@ -6337,6 +6337,22 @@
         "name": "colliderWeapon1",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/colliderOpenChest.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "colliderOpenChest",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_gun_Diana Raptor 4_resize.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\gun\\Diana Raptor 4_resize",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13194,11 +13210,11 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
+      "height": 30,
       "name": "Gun2_CONUNI",
       "texture": "assets\\gun\\Diana Raptor 4.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "width": 30,
       "variables": [
         {
           "name": "visible",
@@ -13251,16 +13267,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\gun\\Diana Raptor 4_resize",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\gun\\Diana Raptor 4_resize.png",
+                  "image": "assets\\gun\\Diana Raptor 4_resize",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13276,20 +13293,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 3
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 40,
-                        "y": 3
+                        "x": 20,
+                        "y": 0
                       },
                       {
-                        "x": 40,
-                        "y": 19
+                        "x": 20,
+                        "y": 11
                       },
                       {
-                        "x": 11,
-                        "y": 19
+                        "x": 0,
+                        "y": 11
                       }
                     ]
                   ]
@@ -17386,7 +17403,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677198632,
+        "zoomFactor": 1.2530387740591624,
         "windowMask": false
       },
       "objectsGroups": [
@@ -17425,27 +17442,9 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 129,
-          "y": 969,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 33,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco4",
-          "opacity": 179,
-          "persistentUuid": "c7a5a060-2742-41b0-9d2b-315655220216",
-          "width": 92,
-          "x": 918,
-          "y": 255,
-          "zOrder": 1,
+          "x": 845,
+          "y": 167,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17461,8 +17460,8 @@
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 1591,
-          "y": 33,
+          "x": 1073,
+          "y": 66,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -17517,7 +17516,7 @@
           "name": "SignBoard",
           "persistentUuid": "a705d0e7-4142-4b5e-b460-b8012b71daa7",
           "width": 44,
-          "x": 29,
+          "x": 28,
           "y": 946,
           "zOrder": 1,
           "numberProperties": [],
@@ -17612,7 +17611,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,108,17,17,17,17,17,17,18],[16,17,91,17,17,17,17,17,123,17,17,17,123,18],[32,33,33,33,33,33,33,33,33,33,33,33,254,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -17781,6 +17780,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "NewTileMap",
           "persistentUuid": "d9aff354-4de6-48df-ae32-2772118a5429",
           "width": 0,
@@ -17932,7 +17932,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "colliderWeapon1",
+          "name": "colliderPressOne",
           "persistentUuid": "e74caf8e-8df4-4687-94ca-33573d5d4f85",
           "width": 0,
           "x": 977,
@@ -17948,12 +17948,212 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "colliderWeapon1",
+          "name": "colliderPressOne",
           "persistentUuid": "10680bda-2904-4c65-8d55-67c09a7bc9c5",
           "width": 0,
           "x": 1116,
           "y": 498,
           "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "1317e767-a7c1-46bc-8ba3-3c34dd747554",
+          "width": 0,
+          "x": 260,
+          "y": 319,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderPressOne",
+          "persistentUuid": "8ebcb3cb-dc2a-416e-bf9b-4b7d467f097f",
+          "width": 0,
+          "x": 561,
+          "y": 137,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderPressOne",
+          "persistentUuid": "ef71366c-fa3b-40fa-9ca2-b51fac104e24",
+          "width": 59,
+          "x": 241,
+          "y": 282,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideOpenChest",
+          "persistentUuid": "34b6048c-d210-4481-82b3-a35fe284280d",
+          "width": 0,
+          "x": 194,
+          "y": 272,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderOpenChest",
+          "persistentUuid": "b68fe040-5399-4ac6-9466-c8931b954765",
+          "width": 0,
+          "x": 242,
+          "y": 304,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gun2_CONUNI",
+          "persistentUuid": "1c9832b9-33de-42dc-b8ad-cd628244f0b7",
+          "width": 60,
+          "x": 242,
+          "y": 326,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideEquip",
+          "persistentUuid": "4d9ab24c-34e7-4139-a329-16b79acbc768",
+          "width": 0,
+          "x": 257,
+          "y": 280,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "cfb1dd68-5f77-49e6-aa10-044d81b96c24",
+          "width": 0,
+          "x": 768,
+          "y": 192,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":12,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[192,225,225,225,225,225,225,225,225,225,225,194]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "persistentUuid": "4266e9ed-3bcc-47ec-aa86-6d1a59e9687a",
+          "width": 44,
+          "x": 232,
+          "y": 54,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "1f613c6b-50d4-4d39-a800-4d751556d8d1",
+          "width": 0,
+          "x": 246,
+          "y": 87,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "b6ed8594-4dfc-451f-aef4-8a29c70cdbc3",
+          "width": 0,
+          "x": 646,
+          "y": 86,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "fac4453f-60c8-489e-9fb2-3f5e5e6aa19e",
+          "width": 0,
+          "x": 377,
+          "y": 79,
+          "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18049,128 +18249,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Bush1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\Bush\\assets_village_TX Village Props4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 29
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tree1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\Tree\\assets_village_TX Village Props5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 153,
-                            "y": 0
-                          },
-                          {
-                            "x": 153,
-                            "y": 162
-                          },
-                          {
-                            "x": 0,
-                            "y": 162
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "Platform7",
@@ -18186,67 +18264,6 @@
               "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 155,
-                            "y": 0
-                          },
-                          {
-                            "x": 155,
-                            "y": 59
-                          },
-                          {
-                            "x": 0,
-                            "y": 59
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -18362,67 +18379,6 @@
                           {
                             "x": 0,
                             "y": 10
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco8",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Village Props11",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 11,
-                            "y": 0
-                          },
-                          {
-                            "x": 11,
-                            "y": 7
-                          },
-                          {
-                            "x": 0,
-                            "y": 7
                           }
                         ]
                       ]
@@ -19070,13 +19026,428 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "colliderWeapon1",
+          "name": "colliderPressOne",
           "texture": "colliderWeapon1",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Chest",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\idle\\assets_village_TX Chest Animation.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideOpenChest",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colliderOpenChest",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "colliderOpenChest",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "colliderOpenChest",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideEquip",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19089,7 +19460,10 @@
                 "objectName": "colliderLadder"
               },
               {
-                "objectName": "colliderWeapon1"
+                "objectName": "colliderPressOne"
+              },
+              {
+                "objectName": "colliderOpenChest"
               }
             ]
           },
@@ -19113,6 +19487,12 @@
               },
               {
                 "objectName": "GuideLadder"
+              },
+              {
+                "objectName": "guideOpenChest"
+              },
+              {
+                "objectName": "guideEquip"
               }
             ]
           },
@@ -19126,22 +19506,10 @@
             "objectName": "Ladder"
           },
           {
-            "objectName": "Bush1"
-          },
-          {
-            "objectName": "Tree1"
-          },
-          {
-            "objectName": "Deco4"
-          },
-          {
             "objectName": "Deco5"
           },
           {
             "objectName": "Deco7"
-          },
-          {
-            "objectName": "Deco8"
           },
           {
             "objectName": "NewTileMap"
@@ -19151,6 +19519,9 @@
           },
           {
             "objectName": "Platform1"
+          },
+          {
+            "objectName": "Chest"
           },
           {
             "objectName": "Boundary"
@@ -19190,6 +19561,29 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Gun2_CONUNI"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -19558,27 +19952,6 @@
           ]
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "Player.X()-500",
-                "Player.X()-1000",
-                "Player.X()+1000",
-                "Boundary.Y()",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -19603,6 +19976,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"t\""
               ]
             }
           ],
@@ -19632,7 +20014,7 @@
               },
               "parameters": [
                 "",
-                "\"sherry\"",
+                "\"ky\"",
                 ""
               ]
             },
@@ -19652,6 +20034,179 @@
               "parameters": [
                 "Player",
                 "PlatformerObject",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Chest"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Chest",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"o\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Chest",
+                "Animation",
+                "=",
+                "\"open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Gun2_CONUNI",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chest",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Gun2_CONUNI",
+                "visible",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideEquip",
+                "Text",
+                "=",
+                "\"Press E to equip the weapon\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "guideOpenChest"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Gun2_CONUNI",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Gun2_CONUNI",
+                "visible",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasGun1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Gun2_CONUNI",
                 ""
               ]
             }
@@ -19708,7 +20263,7 @@
               },
               "parameters": [
                 "Player",
-                "colliderWeapon1",
+                "colliderPressOne",
                 "",
                 "",
                 ""
@@ -19725,6 +20280,64 @@
                 "Text",
                 "=",
                 "\"Press 1 to equip your default weapon \n Press Q to shoot\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "colliderOpenChest",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideOpenChest",
+                "Text",
+                "=",
+                "\"Press O to open the chest\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "NewTileMap",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
               ]
             }
           ]
@@ -19843,14 +20456,6 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RectangleMovement",
-          "type": "RectangleMovement::RectangleMovement"
-        },
-        {
-          "name": "RectangleMovement2",
-          "type": "RectangleMovement::RectangleMovement"
-        },
-        {
           "name": "RemapForPlatformer",
           "type": "BehaviorRemapper::RemapForPlatformer"
         },
@@ -19896,7 +20501,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859858703,
+        "zoomFactor": 1.295291655123803,
         "windowMask": false
       },
       "objectsGroups": [
@@ -21084,22 +21689,6 @@
           "x": 1464,
           "y": 625,
           "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PressE_TEXT",
-          "persistentUuid": "86cf9c29-9ddc-4b1a-b836-72f9b9103a18",
-          "width": 0,
-          "x": 78,
-          "y": 710,
-          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22716,17 +23305,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -22774,9 +23352,6 @@
             "objectName": "Deco5"
           },
           {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "Deco7"
           },
           {
@@ -22789,9 +23364,6 @@
             "objectName": "Platform1"
           },
           {
-            "objectName": "Boundary"
-          },
-          {
             "objectName": "movingPlatform"
           },
           {
@@ -22802,6 +23374,9 @@
           },
           {
             "objectName": "Left"
+          },
+          {
+            "objectName": "Boundary"
           },
           {
             "objectName": "SignBoard"
@@ -22859,6 +23434,34 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Teleport2\""
               ]
             },
             {
@@ -23721,7 +24324,7 @@
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"o\""
               ]
             }
           ],
@@ -23868,6 +24471,15 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"t\""
+              ]
             }
           ],
           "actions": [
@@ -23934,27 +24546,6 @@
           ]
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "Player.X()-500",
-                "Player.X()-1000",
-                "Player.X()+1000",
-                "Boundary.Y()",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -23996,41 +24587,6 @@
                 "no",
                 "50",
                 "1"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\playerWalk.mp3",
-                "",
-                "80",
-                ""
               ]
             }
           ]
@@ -29592,6 +30148,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"t\""
               ]
             }
           ],
