@@ -6329,6 +6329,14 @@
         "name": "..\\..\\..\\..\\..\\..\\..\\..\\Download\\cavesofgallet\\cavesofgallet_tiles.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/colliderWeapon1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "colliderWeapon1",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13357,6 +13365,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bc1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\b3.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6053,
+                        "y": 0
+                      },
+                      {
+                        "x": 6053,
+                        "y": 3672
+                      },
+                      {
+                        "x": 0,
+                        "y": 3672
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13415,6 +13483,9 @@
       },
       {
         "objectName": "BulletGun2"
+      },
+      {
+        "objectName": "bc1"
       }
     ]
   },
@@ -14841,7 +14912,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001948436,
+        "zoomFactor": 1.21216419721753,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15350,6 +15421,72 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1997,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bc1",
+          "opacity": 179,
+          "persistentUuid": "80eac58b-1bec-4eed-8e40-2122161a0913",
+          "width": 3404,
+          "x": -912,
+          "y": -498,
+          "zOrder": -20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideWeapon1",
+          "persistentUuid": "51d571d8-cc48-4d39-af5c-a964fd391524",
+          "width": 0,
+          "x": 795,
+          "y": 491,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderWeapon1",
+          "persistentUuid": "e74caf8e-8df4-4687-94ca-33573d5d4f85",
+          "width": 0,
+          "x": 977,
+          "y": 541,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderWeapon1",
+          "persistentUuid": "10680bda-2904-4c65-8d55-67c09a7bc9c5",
+          "width": 0,
+          "x": 1116,
+          "y": 498,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15564,67 +15701,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Flower",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\Flower.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 88,
-                            "y": 0
-                          },
-                          {
-                            "x": 88,
-                            "y": 63
-                          },
-                          {
-                            "x": 0,
-                            "y": 63
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "Platform7",
@@ -15640,67 +15716,6 @@
               "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 90
-                          },
-                          {
-                            "x": 0,
-                            "y": 90
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -15949,158 +15964,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite2",
-          "texture": "assets\\village\\TX Village Props.png5",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 96,
-                            "y": 0
-                          },
-                          {
-                            "x": 96,
-                            "y": 87
-                          },
-                          {
-                            "x": 0,
-                            "y": 87
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\village\\TX Village Props14",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 90,
-                            "y": 0
-                          },
-                          {
-                            "x": 90,
-                            "y": 49
-                          },
-                          {
-                            "x": 0,
-                            "y": 49
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "NewTileMap",
           "type": "TileMap::SimpleTileMap",
@@ -16122,128 +15985,6 @@
             "tileSize": 32,
             "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,28,65,66,80,96,97,98,82,64,95,111,127,63,9"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco9",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 33,
-                            "y": 0
-                          },
-                          {
-                            "x": 33,
-                            "y": 19
-                          },
-                          {
-                            "x": 0,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deco10",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\village\\TX Village Props",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Deco\\assets_village_TX Village Props17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 0
-                          },
-                          {
-                            "x": 21,
-                            "y": 15
-                          },
-                          {
-                            "x": 0,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -16917,22 +16658,103 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideWeapon1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "colliderWeapon1",
+          "texture": "colliderWeapon1",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "emptyCollider",
+            "children": [
+              {
+                "objectName": "colliderLadder"
+              },
+              {
+                "objectName": "colliderWeapon1"
+              }
+            ]
+          },
+          {
+            "folderName": "textGuide",
+            "children": [
+              {
+                "objectName": "guideLadderJump"
+              },
+              {
+                "objectName": "guideWeapon1"
+              },
+              {
+                "objectName": "guideJump"
+              },
+              {
+                "objectName": "guideMovement"
+              },
+              {
+                "objectName": "GuideTeleport"
+              },
+              {
+                "objectName": "GuideLadder"
+              }
+            ]
+          },
+          {
             "objectName": "PassThrough2"
           },
           {
             "objectName": "Platform7"
-          },
-          {
-            "objectName": "NewSprite4"
-          },
-          {
-            "objectName": "NewTiledSprite2"
           },
           {
             "objectName": "Ladder"
@@ -16942,18 +16764,6 @@
           },
           {
             "objectName": "Tree1"
-          },
-          {
-            "objectName": "Flower"
-          },
-          {
-            "objectName": "Deco1"
-          },
-          {
-            "objectName": "Deco2"
-          },
-          {
-            "objectName": "Deco3"
           },
           {
             "objectName": "Deco4"
@@ -16968,16 +16778,7 @@
             "objectName": "Deco8"
           },
           {
-            "objectName": "Deco9"
-          },
-          {
-            "objectName": "Deco10"
-          },
-          {
             "objectName": "NewTileMap"
-          },
-          {
-            "objectName": "colliderLadder"
           },
           {
             "objectName": "LadderRight"
@@ -17002,26 +16803,6 @@
           },
           {
             "objectName": "SignBoard"
-          },
-          {
-            "objectName": "guideLadderJump"
-          },
-          {
-            "folderName": "textGuide",
-            "children": [
-              {
-                "objectName": "guideJump"
-              },
-              {
-                "objectName": "guideMovement"
-              },
-              {
-                "objectName": "GuideTeleport"
-              },
-              {
-                "objectName": "GuideLadder"
-              }
-            ]
           }
         ]
       },
@@ -17514,6 +17295,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Collider text"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -17539,6 +17332,36 @@
                 "Text",
                 "=",
                 "\"Jump once to reach the platform\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "colliderWeapon1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideWeapon1",
+                "Text",
+                "=",
+                "\"Press 1 to equip your default weapon\""
               ]
             }
           ]
@@ -22985,66 +22808,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "bc1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\b3.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 6053,
-                            "y": 0
-                          },
-                          {
-                            "x": 6053,
-                            "y": 3672
-                          },
-                          {
-                            "x": 0,
-                            "y": 3672
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -23547,9 +23310,6 @@
           },
           {
             "objectName": "Boundary"
-          },
-          {
-            "objectName": "bc1"
           },
           {
             "objectName": "movingPlatform"
@@ -25016,7 +24776,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2619063041228557,
+        "zoomFactor": 0.2990598990848316,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30956,7 +30716,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44524071700883566,
+        "zoomFactor": 0.4030748496881428,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31381,10 +31141,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
