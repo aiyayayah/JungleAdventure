@@ -6225,7 +6225,7 @@
       {
         "file": "assets/Trap/Main Sprite/Suriken.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Trap/Main Sprite/Suriken.png\",\"extension\":\".png\"}",
         "name": "assets\\Trap\\Main Sprite\\Suriken.png",
         "smoothed": false,
         "userAdded": false
@@ -6352,6 +6352,228 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\gun\\Diana Raptor 4_resize",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/colliderTeleport.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "colliderTeleport",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Trap_Main Sprite_Suriken15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Trap\\Main Sprite\\Suriken15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Boundary/assets_Trap_Main Sprite_Suriken15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/buttonClick.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\buttonClick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/tutorial.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\tutorial.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -15897,6 +16119,318 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Boundary2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -15968,6 +16502,9 @@
       },
       {
         "objectName": "Gun2_CONUNI"
+      },
+      {
+        "objectName": "Boundary2"
       },
       {
         "objectName": "Gun2"
@@ -16721,9 +17258,9 @@
           "textAlignment": "left",
           "characterSize": 60,
           "color": {
-            "b": 42,
-            "g": 87,
-            "r": 139
+            "b": 25,
+            "g": 63,
+            "r": 107
           },
           "content": {
             "bold": false,
@@ -16744,7 +17281,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 60,
-            "color": "139;87;42"
+            "color": "107;63;25"
           }
         },
         {
@@ -17150,6 +17687,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\menu.mp3",
+                "1",
+                "yes",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
@@ -17184,9 +17734,35 @@
                 "startButton",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -17210,9 +17786,35 @@
                 "level1Button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -17236,9 +17838,35 @@
                 "level2Button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -17262,9 +17890,35 @@
                 "level3Button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -17403,7 +18057,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2530387740591624,
+        "zoomFactor": 0.495084007374962,
         "windowMask": false
       },
       "objectsGroups": [
@@ -17442,8 +18096,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 845,
-          "y": 167,
+          "x": 1122,
+          "y": 564,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -17896,15 +18550,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1997,
+          "height": 1346,
           "keepRatio": true,
           "layer": "",
           "name": "bc1",
           "opacity": 179,
           "persistentUuid": "80eac58b-1bec-4eed-8e40-2122161a0913",
-          "width": 3404,
-          "x": -912,
-          "y": -498,
+          "width": 2044,
+          "x": -211,
+          "y": -155,
           "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
@@ -18154,6 +18808,1955 @@
           "x": 377,
           "y": 79,
           "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideTeleport",
+          "persistentUuid": "4e886a9a-45ad-40fb-9562-4808298d6b88",
+          "width": 0,
+          "x": 1166,
+          "y": 134,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonHome",
+          "persistentUuid": "9cb809a7-76d0-4699-a043-a52cde7d3c74",
+          "width": 96,
+          "x": 1416,
+          "y": 46,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonRestart",
+          "persistentUuid": "5ebe3fb5-cee3-4d32-ba5a-50d791c89a66",
+          "width": 96,
+          "x": 1544,
+          "y": 46,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterCoins",
+          "persistentUuid": "95496331-8487-4dbe-8684-9b023a3d1ae3",
+          "width": 64,
+          "x": 28,
+          "y": 33,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterScore",
+          "persistentUuid": "469349a3-22ea-47e2-bf82-3fd6b44fc0a3",
+          "width": 128,
+          "x": 116,
+          "y": 30,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterLives",
+          "persistentUuid": "091905d8-775b-407a-9096-bfbe762f18df",
+          "width": 0,
+          "x": 32,
+          "y": 114,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "ea5a7003-c159-4a7c-90ab-d0403ec74843",
+          "width": 64,
+          "x": 144,
+          "y": 114,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "fcf5b462-84dd-46e4-95de-dde72aeb418f",
+          "width": 64,
+          "x": 228,
+          "y": 114,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "eda1a558-8f43-402e-8b92-7a1601710a68",
+          "width": 64,
+          "x": 312,
+          "y": 114,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "145e530f-ca0f-4825-86a7-85feb5bb1520",
+          "width": 0,
+          "x": -1120,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "56d6d857-5b1c-471e-8cc4-984d1d7efd60",
+          "width": 0,
+          "x": -1088,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "3366cc56-9772-49fa-9026-ab5385c910ba",
+          "width": 0,
+          "x": -1056,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e48fcc15-9aa8-4b1d-80b4-921900ee70ae",
+          "width": 0,
+          "x": -1024,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f9fd9936-17f7-49dc-a66b-4ddfc69250a8",
+          "width": 0,
+          "x": -992,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "936e78a0-6e31-463e-83ba-e86a3594d148",
+          "width": 0,
+          "x": -960,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "40ea2a25-685f-49ea-bce0-761d2856b046",
+          "width": 0,
+          "x": -928,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "4b93a4e9-5876-4d53-82f2-01cab668b164",
+          "width": 0,
+          "x": -896,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "0d304620-e9fa-442f-a80d-93602a1258b2",
+          "width": 0,
+          "x": -864,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "cd3da249-45e9-4d68-8d82-369918dfd791",
+          "width": 0,
+          "x": -832,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "1ba8fda1-b8ba-4977-a2f1-28202238aa92",
+          "width": 0,
+          "x": -800,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "01e854fd-9cf6-4daa-afbd-ca41bbc514d0",
+          "width": 0,
+          "x": -768,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "d0d752ed-a285-4808-aa44-55358a69bed4",
+          "width": 0,
+          "x": -736,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "bcbdb1d3-4336-482b-a3ee-ddf9ac5fc4ef",
+          "width": 0,
+          "x": -704,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "b4eb7877-8ad8-445e-aa4b-d2b1fa1335b5",
+          "width": 0,
+          "x": -672,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "8acc792e-95a2-4f67-aca0-b2db7e668503",
+          "width": 0,
+          "x": -640,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "23651125-cb11-4982-8e78-92227a394e43",
+          "width": 0,
+          "x": -608,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "571cfa8a-2b64-4a1b-bfed-e8cd750dec8f",
+          "width": 0,
+          "x": -1120,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "776fa02e-b76a-411c-a511-8ff964b0b644",
+          "width": 0,
+          "x": -1088,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "88ec860a-da6b-45a7-b2a9-2dc413780f1f",
+          "width": 0,
+          "x": -1056,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "b6e92550-6573-434d-8b79-e3a001d46983",
+          "width": 0,
+          "x": -1024,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "66793f79-9c52-4ce7-b328-df1c0950018a",
+          "width": 0,
+          "x": -992,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "b42d4a97-2651-4663-bf06-8f1efe5b510f",
+          "width": 0,
+          "x": -960,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "40ca9f2c-db93-441e-be0e-a67205dd4ee7",
+          "width": 0,
+          "x": -928,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "379a7e8a-69c9-402a-b40b-b99e6636ef10",
+          "width": 0,
+          "x": -896,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "c77090d7-ce5a-4b2c-8df6-4f565e662c10",
+          "width": 0,
+          "x": -864,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "394f2f47-a0e0-4b65-865c-c723dc6ba970",
+          "width": 0,
+          "x": -832,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "2b447d1a-a2e3-484d-8cfb-4a95dabff859",
+          "width": 0,
+          "x": -800,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "89f9b708-4bdc-4db0-8cea-c2d1e5390932",
+          "width": 0,
+          "x": -768,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "0f0df3d4-eaf0-4d5e-9975-23078f398493",
+          "width": 0,
+          "x": -736,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "2ca1bc17-9b17-4138-802c-18a6a39e8977",
+          "width": 0,
+          "x": -704,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "24366ca8-8ecf-49f3-b618-8be30d86df09",
+          "width": 0,
+          "x": -672,
+          "y": 1280,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "38c65af0-5095-47ac-88ee-e2061f18351f",
+          "width": 0,
+          "x": -640,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "0b9a4349-8bd7-47ec-af29-4d06780a5218",
+          "width": 0,
+          "x": -608,
+          "y": 1280,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "c704c002-7808-4b62-9ece-5c6f2760ae15",
+          "width": 0,
+          "x": -320,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "0576986f-e85e-4d28-97ea-a6a931daa10e",
+          "width": 0,
+          "x": -192,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "80f003db-72db-49c0-83b8-fa32cb231ef2",
+          "width": 0,
+          "x": -288,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "9b45e18a-5ed6-4b7a-a0b2-dd6d2436b4c0",
+          "width": 0,
+          "x": -256,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "cd3f670c-b647-43dc-a0c2-00489fbfb91b",
+          "width": 0,
+          "x": -224,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "157a78e2-3d01-441c-b4e9-25950e52397b",
+          "width": 0,
+          "x": -160,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "2112d358-185a-4166-9771-ae521c4a8843",
+          "width": 0,
+          "x": -128,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "6a690427-1590-453c-a97d-c06337a06bf6",
+          "width": 0,
+          "x": 0,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "2954292f-f300-4f02-ba15-6be776ddd0ae",
+          "width": 0,
+          "x": -96,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "2f0e4a9c-2f9b-4373-b5d8-47fc1c01c872",
+          "width": 0,
+          "x": -64,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "e7b76307-328e-4e99-8514-236e619a6c43",
+          "width": 0,
+          "x": -32,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "4ac6f349-8844-43f1-8d21-935b08d2ca45",
+          "width": 0,
+          "x": 32,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "5a1c2d4b-57a4-471e-9f6e-6a19f6ef8db5",
+          "width": 0,
+          "x": 64,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "7f9d5b38-bf12-4d02-907b-9f5fcb3c2533",
+          "width": 0,
+          "x": 192,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "36b3c077-ec4f-4181-95b4-3df85277c74d",
+          "width": 0,
+          "x": 96,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "526e6709-e749-40f9-a2db-1ecb07898fcf",
+          "width": 0,
+          "x": 128,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "6a65aa3e-c203-40a7-8a91-662287de146e",
+          "width": 0,
+          "x": 160,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "ee427e13-93a0-42b7-937d-6d92a90044de",
+          "width": 0,
+          "x": 224,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "e5372e94-460d-4bc4-bee3-2108bf4cb67e",
+          "width": 0,
+          "x": 256,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "56b6a76b-06ae-48c3-9e07-1a896d87e088",
+          "width": 0,
+          "x": 384,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "4dd7cbe0-63d9-4523-9526-064aeb5dad9b",
+          "width": 0,
+          "x": 288,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "2085c45c-9a1f-4648-bca0-f6d078ba914f",
+          "width": 0,
+          "x": 320,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "37fd4ada-e8f6-4928-8580-51c32fd6567c",
+          "width": 0,
+          "x": 352,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "d31b24b9-8dae-4d8c-9e74-bae5b96e8035",
+          "width": 0,
+          "x": 416,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "37f1ff61-ea36-4933-b7ba-513dfd5e09d0",
+          "width": 0,
+          "x": 448,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "e14aef35-4baf-4c33-929b-cb44eb72452d",
+          "width": 0,
+          "x": 576,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "fca583dd-1e59-48e4-a1e6-668fc489515d",
+          "width": 0,
+          "x": 480,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "21f95385-2e72-4efc-8acd-b47b65dc5c70",
+          "width": 0,
+          "x": 512,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "001ae7d3-4298-48a4-8928-d95efd24fc0f",
+          "width": 0,
+          "x": 544,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "53c870bd-61d5-4412-850f-ade39c51c932",
+          "width": 0,
+          "x": 608,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "5749f37d-bd78-4478-a801-c22402123e2b",
+          "width": 0,
+          "x": 640,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "679b801a-38b0-455c-b3de-c79bb0ea2dd7",
+          "width": 0,
+          "x": 768,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "deb2f18a-bb0e-4a43-9104-00fdaac200d0",
+          "width": 0,
+          "x": 672,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "2226242e-7c6d-4cef-a0fa-11110b1ce91a",
+          "width": 0,
+          "x": 704,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "84804ba2-ae58-4d25-8a7f-547fc782d366",
+          "width": 0,
+          "x": 736,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "0dcb7643-4341-4eda-a32d-d216ad094d95",
+          "width": 0,
+          "x": 800,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "910cff9a-b794-4377-bbb7-41ac30590834",
+          "width": 0,
+          "x": 832,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "d1477860-879f-42dc-bcfb-ea671be92e84",
+          "width": 0,
+          "x": 960,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "72778858-6842-404f-9a5d-2e5de345aa49",
+          "width": 0,
+          "x": 864,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "fb8f7753-fb72-4357-b7f7-6ad712f354c9",
+          "width": 0,
+          "x": 896,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "582cec6c-61ea-46bf-b3ff-c058bd0566b4",
+          "width": 0,
+          "x": 928,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "ca1a4528-353d-46f5-81e3-772caf258f12",
+          "width": 0,
+          "x": 992,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "4b6f8423-66c5-4b43-86ca-ba500a7f4a51",
+          "width": 0,
+          "x": 1024,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "94643c9b-5a66-4272-95ca-184609515042",
+          "width": 0,
+          "x": 1152,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "9070fcb6-308d-4902-a517-e4208979890d",
+          "width": 0,
+          "x": 1056,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "d89b5acb-7d75-4c60-9874-d1055de246aa",
+          "width": 0,
+          "x": 1088,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "c716ec08-a4ed-4e7e-baac-2522fc84a45d",
+          "width": 0,
+          "x": 1120,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "090af160-4ffe-413f-9ddc-1a16e93e24e1",
+          "width": 0,
+          "x": 1184,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "d28b910b-89b5-420e-8352-35fdb1a31d9f",
+          "width": 0,
+          "x": 1216,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "22625e3e-302f-4830-999f-bb07896a7022",
+          "width": 0,
+          "x": 1344,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "04a151d2-b2eb-4198-ba17-827f118d74f1",
+          "width": 0,
+          "x": 1248,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "c3acdda6-d00c-4b91-8447-b2d8b67ea9bf",
+          "width": 0,
+          "x": 1280,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "fdcbf328-4d1f-4be6-8701-e4d826818fb4",
+          "width": 0,
+          "x": 1312,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "99d0600f-a2ba-483c-a75f-7d39123b803d",
+          "width": 0,
+          "x": 1376,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "c9b2f955-244f-4cdd-a2f6-b298ed7c46ab",
+          "width": 0,
+          "x": 1408,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "09699936-3581-476f-9a52-791b8e4ea50c",
+          "width": 0,
+          "x": 1536,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "addaa5d4-46bc-4470-9917-3a2596f958ea",
+          "width": 0,
+          "x": 1440,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "cd09524a-b8aa-4c7f-83bf-d5b2dcc0a3c7",
+          "width": 0,
+          "x": 1472,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "1b5c88f8-27fc-43ef-9e3b-e53859276c03",
+          "width": 0,
+          "x": 1504,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "93a87437-5654-4c46-a352-62dab2e60bbe",
+          "width": 0,
+          "x": 1568,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "3014ed2b-45d1-41b5-a6c7-7eda6095af83",
+          "width": 0,
+          "x": 1600,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "d8e02dc4-21d5-4bfa-9de0-84b679899632",
+          "width": 0,
+          "x": 1728,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "05e3c0d5-c308-4dea-ab91-5bde278a5ddd",
+          "width": 0,
+          "x": 1632,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "c8e9d1e4-4e2d-437a-9703-eaaf3c269538",
+          "width": 0,
+          "x": 1664,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "fde9912a-0989-4d6c-9d76-0302bf304b5f",
+          "width": 0,
+          "x": 1696,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "0309706e-2c35-49df-b4b9-0ae79447305c",
+          "width": 0,
+          "x": 1760,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "129ec36b-196c-4eaa-9775-bca4f2de544b",
+          "width": 0,
+          "x": 1792,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "f9817466-8986-4578-82a1-51258cf0d4e7",
+          "width": 0,
+          "x": 1920,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "a4f312ec-4995-4726-9a83-01a81e0f0d18",
+          "width": 0,
+          "x": 1824,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "f884abac-f311-4134-aa07-8ef523096ab3",
+          "width": 0,
+          "x": 1856,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "32021992-8809-497f-913f-e034d052a086",
+          "width": 0,
+          "x": 1888,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary2",
+          "persistentUuid": "42653b29-ab82-44e2-85e7-107279dba5f6",
+          "width": 0,
+          "x": 1952,
+          "y": 1088,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "f0c999ab-8844-4686-baaf-784f2f59c17f",
+          "width": 33,
+          "x": 883,
+          "y": 866,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "9577e2f1-28fb-4a05-9d6e-8c8ff02af7c1",
+          "width": 33,
+          "x": 786,
+          "y": 896,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "7823c60c-4407-4b76-8b45-ca1c2cbee956",
+          "width": 33,
+          "x": 604,
+          "y": 541,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 126,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colliderTeleport",
+          "persistentUuid": "62c9ff98-2853-4ed9-9f97-f2b34b94a910",
+          "width": 80,
+          "x": 1072,
+          "y": 62,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideWeaponLis",
+          "persistentUuid": "73c6f475-f7a6-4091-97f8-7da2f91fc467",
+          "width": 0,
+          "x": 218,
+          "y": 234,
+          "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18767,48 +21370,6 @@
             "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "center",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "GuideTeleport",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Go to the Stautue to teleport",
-          "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Go to the Stautue to teleport",
-            "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -19448,6 +22009,132 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "colliderTeleport",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "colliderTeleport",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "colliderTeleport",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideTeleport",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideWeaponLis",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19456,6 +22143,9 @@
           {
             "folderName": "emptyCollider",
             "children": [
+              {
+                "objectName": "colliderTeleport"
+              },
               {
                 "objectName": "colliderLadder"
               },
@@ -19483,9 +22173,6 @@
                 "objectName": "guideMovement"
               },
               {
-                "objectName": "GuideTeleport"
-              },
-              {
                 "objectName": "GuideLadder"
               },
               {
@@ -19493,6 +22180,12 @@
               },
               {
                 "objectName": "guideEquip"
+              },
+              {
+                "objectName": "guideWeaponLis"
+              },
+              {
+                "objectName": "guideTeleport"
               }
             ]
           },
@@ -19577,10 +22270,30 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\jungle-party-156395.mp3",
+                "",
+                "25",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
                 "Gun2_CONUNI"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
               ]
             }
           ]
@@ -19885,7 +22598,7 @@
               },
               "parameters": [
                 "",
-                "\"ky\"",
+                "CurrentSceneName()",
                 ""
               ]
             }
@@ -19906,22 +22619,110 @@
                   },
                   "parameters": [
                     "Player",
-                    "Enemy",
+                    "enemies",
                     "",
                     "",
                     ""
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "PlayerLife",
+                "id",
+                "=",
+                "Player.currentBlood"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "currentBlood",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerHurt.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerLife",
+                "Animation",
+                "=",
+                "\"Empty\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player outside of screen"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "Player",
-                    "Enemy1",
-                    "",
-                    "",
-                    ""
+                    "currentBlood",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -19986,6 +22787,12 @@
                 "",
                 "\"t\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -19998,6 +22805,18 @@
                 "Animation",
                 "=",
                 "\"Teleport1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerTeleport.mp3",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -20203,6 +23022,26 @@
             },
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideWeaponLis",
+                "Text",
+                "=",
+                "\"Press 1 to change to default weapon\nPress 2 to change to pistol\nPress 3 to change to shotgun\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "guideEquip",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -20322,6 +23161,44 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Player",
+                "colliderTeleport",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideTeleport",
+                "Text",
+                "=",
+                "\"Press T to teleport\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "arrow",
                 "NewTileMap",
                 "",
@@ -20338,6 +23215,52 @@
               "parameters": [
                 "arrow",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sound effects for player movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerJump.mp3",
+                "no",
+                "40",
+                "1"
               ]
             }
           ]
@@ -20501,7 +23424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.295291655123803,
+        "zoomFactor": 0.8141881203711328,
         "windowMask": false
       },
       "objectsGroups": [
@@ -20549,8 +23472,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 450,
-          "y": 587,
+          "x": 309,
+          "y": 430,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -20601,8 +23524,8 @@
           "opacity": 179,
           "persistentUuid": "c7a5a060-2742-41b0-9d2b-315655220216",
           "width": 92,
-          "x": 173,
-          "y": 832,
+          "x": 273,
+          "y": 831,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20683,15 +23606,15 @@
           "layer": "",
           "name": "TileMap1",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
-          "width": 1056,
-          "x": -32,
+          "width": 1024,
+          "x": 0,
           "y": 416,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":33,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,0,60,60,60,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,74,76,76,76,77,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,4,87,87,121,122,138,123,138,93,94,94,94,63,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,16,124,124,92,181,181,181,181,125,153,153,254,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,32,153,153,33,33,33,33,33,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,86,59,59,59,222,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,122,138,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,183,182,182,182,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,154,254,254,213,254,66,139,139,139,139,139,139,76,93,60,1,1,1,2],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,237,140,140,140,140,140,140,140,140,140,17,17,17,18],[82,80,-1,-1,-1,-1,-1,162,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,254,254,254,254,33,33,33,34],[82,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,4,1,60,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,253,33,33,213,96,97,97,59,59,59,59,59,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,136,140,181,91,181,124,181,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,253,254,254,254,247,214,181,239,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,181,239,-1,-1,-1,12,13,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,28,29],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":32,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,0,60,60,60,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,74,76,76,76,77,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[4,87,87,121,122,138,123,138,93,94,94,94,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,124,124,92,181,181,181,181,125,153,153,254,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[196,125,153,33,33,33,33,33,255,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,111,-1,-1,-1,-1,-1,-1,-1,-1,-1,74,123,138,138,182,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,168,-1,-1,-1,-1,-1,4,1,1,1,122,182,182,108,182,93,151,222,222,59,60,59,60,1,1,2,-1,-1,-1,-1,-1],[164,239,-1,-1,-1,4,59,90,197,197,125,33,254,154,254,254,153,254,66,139,139,139,139,139,139,76,93,60,1,1,1,2],[164,184,-1,-1,-1,32,33,33,33,33,34,-1,-1,-1,-1,-1,-1,-1,237,140,140,140,140,140,140,140,140,140,17,17,17,111],[164,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,153,254,254,254,254,254,33,33,33,34],[164,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[212,120,225,225,10,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[28,29,-1,-1,-1,4,97,59,59,59,59,59,223,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,136,140,181,91,181,124,181,239,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,253,254,254,254,247,214,123,239,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,181,239,-1,-1,-1,12,13,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,28,29],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,28,29,-1,-1,-1,-1,-1,-1,-1,-1,12,13,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,28,29,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -20715,24 +23638,6 @@
               "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[86,87,87,63],[253,153,214,168],[-1,-1,237,168],[-1,-1,253,255]]}]}"
             }
           ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Boundary",
-          "opacity": 0,
-          "persistentUuid": "09b50991-2e41-40e5-956b-8fba44440b33",
-          "width": 1696,
-          "x": -5,
-          "y": 1053,
-          "zOrder": -20,
-          "numberProperties": [],
-          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -21173,7 +24078,7 @@
           "name": "SignBoard",
           "persistentUuid": "50d0f3ad-0c06-4c6b-a7c0-64e814fac838",
           "width": 44,
-          "x": 273,
+          "x": 367,
           "y": 818,
           "zOrder": 1,
           "numberProperties": [],
@@ -21611,15 +24516,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1182,
+          "height": 1440,
           "keepRatio": true,
           "layer": "",
           "name": "bc1",
           "opacity": 179,
           "persistentUuid": "11ed530b-ec9b-4b14-846a-db1a423f37ed",
-          "width": 2076,
-          "x": -232,
-          "y": -54,
+          "width": 2464,
+          "x": -416,
+          "y": -224,
           "zOrder": -21,
           "numberProperties": [],
           "stringProperties": [],
@@ -21645,16 +24550,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
           "keepRatio": true,
           "layer": "",
           "name": "Flower",
-          "opacity": 230,
+          "opacity": 204,
           "persistentUuid": "d88fabe0-7255-40f2-9cbd-bdbe75bb30df",
-          "width": 0,
-          "x": 1581,
-          "y": 293,
+          "width": 78,
+          "x": 1564,
+          "y": 307,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -21706,6 +24612,1244 @@
           "x": 52,
           "y": 802,
           "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "fe49b6a6-8f75-482d-b61a-75c943d6a670",
+          "width": 0,
+          "x": -288,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "7d769e9d-b5dd-4cb8-b677-861c678499cf",
+          "width": 0,
+          "x": -256,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "044403e1-83be-4b51-a26e-1e787df5506b",
+          "width": 0,
+          "x": -224,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "ee48548d-3ed1-4873-91d3-c0ce7ac79c1f",
+          "width": 0,
+          "x": -192,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e7fa0f7c-f00b-44fe-9e88-30fae294471a",
+          "width": 0,
+          "x": -160,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "87a739bd-4530-4282-ae18-b48b07d525fd",
+          "width": 0,
+          "x": -128,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "7980a807-ba05-4b55-8c5a-422c20a264ba",
+          "width": 0,
+          "x": -96,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "159d84d0-68f7-4d2c-9ead-8a765c62edfd",
+          "width": 0,
+          "x": -64,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "9179b107-aaa0-4b1c-a947-aaa0b40c4a36",
+          "width": 0,
+          "x": -32,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "ac4ca19c-1fd8-4289-a99b-5a66232ff3e2",
+          "width": 0,
+          "x": 0,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "6d233abf-39ca-4430-a59a-8619cb6789a4",
+          "width": 0,
+          "x": 32,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "a11c587d-5984-448c-ba67-a8cb33dc08cb",
+          "width": 0,
+          "x": 64,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "81fb10df-20b3-43ec-a4df-e895f2590c23",
+          "width": 0,
+          "x": 96,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "28c8c700-4217-40d9-9cdb-947cc030f83d",
+          "width": 0,
+          "x": 128,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "3220c645-c1dc-4d91-99b9-48429902ec31",
+          "width": 0,
+          "x": 160,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "ea889bb8-f59f-45a8-b8c5-7275dcf728a7",
+          "width": 0,
+          "x": 192,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "1888207e-cae4-4fd4-a5e1-43fcc0799f9a",
+          "width": 0,
+          "x": 224,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "6a925747-37c9-49e7-8e77-95d19a626f3f",
+          "width": 0,
+          "x": 256,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "9e684e49-ac65-4eb6-8c53-fc07cfae53eb",
+          "width": 0,
+          "x": 288,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "4b619f2b-7661-473c-8915-8688cbdadb88",
+          "width": 0,
+          "x": 320,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "d65d33dc-86f6-4f05-8ed9-8059fa639803",
+          "width": 0,
+          "x": 352,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "04e7997c-b2a3-4259-aa70-61dd7d44be77",
+          "width": 0,
+          "x": 384,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "3c859c96-8190-492f-a83d-3512ff870467",
+          "width": 0,
+          "x": 416,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "9cd323e2-0d38-4557-902a-ecc16591011e",
+          "width": 0,
+          "x": 448,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f3d1d622-6f24-43d5-87b6-27367f8bda73",
+          "width": 0,
+          "x": 480,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "7dacdc12-dd5f-4572-be5d-5b1edaf78cbf",
+          "width": 0,
+          "x": 512,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "5c507905-1912-489c-87cd-26a6c50d1fdd",
+          "width": 0,
+          "x": 544,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "b5574616-114f-45d6-ab64-97b3fa3f91c0",
+          "width": 0,
+          "x": 576,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "1c75c5a2-ee6e-4932-999d-67592fda1081",
+          "width": 0,
+          "x": 608,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "63f6eece-f617-4152-9d66-384addabf052",
+          "width": 0,
+          "x": 640,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "69c02c51-b998-4702-88c9-d704719df9ca",
+          "width": 0,
+          "x": 672,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "53215ed0-873e-44c9-943a-3e67dd07b749",
+          "width": 0,
+          "x": 704,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "bd5a416a-50d2-4f0a-91b4-4444e6fa6a58",
+          "width": 0,
+          "x": 736,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e3aa16f6-5464-4cf1-bedf-f881e102b9a1",
+          "width": 0,
+          "x": 768,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "ca8a1e52-1bf4-43e2-a3db-523cfb572a01",
+          "width": 0,
+          "x": 800,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "56ada27d-ce73-4cca-b491-f2a6b5c01af7",
+          "width": 0,
+          "x": 832,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "57dce458-a569-4c7c-90f0-e24e41546d9a",
+          "width": 0,
+          "x": 864,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e071371b-e110-46eb-abae-8d7c9de7bcb8",
+          "width": 0,
+          "x": 896,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "a2a493b9-935b-49cb-b4c8-db2003dba016",
+          "width": 0,
+          "x": 928,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "77f31be4-7c78-4000-848b-ff226640164e",
+          "width": 0,
+          "x": 960,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "a14f38bd-a8eb-4100-b466-d474e8702858",
+          "width": 0,
+          "x": 992,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "bd906729-3017-41ca-ad37-411b49f34714",
+          "width": 0,
+          "x": 1024,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "0e26a362-8c79-451e-b349-df48131d03ac",
+          "width": 0,
+          "x": 1056,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e4683106-3da0-47e8-b289-ad56b02d5c26",
+          "width": 0,
+          "x": 1088,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e6faf406-62f7-4a18-8116-3bafbabcae18",
+          "width": 0,
+          "x": 1120,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "136f44ba-8b05-45d7-bfaf-16eac9c42634",
+          "width": 0,
+          "x": 1152,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "78fba526-740f-459d-af32-f0b8c4367c80",
+          "width": 0,
+          "x": 1184,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "6b98f45e-0f85-43fe-94d0-7b887f999cca",
+          "width": 0,
+          "x": 1216,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "cb7b2d5c-ba3c-4c1b-8529-533dc0a8fa1a",
+          "width": 0,
+          "x": 1248,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "3705ba62-8c55-4517-9743-7498c3c868f8",
+          "width": 0,
+          "x": 1280,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "6c31d91d-16a0-46f1-8c70-8a96c1f0ad84",
+          "width": 0,
+          "x": 1312,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f04a6337-fdf3-48e4-84b2-1a97b9af0f31",
+          "width": 0,
+          "x": 1344,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "da0149d6-6b68-4343-89d2-1fde1d182279",
+          "width": 0,
+          "x": 1376,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "c715e530-a308-4a17-99bd-b28b3f877ea7",
+          "width": 0,
+          "x": 1408,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "854d4e78-30fc-457b-9a99-2ba90e0563ac",
+          "width": 0,
+          "x": 1440,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f265b32f-a4ae-456c-8465-30ca992ae983",
+          "width": 0,
+          "x": 1472,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "702a39f3-5e18-4b94-9e9a-b49c3a1cc98f",
+          "width": 0,
+          "x": 1504,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "2e1edcf7-5fef-4a14-be21-1c130f9db022",
+          "width": 0,
+          "x": 1536,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e2a8180b-ab8d-4ce9-84d2-dfac3323eb3a",
+          "width": 0,
+          "x": 1568,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f6b73c4f-086e-46ab-9ae8-c76c6c660282",
+          "width": 0,
+          "x": 1600,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "73d1d93d-86e6-436e-887a-b6030864cc45",
+          "width": 0,
+          "x": 1632,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "d83ada6c-2dcd-490f-8632-c6efda563c72",
+          "width": 0,
+          "x": 1664,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "35653652-033d-466a-b562-b7ce36bbe359",
+          "width": 0,
+          "x": 1696,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "4a3a8465-3416-4486-be5f-cb0229c200a6",
+          "width": 0,
+          "x": 1728,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "9fad81f4-7d7c-4499-85b1-0227e4f3f93b",
+          "width": 0,
+          "x": 1760,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "1c2344ac-08ad-452a-9c2a-ccb8440ebc3f",
+          "width": 0,
+          "x": 1792,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "cf0afae9-0b04-4a24-b1f8-bdb983620213",
+          "width": 0,
+          "x": 1824,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "04d5f9ed-f7bc-49bc-a67c-c1aa02b54711",
+          "width": 0,
+          "x": 1856,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "f2d180ff-da0b-4da5-b01e-46c0418b7a6b",
+          "width": 0,
+          "x": 1888,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "3f450596-dd7d-4615-bf98-78976a8ec5fa",
+          "width": 0,
+          "x": 1920,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "fa498f0e-a89a-4cde-b648-3d9f6ade7712",
+          "width": 0,
+          "x": 1952,
+          "y": 1120,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "8508a45f-a824-4bce-9bae-be1723059527",
+          "width": 0,
+          "x": 1984,
+          "y": 1120,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush1",
+          "opacity": 179,
+          "persistentUuid": "568c000f-6055-4009-bb5b-0bc5360b5273",
+          "width": 0,
+          "x": 965,
+          "y": 676,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "persistentUuid": "4de9c5d4-c42c-4f2b-ae4e-99eee6a37b45",
+          "width": 38,
+          "x": 1641,
+          "y": 317,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "c0ac026e-6544-4578-b2d9-6de763a3b9fb",
+          "width": 33,
+          "x": 171,
+          "y": 211,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "b2955da4-b513-46a4-a112-e2c2980d69b6",
+          "width": 33,
+          "x": 491,
+          "y": 316,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "a37abb25-df14-42e5-b35e-648d6da01050",
+          "width": 33,
+          "x": 773,
+          "y": 412,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22411,7 +26555,7 @@
             "rowCount": 16,
             "columnCount": 16,
             "tileSize": 32,
-            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,65,66,80,96,97,98,82,64,95,111,127,63,22,9,28"
+            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,20,5,21,4,84,100,116,132,148,164,86,102,118,87,103,119,88,104,120,149,165,181,197,213,150,166,182,198,214,151,167,183,199,215,168,184,200,216,180,196,212,228,245,246,247,248,230,231,232,249,251,186,202,234,217,219,222,223,237,253,238,254,239,255,124,140,156,125,141,157,173,189,205,123,139,155,171,187,136,137,153,138,154,121,122,134,117,244,220,55,56,57,58,59,60,61,62,74,90,106,75,91,107,76,92,108,77,93,109,94,110,126,79,143,159,175,191,158,89,52,54,130,128,144,160,192,193,194,224,225,226,7,23,10,13,29,12,65,66,80,96,97,98,82,64,95,111,127,63,9,28"
           }
         },
         {
@@ -22604,17 +26748,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Boundary",
-          "texture": "NewTiledSprite2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -23305,6 +27438,318 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Boundary",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Trap\\Boundary\\assets_Trap_Main Sprite_Suriken15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -23431,8 +27876,8 @@
               "parameters": [
                 "",
                 "assets\\audio\\jungle-party-156395.mp3",
-                "",
-                "",
+                "yes",
+                "25",
                 ""
               ]
             },
@@ -24480,6 +28925,12 @@
                 "",
                 "\"t\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -24496,14 +28947,6 @@
             },
             {
               "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.3"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -24512,6 +28955,14 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.3"
               ]
             },
             {
@@ -24585,7 +29036,7 @@
                 "",
                 "assets\\audio\\playerJump.mp3",
                 "no",
-                "50",
+                "40",
                 "1"
               ]
             }
@@ -24735,10 +29186,6 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
@@ -24762,7 +29209,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2990598990848316,
+        "zoomFactor": 0.15406253183697413,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25529,24 +29976,6 @@
               "value": 1
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1525,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BGBG",
-          "opacity": 179,
-          "persistentUuid": "8efeabd8-eb91-4313-88f0-97a41a30c0dc",
-          "width": 2370,
-          "x": -1126,
-          "y": -1957,
-          "zOrder": -10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -28789,17 +33218,6 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "BGBG",
-          "texture": "assets\\g967_ucaj_210816.jpg",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
           "name": "BGBG2",
           "texture": "assets\\q0v5_142a_211202.jpg",
           "type": "TiledSpriteObject::TiledSprite",
@@ -28895,9 +33313,6 @@
             "objectName": "BrokeBox"
           },
           {
-            "objectName": "BGBG"
-          },
-          {
             "objectName": "box"
           },
           {
@@ -28937,6 +33352,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\jungle-party-156395.mp3",
+                "",
+                "25",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
@@ -31468,9 +35895,35 @@
                 "buttonRestart",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -31506,9 +35959,35 @@
                 "buttonHome",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\buttonClick.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
