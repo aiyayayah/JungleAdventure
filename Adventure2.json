@@ -6583,6 +6583,36 @@
         "name": "assets\\Trap\\Main Sprite\\Suriken_2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/audio/scene02BG.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\scene02BG.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/gun2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\gun2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/gun3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\gun3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -29239,8 +29269,8 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 36,
-          "y": 463,
+          "x": 100,
+          "y": 504,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -33356,7 +33386,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\jungle-party-156395.mp3",
+                "assets\\audio\\scene02BG.mp3",
                 "",
                 "25",
                 ""
@@ -33509,6 +33539,18 @@
                 "Lives",
                 "-",
                 "arrow.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
               ]
             },
             {
@@ -36688,7 +36730,7 @@
               "parameters": [
                 "Gun2",
                 "=",
-                "Player.X() +1",
+                "Player.X() +10",
                 "=",
                 "Player.Y() -5"
               ]
@@ -36766,6 +36808,16 @@
             },
             {
               "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "Gun2",
+                "FireBullet",
+                "="
+              ]
+            },
+            {
+              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -36780,7 +36832,20 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\gun2.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -37100,12 +37165,35 @@
             },
             {
               "type": {
+                "value": "FireBullet::FireBullet::IsReadyToShoot"
+              },
+              "parameters": [
+                "Gun3",
+                "FireBullet",
+                "="
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\gun3.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
