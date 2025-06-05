@@ -6613,6 +6613,30 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/Moving Platfrom_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\Moving Platfrom_H.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/Moving Platfrom_D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\Moving Platfrom_D2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trap/Main Sprite/Moving Platfrom_C2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trap\\Main Sprite\\Moving Platfrom_C2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -29247,7 +29271,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43071680420012187,
+        "zoomFactor": 0.33034470892972395,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29269,9 +29293,9 @@
           "name": "Player",
           "persistentUuid": "a0bebaef-a554-4b95-a796-e7b801c29a1f",
           "width": 37,
-          "x": 100,
-          "y": 504,
-          "zOrder": 96,
+          "x": 453,
+          "y": 802,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29285,14 +29309,14 @@
           "name": "Background_1",
           "persistentUuid": "7ca977f6-bb36-4c71-b620-ea7c1f07d6b9",
           "width": 0,
-          "x": 1,
-          "y": 824,
+          "x": 0,
+          "y": 828,
           "zOrder": -5,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,-2147483495],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,-2147483494,-1],[58,59,59,59,59,60,60,60,61,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,-2147483484,-1,-1],[74,75,75,75,75,75,75,75,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,153,154,-2147483436,-1,-1],[90,75,75,75,75,75,75,75,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,96,121,121,121,121,121,122,-1,-1,-1,-1,-1],[118,65,65,65,65,65,65,65,-2147483530,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":26,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,9,10,-1,-1,4,5,-1,-1,-1,-1,-1,-2147483552,1073741889,1073741889,1073741889,1073741889,1073741889],[-1,-1,-1,-1,-1,9,10,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741927,1073741927,1073741963,1073741963,-2147483495],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741947,1073741948,1073741947,-2147483494,-1],[0,60,60,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,1073741931,1073741932,-2147483484,-1,-1],[32,33,33,34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,80,-1,-1,-1,-1,-1,82,153,154,-2147483436,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,96,121,121,121,121,121,122,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -29307,8 +29331,8 @@
           "name": "Coins",
           "persistentUuid": "8a00c67f-5b29-46c0-bbbf-409ddf021aeb",
           "width": 29,
-          "x": 335,
-          "y": 832,
+          "x": 178,
+          "y": 834,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -29324,8 +29348,8 @@
           "name": "Coins",
           "persistentUuid": "d70aa2ac-c70c-42d9-8d0c-8b8ac6534996",
           "width": 29,
-          "x": 464,
-          "y": 800,
+          "x": 305,
+          "y": 802,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -29357,8 +29381,8 @@
           "name": "Enemy3",
           "persistentUuid": "3fe6c0f4-1200-449e-a252-268a2e760efa",
           "width": 124,
-          "x": 824,
-          "y": 722,
+          "x": 676,
+          "y": 723,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -29391,13 +29415,13 @@
           "persistentUuid": "be3e25ca-caa8-4f7c-a7df-7b88b624d56b",
           "width": 0,
           "x": 0,
-          "y": 352,
+          "y": 358,
           "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":20,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-2147483546,-1,-1,-1,-1,-1,-1,102,-1,-1,-1,-1,-1],[65,65,65,65,65,65,65,-2147483530,-1,-1,-1,-1,-1,-1,118,65,65,65,65,33]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":15,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,0,1,-2147483551,-2147483551,-2147483551,-2147483551,-2147483551,-1,-1,-1,-1],[-1,-1,-1,-1,168,-1,-1,-1,-1,-1,102,-1,-1,-1,-1],[-1,-1,-1,-1,168,-1,-1,-1,-1,-1,102,-1,-1,-1,-1],[-1,-1,-1,-1,168,-1,-1,-1,-1,-1,102,-1,-1,-1,-1],[-1,-1,-1,-1,168,-1,-1,-1,-1,-1,102,-1,-1,-1,-1],[-1,-1,-1,-1,168,-1,-1,-1,-1,-1,102,-1,-1,-1,-1],[65,65,65,65,-2147483436,-1,-1,-1,-1,-1,118,65,65,65,65]]}]}"
             }
           ],
           "initialVariables": []
@@ -29429,8 +29453,8 @@
           "name": "Ladder2",
           "persistentUuid": "6dbfb094-fa9c-4baa-b350-b791910bd12f",
           "width": 16,
-          "x": 480,
-          "y": 352,
+          "x": 352,
+          "y": 359,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -29446,8 +29470,8 @@
           "name": "ladder3",
           "persistentUuid": "7c667ec3-c0ae-4419-a09e-e7e710e26ed0",
           "width": 16,
-          "x": 208,
-          "y": 351,
+          "x": 114,
+          "y": 360,
           "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
@@ -29462,25 +29486,9 @@
           "name": "box",
           "persistentUuid": "1fa84482-b6f2-4539-a9dd-2e97480a1225",
           "width": 0,
-          "x": 81,
-          "y": 510,
+          "x": 44,
+          "y": 518,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PressE_TEXT",
-          "persistentUuid": "696df127-8f28-490c-888e-8b55efb4c0e5",
-          "width": 0,
-          "x": 20,
-          "y": 432,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29495,8 +29503,8 @@
           "name": "Gun3_ICONUI",
           "persistentUuid": "9654bc9f-f336-4509-91a2-3ad0c1568757",
           "width": 64,
-          "x": 69,
-          "y": 515,
+          "x": 28,
+          "y": 520,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -29511,7 +29519,7 @@
           "name": "BrokeBox",
           "persistentUuid": "0c7907e1-3a2f-48f5-8f2f-b28259f97f1c",
           "width": 0,
-          "x": 672,
+          "x": 640,
           "y": 512,
           "zOrder": 31,
           "numberProperties": [],
@@ -29527,7 +29535,7 @@
           "name": "BrokeBox",
           "persistentUuid": "6c7ff2b7-bb43-4357-a8e3-6edec0a8ca43",
           "width": 0,
-          "x": 672,
+          "x": 640,
           "y": 448,
           "zOrder": 31,
           "numberProperties": [],
@@ -29536,14 +29544,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "BrokeBox",
           "persistentUuid": "386dfeb2-42b3-4a82-b3d3-8052bd7b1642",
-          "width": 0,
-          "x": 672,
+          "width": 32,
+          "x": 640,
           "y": 480,
           "zOrder": 31,
           "numberProperties": [],
@@ -29559,14 +29568,14 @@
           "name": "Background_1",
           "persistentUuid": "d205de81-755d-426d-b979-eb78f0b8965d",
           "width": 0,
-          "x": 704,
+          "x": 608,
           "y": 448,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7],[-1,-1,-1,-1,-1,54,55,56,-1,-1,23],[192,225,226,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7],[-1,-1,-1,-1,-1,-1,-1,-1,54,55,56,-1,-1,23],[54,55,56,57,55,58,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -29627,7 +29636,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 358,
           "customSize": true,
           "depth": 1,
           "height": 34,
@@ -29636,8 +29645,8 @@
           "name": "fire",
           "persistentUuid": "5180158a-39b4-4f0d-b35d-04d604864417",
           "width": 35,
-          "x": 704,
-          "y": 950,
+          "x": 538,
+          "y": 955,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -29653,8 +29662,8 @@
           "name": "fire",
           "persistentUuid": "e986adf7-d26a-45d1-ac12-b3c5b119f979",
           "width": 35,
-          "x": 657,
-          "y": 950,
+          "x": 482,
+          "y": 955,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -29670,8 +29679,8 @@
           "name": "Orang",
           "persistentUuid": "1b9018c3-41c2-4b4e-ac9e-75dca63918de",
           "width": 56,
-          "x": 691,
-          "y": 905,
+          "x": 529,
+          "y": 908,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -29687,8 +29696,8 @@
           "name": "fire",
           "persistentUuid": "7749e9a2-5a07-4f26-8eba-916e35abc8c3",
           "width": 35,
-          "x": 754,
-          "y": 950,
+          "x": 596,
+          "y": 955,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -29704,8 +29713,8 @@
           "name": "Boundary2",
           "persistentUuid": "f137007d-be0a-4a5c-8b8e-7e548855f8c1",
           "width": 161,
-          "x": 638,
-          "y": 935,
+          "x": 478,
+          "y": 938,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -29881,8 +29890,8 @@
           "name": "Coins",
           "persistentUuid": "b6e9e644-4e9e-4f81-a3d2-36fd95a75b32",
           "width": 29,
-          "x": 336,
-          "y": 327,
+          "x": 224,
+          "y": 328,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -29915,8 +29924,8 @@
           "name": "Coins",
           "persistentUuid": "83379738-068e-4e31-9f7b-c3a7f3809895",
           "width": 29,
-          "x": 547,
-          "y": 519,
+          "x": 397,
+          "y": 522,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -29988,7 +29997,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,87,87,87],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,32,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,87,87,2],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,82,103,18],[-1,-1,32,33,34]]}]}"
             }
           ],
           "initialVariables": [
@@ -30009,9 +30018,9 @@
           "name": "BGBG2",
           "opacity": 179,
           "persistentUuid": "5054ad5f-e310-4f2b-89b5-bda3dc1292b4",
-          "width": 2216,
-          "x": -296,
-          "y": -87,
+          "width": 2536,
+          "x": -559,
+          "y": -1656,
           "zOrder": -11,
           "numberProperties": [],
           "stringProperties": [],
@@ -30131,8 +30140,8 @@
           "name": "Deco4",
           "persistentUuid": "87f83162-9c9e-4552-bbde-0fe6168739e0",
           "width": 13,
-          "x": 225,
-          "y": 345,
+          "x": 133,
+          "y": 351,
           "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
@@ -30148,8 +30157,8 @@
           "name": "Deco4",
           "persistentUuid": "52bb11b1-a3c2-4aef-939b-0a11b12fb65b",
           "width": 13,
-          "x": 466,
-          "y": 343,
+          "x": 339,
+          "y": 350,
           "zOrder": 93,
           "numberProperties": [],
           "stringProperties": [],
@@ -30176,6 +30185,60 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_1",
+          "persistentUuid": "f9b1d4a2-30a1-40c9-a339-9c912c1b0d96",
+          "width": 0,
+          "x": 462,
+          "y": 256,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[54,55,56,57,55,56,58]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BrokeBox",
+          "persistentUuid": "90077137-7d48-4207-848e-7091bdc8765c",
+          "width": 0,
+          "x": 640,
+          "y": 416,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StandingPlatform",
+          "persistentUuid": "495b4a23-f6a2-4fcd-8031-9e5f4f63a5eb",
+          "width": 72,
+          "x": 438,
+          "y": 463,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -32281,7 +32344,15 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -33286,6 +33357,25 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "StandingPlatform",
+          "texture": "assets\\Trap\\Main Sprite\\Moving Platfrom_C2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -33336,6 +33426,9 @@
           },
           {
             "objectName": "Background_1"
+          },
+          {
+            "objectName": "StandingPlatform"
           },
           {
             "objectName": "BrokeBox"
@@ -33728,7 +33821,7 @@
               "parameters": [
                 "",
                 "Jumper",
-                "650",
+                "534",
                 "770",
                 ""
               ]
