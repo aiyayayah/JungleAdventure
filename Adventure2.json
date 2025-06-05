@@ -23477,7 +23477,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -23485,8 +23485,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.624453782660109,
+        "snap": true,
+        "zoomFactor": 3.0679414342091085,
         "windowMask": false
       },
       "objectsGroups": [
@@ -35291,7 +35291,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6628748845605653,
+        "zoomFactor": 0.5084018284442009,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35544,7 +35544,7 @@
           "name": "PlatformGround",
           "persistentUuid": "d165b777-227e-4adb-85a1-81afe7b06f66",
           "width": 0,
-          "x": 1984,
+          "x": 2496,
           "y": 288,
           "zOrder": 20,
           "numberProperties": [],
@@ -35698,14 +35698,14 @@
           "name": "PlatformGround",
           "persistentUuid": "93966825-5308-4be9-a037-23d58839c64a",
           "width": 0,
-          "x": 736,
+          "x": 768,
           "y": 480,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,86,87,87,1,2],[-1,-1,-1,-1,86,87,122,17,17,17,18],[-1,12,1,1,98,17,17,17,17,17,18],[86,122,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":36,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,86,87,87,1,1,1,1,1,1,1,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,86,87,122,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,12,1,1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,122,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,66,17,17,17,17,96,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,66,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -35835,6 +35835,56 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightSideLadder",
+          "persistentUuid": "5a03ef3c-a572-4c13-a805-a87c9f9a25c3",
+          "width": 16,
+          "x": 752,
+          "y": 576,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy5",
+          "persistentUuid": "18325a93-85db-4dcb-9a2d-3446699417ab",
+          "width": 0,
+          "x": 1248,
+          "y": 448,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftSideLadder",
+          "persistentUuid": "20f8b8ce-557b-471d-8dc3-02d1af475718",
+          "width": 16,
+          "x": 1408,
+          "y": 480,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35907,18 +35957,56 @@
         },
         {
           "assetStoreId": "",
-          "name": "PlatformDeco",
+          "name": "PlatformDecoLadder",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "content": {
             "atlasImage": "assets\\village\\TX Village Props.png",
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": ""
+            "tilesWithHitBox": "455,487,519,551"
           }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "RightSideLadder",
+          "texture": "assets\\platform\\right.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "LeftSideLadder",
+          "texture": "assets\\platform\\left.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -35934,7 +36022,13 @@
             "objectName": "Lava"
           },
           {
-            "objectName": "PlatformDeco"
+            "objectName": "PlatformDecoLadder"
+          },
+          {
+            "objectName": "RightSideLadder"
+          },
+          {
+            "objectName": "LeftSideLadder"
           }
         ]
       },
