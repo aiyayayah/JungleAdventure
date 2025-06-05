@@ -23486,7 +23486,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019485935,
+        "zoomFactor": 0.7876290101675141,
         "windowMask": false
       },
       "objectsGroups": [
@@ -29271,7 +29271,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19432041701748484,
+        "zoomFactor": 0.2990598990848346,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32346,10 +32346,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -33369,10 +33369,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -35291,7 +35291,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2707378711479632,
+        "zoomFactor": 0.9868888800941756,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35546,7 +35546,7 @@
           "width": 0,
           "x": -704,
           "y": -32,
-          "zOrder": 0,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -35681,6 +35681,97 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "d5eb93d4-0fd9-44dc-b41d-aae0059a993a",
+          "width": 0,
+          "x": 239,
+          "y": 369,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "cf03adbc-db04-453e-9162-132b90f6e136",
+          "width": 0,
+          "x": 352,
+          "y": 320,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12],[44]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "8584d2f3-8454-49e7-b690-71a47e427140",
+          "width": 0,
+          "x": 64,
+          "y": 352,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[461,493,494,493,462,-1,525,494,525]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "f93ded8d-4c6d-444d-8d26-cd1d18907f81",
+          "width": 0,
+          "x": 0,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[524]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
         }
       ],
       "objects": [
@@ -35734,7 +35825,13 @@
           "assetStoreId": "",
           "name": "BackgroundDeco",
           "type": "TileMap::SimpleTileMap",
-          "variables": [],
+          "variables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "content": {
@@ -35786,6 +35883,137 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "isBlockObject",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "isBlockObject",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
