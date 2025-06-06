@@ -6661,6 +6661,22 @@
         "name": "assets\\Table.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_Axe.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Axe",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Axe.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6738,11 +6754,11 @@
           "Flippable": "Flippable"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 2000,
           "maxFallingSpeed": 500,
           "maxSpeed": 200,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1200,
           "jumpSpeed": 550,
           "canGoDownFromJumpthru": true,
@@ -23509,7 +23525,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737497726,
+        "zoomFactor": 1.6337626779317929,
         "windowMask": false
       },
       "objectsGroups": [
@@ -35305,7 +35321,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -35313,8 +35329,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 2.116111659035154,
+        "snap": true,
+        "zoomFactor": 1.1268873037529832,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35940,6 +35956,59 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Table",
+          "persistentUuid": "93026cc4-e39c-454f-b8af-b04746cea96c",
+          "width": 0,
+          "x": 3467,
+          "y": 228,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 33,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Axe",
+          "persistentUuid": "263d2616-5de5-471b-afd0-a3117cd73a01",
+          "width": 0,
+          "x": 3477,
+          "y": 211,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformDeco",
+          "persistentUuid": "63db372d-4db3-4c9a-b2fa-ea62d6d6fff7",
+          "width": 0,
+          "x": -352,
+          "y": 608,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[485],[517],[549],[581]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -36007,7 +36076,7 @@
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606"
+            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581"
           }
         },
         {
@@ -36019,18 +36088,18 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
           ],
           "content": {
             "atlasImage": "assets\\village\\TX Village Props.png",
-            "rowCount": 128,
-            "columnCount": 128,
-            "tileSize": 8,
-            "tilesWithHitBox": "455,487,519,551,787,851,788,852,789,853,790,854,791,855,472,3111,3239,3367,3495,3112,3240,3368,3496,3113,3241,3369,3497,3114,3242,3370,3498,3115,3243,3371,3499,3116,3244,3372,3500,3117,3245,3373,3501,3118,3246,3374,3502,3119,3247,3375,3503,3120,3248,3376,3504"
+            "rowCount": 32,
+            "columnCount": 32,
+            "tileSize": 32,
+            "tilesWithHitBox": "455,487,519,551,787,851,788,852,789,853,790,854,791,855,472,453,485,517,549,581"
           }
         },
         {
@@ -36067,12 +36136,81 @@
           "assetStoreId": "",
           "height": 28,
           "name": "Table",
-          "texture": "assets\\Deco\\Table",
+          "texture": "assets\\Table.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 73,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Axe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Axe",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Axe.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 37,
+                            "y": 0
+                          },
+                          {
+                            "x": 37,
+                            "y": 13
+                          },
+                          {
+                            "x": 0,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -36098,6 +36236,9 @@
           },
           {
             "objectName": "Table"
+          },
+          {
+            "objectName": "Axe"
           }
         ]
       },
