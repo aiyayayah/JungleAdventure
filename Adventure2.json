@@ -6637,6 +6637,30 @@
         "name": "assets\\Trap\\Main Sprite\\Moving Platfrom_C2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_village_TX Village Props.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\village\\TX Village Props.png9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Deco_Table.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Deco\\Table",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Table.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -23476,7 +23500,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -23484,8 +23508,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 3.0679414342091085,
+        "snap": false,
+        "zoomFactor": 0.49508400737497726,
         "windowMask": false
       },
       "objectsGroups": [
@@ -35290,7 +35314,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5615860051805142,
+        "zoomFactor": 2.116111659035154,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35900,6 +35924,22 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy6",
+          "persistentUuid": "4733754c-5a85-4128-9448-1a3a433b2c0a",
+          "width": 0,
+          "x": 3353,
+          "y": 228,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35972,25 +36012,25 @@
         },
         {
           "assetStoreId": "",
-          "name": "PlatformDecoLadder",
+          "name": "PlatformDeco",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "Ladder",
               "yGrabOffset": 0
             }
           ],
           "content": {
             "atlasImage": "assets\\village\\TX Village Props.png",
-            "rowCount": 32,
-            "columnCount": 32,
-            "tileSize": 32,
-            "tilesWithHitBox": "455,487,519,551"
+            "rowCount": 128,
+            "columnCount": 128,
+            "tileSize": 8,
+            "tilesWithHitBox": "455,487,519,551,787,851,788,852,789,853,790,854,791,855,472,3111,3239,3367,3495,3112,3240,3368,3496,3113,3241,3369,3497,3114,3242,3370,3498,3115,3243,3371,3499,3116,3244,3372,3500,3117,3245,3373,3501,3118,3246,3374,3502,3119,3247,3375,3503,3120,3248,3376,3504"
           }
         },
         {
@@ -36022,6 +36062,17 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 28,
+          "name": "Table",
+          "texture": "assets\\Deco\\Table",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 73,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -36037,13 +36088,16 @@
             "objectName": "Lava"
           },
           {
-            "objectName": "PlatformDecoLadder"
+            "objectName": "PlatformDeco"
           },
           {
             "objectName": "RightSideLadder"
           },
           {
             "objectName": "LeftSideLadder"
+          },
+          {
+            "objectName": "Table"
           }
         ]
       },
