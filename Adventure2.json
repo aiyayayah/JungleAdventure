@@ -10393,10 +10393,10 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 100,
           "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 150,
           "maxSpeed": 150,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -14573,20 +14573,20 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 150,
+          "deceleration": 1500,
+          "maxSpeed": 150,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 150,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
-          "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": true,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 150,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -16618,7 +16618,28 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Enemies",
+      "objects": [
+        {
+          "name": "Enemy6"
+        },
+        {
+          "name": "Enemy5"
+        },
+        {
+          "name": "Enemy4"
+        },
+        {
+          "name": "Enemy1"
+        },
+        {
+          "name": "Enemy"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "selectedWeapon",
@@ -23525,7 +23546,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6337626779317929,
+        "zoomFactor": 0.4633111824514805,
         "windowMask": false
       },
       "objectsGroups": [
@@ -29310,7 +29331,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4030748496881645,
+        "zoomFactor": 0.37720686276184284,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35330,7 +35351,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.1268873037529832,
+        "zoomFactor": 0.8934270200516622,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35882,7 +35903,7 @@
           "width": 0,
           "x": 1248,
           "y": 416,
-          "zOrder": 35,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35915,7 +35936,7 @@
           "width": 0,
           "x": 1696,
           "y": 645,
-          "zOrder": 37,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36009,6 +36030,136 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "61668e06-4e84-488d-a574-f04e010020ac",
+          "width": 0,
+          "x": 1312,
+          "y": 384,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[498,499],[530,531]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "9d8a8a88-1ef8-456e-890a-dcccd1643222",
+          "width": 0,
+          "x": 1376,
+          "y": 384,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[500],[532]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "d1dbdf3e-f26d-4053-922c-1762ce2da064",
+          "width": 0,
+          "x": 960,
+          "y": 416,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[524]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "9afdb7bc-d8fc-476e-b6d6-cf4d37dc9b39",
+          "width": 64,
+          "x": 1856,
+          "y": 576,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[246,247],[278,279],[310,311]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "8af3e81e-e687-48c1-bd26-fd81da222918",
+          "width": 0,
+          "x": 1408,
+          "y": 640,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[486]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
         }
       ],
       "objects": [
@@ -36076,7 +36227,7 @@
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581"
+            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581,496,528,497,529,498,530,499,531,500,532,283,315,284,316,285,317,247,279,311"
           }
         },
         {
@@ -36130,7 +36281,15 @@
           "width": 16,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -36270,6 +36429,18 @@
           "target": "Shoot-1"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemies Movement"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -36277,7 +36448,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Flippable"
               ]
             }
@@ -36288,7 +36459,7 @@
                 "value": "PlatformBehavior::SimulateLeftKey"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "PlatformerObject"
               ]
             }
@@ -36325,7 +36496,7 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Enemies",
                     "Flippable",
                     "no"
                   ]
@@ -36354,7 +36525,7 @@
                 "value": "PlatformBehavior::SimulateRightKey"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "PlatformerObject"
               ]
             }
@@ -36391,11 +36562,153 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Enemies",
                     "Flippable",
                     "yes"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemies Chasing"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Enemies",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemies",
+                "Player",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "BackgroundDeco",
+                    "isBlockObject",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Enemies"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsTurnedTowardObject"
+              },
+              "parameters": [
+                "Enemies",
+                "Player",
+                "90",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Enemies",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsTurnedTowardObject"
+              },
+              "parameters": [
+                "Enemies",
+                "Player",
+                "90",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Enemies",
+                "Flippable",
+                "yes"
               ]
             }
           ]
