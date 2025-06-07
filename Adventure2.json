@@ -10406,11 +10406,11 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 100,
           "isFolded": true,
-          "maxSpeed": 100,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 100,
+          "maxSpeed": 100,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -14607,11 +14607,11 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 150,
           "deceleration": 1500,
           "maxSpeed": 150,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -18185,6 +18185,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
         },
@@ -18289,7 +18293,7 @@
           "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
           "width": 608,
           "x": 0,
@@ -18362,7 +18366,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "a22c2cf7-2576-4f6e-88ac-c25cb54fd5c4",
           "width": 0,
           "x": 608,
@@ -18416,7 +18420,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "996a310a-4a85-4750-a308-6852f7752b71",
           "width": 0,
           "x": 224,
@@ -18469,7 +18473,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "74fdaf64-5860-423f-be06-1817b9fb8289",
           "width": 0,
           "x": 960,
@@ -18540,7 +18544,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "0baa589c-4b50-41bf-b404-7ccc3773bd34",
           "width": 0,
           "x": 672,
@@ -18596,7 +18600,7 @@
           "keepRatio": true,
           "layer": "",
           "locked": true,
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "d9aff354-4de6-48df-ae32-2772118a5429",
           "width": 0,
           "x": 128,
@@ -18893,7 +18897,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "persistentUuid": "cfb1dd68-5f77-49e6-aa10-044d81b96c24",
           "width": 0,
           "x": 768,
@@ -21155,7 +21159,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewTileMap",
+          "name": "Platform",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
@@ -22366,7 +22370,7 @@
             "objectName": "Deco7"
           },
           {
-            "objectName": "NewTileMap"
+            "objectName": "Platform"
           },
           {
             "objectName": "LadderRight"
@@ -23361,7 +23365,7 @@
               },
               "parameters": [
                 "arrow",
-                "NewTileMap",
+                "Platform",
                 "",
                 "",
                 ""
@@ -23550,6 +23554,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
         },
         {
           "name": "SmoothCamera",
@@ -23765,7 +23773,7 @@
           "height": 640,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
           "width": 1024,
           "x": 0,
@@ -23786,7 +23794,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "c29da923-d9db-40c3-8975-bc833383623c",
           "width": 0,
           "x": 1088,
@@ -23824,7 +23832,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "bb710303-c782-483b-9915-85c98861734a",
           "width": 0,
           "x": 1344,
@@ -23862,7 +23870,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "bf2ea03d-63f3-419d-8372-d64f7198a955",
           "width": 0,
           "x": 1344,
@@ -23915,7 +23923,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "76792d68-becb-4649-a7a9-9c21ec700d06",
           "width": 0,
           "x": 1344,
@@ -24000,7 +24008,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "a7472b94-bf10-4465-84f7-f9b9157f335d",
           "width": 0,
           "x": 1120,
@@ -24140,7 +24148,7 @@
           "keepRatio": true,
           "layer": "",
           "locked": true,
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "75d07de2-0687-4633-a065-5bed5c9082d6",
           "sealed": true,
           "width": 0,
@@ -24196,7 +24204,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "4e6feee2-b2fa-41f8-bf2d-fe27e2dfb068",
           "width": 0,
           "x": 1554,
@@ -24268,7 +24276,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "65977a22-8e41-4158-9899-1e9e7cca35ad",
           "width": 0,
           "x": 736,
@@ -24338,7 +24346,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "75f20647-512e-49ea-a307-b685fb3176b0",
           "width": 0,
           "x": 439,
@@ -24391,7 +24399,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "persistentUuid": "a632fd35-1934-4406-a3af-0d308efb09d5",
           "width": 0,
           "x": 126,
@@ -26698,7 +26706,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "TileMap1",
+          "name": "Platform",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
@@ -27961,7 +27969,7 @@
             "objectName": "Deco7"
           },
           {
-            "objectName": "TileMap1"
+            "objectName": "Platform"
           },
           {
             "objectName": "LadderRight"
@@ -29337,6 +29345,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
         },
@@ -29405,7 +29417,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "7ca977f6-bb36-4c71-b620-ea7c1f07d6b9",
           "width": 0,
           "x": 0,
@@ -29510,7 +29522,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "be3e25ca-caa8-4f7c-a7df-7b88b624d56b",
           "width": 0,
           "x": 0,
@@ -29664,7 +29676,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "d205de81-755d-426d-b979-eb78f0b8965d",
           "width": 0,
           "x": 608,
@@ -29685,7 +29697,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "403363f3-b9e8-47d3-bf3a-b07279950ca8",
           "width": 0,
           "x": 896,
@@ -30086,7 +30098,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "8f30441d-d5e1-42f0-b8ae-bcf6d232db3f",
           "width": 0,
           "x": 1073,
@@ -30131,7 +30143,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "01e303f0-5545-403c-a75b-8c398bb0e921",
           "width": 0,
           "x": 1328,
@@ -30291,7 +30303,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_1",
+          "name": "Platform",
           "persistentUuid": "f9b1d4a2-30a1-40c9-a339-9c912c1b0d96",
           "width": 0,
           "x": 462,
@@ -30343,7 +30355,7 @@
       "objects": [
         {
           "assetStoreId": "",
-          "name": "Background_1",
+          "name": "Platform",
           "type": "TileMap::SimpleTileMap",
           "variables": [
             {
@@ -33524,7 +33536,7 @@
             ]
           },
           {
-            "objectName": "Background_1"
+            "objectName": "Platform"
           },
           {
             "objectName": "StandingPlatform"
@@ -34426,7 +34438,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Background_1",
+                "Platform",
                 "Variable",
                 "=",
                 "1"
@@ -34450,7 +34462,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "Background_1",
+                "Platform",
                 "=",
                 "1019",
                 "=",
@@ -34482,7 +34494,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "Background_1",
+                "Platform",
                 "=",
                 "1074",
                 "=",
@@ -35357,6 +35369,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
         },
@@ -35390,7 +35406,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.9235536740704114,
+        "zoomFactor": 0.18798161491357937,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35577,7 +35593,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "1434a6f6-e8c1-4e86-b3ae-55e481fc8a3f",
           "width": 0,
           "x": 448,
@@ -35598,7 +35614,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "7c752804-1193-4be3-8b79-1c4db40d8178",
           "width": 0,
           "x": -704,
@@ -35619,7 +35635,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "d165b777-227e-4adb-85a1-81afe7b06f66",
           "width": 0,
           "x": 2656,
@@ -35752,7 +35768,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "0f606a28-831b-40ec-b780-416d3f0e8523",
           "width": 0,
           "x": -576,
@@ -35773,7 +35789,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "93966825-5308-4be9-a037-23d58839c64a",
           "width": 0,
           "x": 768,
@@ -35794,7 +35810,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "80bf2ea1-b1b8-4e28-a253-37e2991687bf",
           "width": 0,
           "x": 512,
@@ -35836,7 +35852,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "2be80f2a-37c2-4b7f-aceb-9d2f88023f88",
           "width": 0,
           "x": 288,
@@ -35857,7 +35873,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "76a59181-f009-4136-ba1c-6a73ba94178d",
           "width": 0,
           "x": 384,
@@ -35878,7 +35894,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "1b59c508-17ff-4b88-9342-55138c4b9d53",
           "width": 0,
           "x": 128,
@@ -35899,7 +35915,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "94001c01-10a5-4f54-94cd-220952229fdd",
           "width": 0,
           "x": 0,
@@ -35986,7 +36002,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "persistentUuid": "cc5d8eee-601c-46b8-9a56-96d4e75c6fd2",
           "width": 0,
           "x": 1984,
@@ -36010,9 +36026,9 @@
           "name": "Enemy6",
           "persistentUuid": "4733754c-5a85-4128-9448-1a3a433b2c0a",
           "width": 0,
-          "x": 3353,
-          "y": 228,
-          "zOrder": 39,
+          "x": 3296,
+          "y": 224,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36216,12 +36232,234 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "43c35268-dbb2-4a53-bee2-8ee7f3ee4072",
+          "width": 0,
+          "x": 1056,
+          "y": 384,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,15],[41,47]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "9fdedd0c-c994-4fbb-84e8-ef66dc3a27d1",
+          "width": 0,
+          "x": 1024,
+          "y": 416,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[494,-1,494,493,494,493,-1,-1,493]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "b17d850e-3a66-4548-8fae-879132237fd6",
+          "width": 0,
+          "x": 1792,
+          "y": 608,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[498,499,500],[530,531,532]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "a7121e87-5f09-4015-bb36-4e98a8dee109",
+          "width": 0,
+          "x": 1408,
+          "y": 640,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[587,588,492,494,492,461,377,378]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "5543bcab-7856-4df6-8950-391bdf1be50c",
+          "width": 0,
+          "x": 2656,
+          "y": 704,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[285],[317]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformDeco",
+          "persistentUuid": "219d192d-7f5a-4c8c-81d7-8dda179c2e67",
+          "width": 0,
+          "x": 3552,
+          "y": 96,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[453,454,454],[485,486,486],[517,518,518],[325,326,327],[357,358,359]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "eee8e3ba-4269-4e70-807b-9f59dac61e93",
+          "width": 0,
+          "x": 3168,
+          "y": 192,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[78,79,80],[110,111,112]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "808b4693-b51d-475e-9f29-54d7ac1bfab8",
+          "width": 0,
+          "x": 3424,
+          "y": 224,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[462]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "6a4b183f-c807-4e83-83e3-766bcf548575",
+          "width": 0,
+          "x": 2912,
+          "y": 224,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[460]]}]}"
+            }
+          ],
+          "initialVariables": [
+            {
+              "name": "isBlockObject",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "d717caa7-8624-4e97-8423-c61ac9807e1e",
+          "width": 0,
+          "x": 2944,
+          "y": 192,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":15,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[558,559,560,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[590,591,592,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,379,380]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "assetStoreId": "",
-          "name": "PlatformGround",
+          "name": "Platform",
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
@@ -36283,7 +36521,7 @@
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581,496,528,497,529,498,530,499,531,500,532,283,315,284,316,285,317,247,279,311"
+            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581,496,528,497,529,498,530,499,531,500,532,283,315,284,316,285,317,247,279,311,166,198,167,199,165,197,114,115,15,47"
           }
         },
         {
@@ -36339,10 +36577,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
+              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
               "yGrabOffset": 0
             }
           ]
@@ -36358,10 +36596,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -36443,7 +36681,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "PlatformGround"
+            "objectName": "Platform"
           },
           {
             "objectName": "BackgroundDeco"
@@ -36512,11 +36750,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -36549,8 +36782,8 @@
                   },
                   "parameters": [
                     "BackgroundDeco",
-                    "Enemies.X(\"Checker\")",
-                    "Enemies.Y(\"Checker\")"
+                    "Enemies.PointX(\"Checker\")",
+                    "Enemies.PointY(\"Checker\")"
                   ]
                 },
                 {
@@ -36589,7 +36822,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Flippable"
               ]
             }
@@ -36615,8 +36848,8 @@
                   },
                   "parameters": [
                     "BackgroundDeco",
-                    "Enemies.X(\"Checker\")",
-                    "Enemies.Y(\"Checker\")"
+                    "Enemies.PointX(\"Checker\")",
+                    "Enemies.PointY(\"Checker\")"
                   ]
                 },
                 {
@@ -36659,7 +36892,9 @@
           "comment": "Enemies Chasing"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
           "conditions": [
             {
               "type": {
@@ -36668,8 +36903,36 @@
               "parameters": [
                 "Player",
                 "Enemies",
-                "200",
+                "150",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    ">=",
+                    "Player.Y() + 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "<=",
+                    "Player.Y() - 2"
+                  ]
+                }
               ]
             }
           ],
@@ -36681,65 +36944,67 @@
               "parameters": [
                 "Enemies",
                 "Player",
-                "150",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "IsTurnedTowardObject"
-              },
-              "parameters": [
-                "Enemies",
-                "Player",
-                "90",
+                "50",
                 ""
               ]
             }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Enemies",
-                "Flippable",
-                "yes"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "IsTurnedTowardObject"
-              },
-              "parameters": [
-                "Enemies",
-                "Player",
-                "90",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Enemies",
-                "Flippable",
-                "no"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Flippable",
+                    "no"
+                  ]
+                }
               ]
             }
           ]
@@ -38869,7 +39134,7 @@
               },
               "parameters": [
                 "arrow",
-                "TileMap1",
+                "Platform",
                 "",
                 "",
                 ""
