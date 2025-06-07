@@ -14628,12 +14628,12 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 125,
           "deceleration": 3000,
           "maxSpeed": 125,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -16704,7 +16704,7 @@
     {
       "name": "selectedWeapon",
       "type": "number",
-      "value": 0
+      "value": 1
     },
     {
       "name": "hasArrow",
@@ -29438,7 +29438,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3414840415550956,
+        "zoomFactor": 0.44524071700886003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35495,7 +35495,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3772068627618462,
+        "zoomFactor": 0.5615860051805368,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35522,7 +35522,7 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": -203,
+          "x": -46,
           "y": 242,
           "zOrder": 100,
           "numberProperties": [],
@@ -36294,23 +36294,6 @@
               "value": true
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EnemyArea",
-          "persistentUuid": "28d7810f-e393-4845-b202-af0206208152",
-          "width": 320,
-          "x": 32,
-          "y": 352,
-          "zOrder": -10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -37120,28 +37103,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "ef966384-ea69-453f-8ab7-e0f601b2f829",
-          "width": 0,
-          "x": 1376,
-          "y": 416,
-          "zOrder": 113,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "number",
-              "value": 4
-            }
-          ]
         },
         {
           "angle": 0,
@@ -38671,6 +38632,134 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "0c70e5ad-318c-45a5-b484-20bddc1efef9",
+          "width": 0,
+          "x": 352,
+          "y": 352,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "03afae75-bc27-4e69-bb71-f5198ec56070",
+          "width": 0,
+          "x": 0,
+          "y": 352,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "c4bc3496-9701-41d4-8483-12e6841bdd01",
+          "width": 0,
+          "x": 1376,
+          "y": 416,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "f97dc430-77ac-460e-b74a-5caf316306ea",
+          "width": 0,
+          "x": 960,
+          "y": 416,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "2e756e06-9430-4f25-a854-e1a3655bb690",
+          "width": 0,
+          "x": 1888,
+          "y": 640,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "beb87541-94a3-4e02-80f9-730903288d04",
+          "width": 0,
+          "x": 1408,
+          "y": 640,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "9b424256-77f0-48ac-9742-a7c888fa7b4c",
+          "width": 0,
+          "x": 3424,
+          "y": 224,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "1dd68a22-0a4f-4d6c-ac72-58afde824482",
+          "width": 0,
+          "x": 2912,
+          "y": 224,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -38801,8 +38890,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Ladder",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -39042,6 +39131,17 @@
           ],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "EnemyBlock",
+          "texture": "EnemyArea",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -39094,15 +39194,13 @@
           },
           {
             "objectName": "Checkpoint"
+          },
+          {
+            "objectName": "EnemyBlock"
           }
         ]
       },
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
         {
           "type": "BuiltinCommonInstructions::Link",
           "include": {
@@ -39134,7 +39232,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Enemies Movement"
+          "comment": "Enemy Mushroom"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -39144,7 +39242,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
               },
               "parameters": [
-                "Enemies",
+                "Enemy",
                 "Flippable"
               ]
             }
@@ -39155,7 +39253,7 @@
                 "value": "PlatformBehavior::SimulateLeftKey"
               },
               "parameters": [
-                "Enemies",
+                "Enemy",
                 "PlatformerObject"
               ]
             }
@@ -39169,20 +39267,9 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "BackgroundDeco",
-                    "Enemies.PointX(\"Checker\")",
-                    "Enemies.PointY(\"Checker\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundDeco",
-                    "isBlockObject",
-                    "True",
-                    ""
+                    "EnemyBlock",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
                   ]
                 }
               ],
@@ -39192,7 +39279,7 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "Flippable",
                     "no"
                   ]
@@ -39210,7 +39297,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
               },
               "parameters": [
-                "Enemies",
+                "Enemy",
                 "Flippable"
               ]
             }
@@ -39221,7 +39308,7 @@
                 "value": "PlatformBehavior::SimulateRightKey"
               },
               "parameters": [
-                "Enemies",
+                "Enemy",
                 "PlatformerObject"
               ]
             }
@@ -39235,20 +39322,9 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "BackgroundDeco",
-                    "Enemies.PointX(\"Checker\")",
-                    "Enemies.PointY(\"Checker\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundDeco",
-                    "isBlockObject",
-                    "True",
-                    ""
+                    "EnemyBlock",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
                   ]
                 }
               ],
@@ -39258,7 +39334,7 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "Flippable",
                     "yes"
                   ]
@@ -39268,21 +39344,7 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Enemies Chasing"
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Enemies",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -39290,7 +39352,7 @@
               },
               "parameters": [
                 "Player",
-                "Enemies",
+                "Enemy",
                 "150",
                 ""
               ]
@@ -39306,7 +39368,7 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     ">=",
                     "Player.Y() + 2"
                   ]
@@ -39316,7 +39378,7 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "<=",
                     "Player.Y() - 2"
                   ]
@@ -39330,7 +39392,7 @@
                 "value": "AddForceVers"
               },
               "parameters": [
-                "Enemies",
+                "Enemy",
                 "Player",
                 "50",
                 ""
@@ -39347,7 +39409,7 @@
                     "value": "IsTurnedTowardObject"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "Player",
                     "90",
                     ""
@@ -39360,7 +39422,7 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "Flippable",
                     "yes"
                   ]
@@ -39375,7 +39437,7 @@
                     "value": "IsTurnedTowardObject"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
                     "Player",
                     "90",
                     ""
@@ -39388,7 +39450,718 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Enemy",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pink Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy4",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy4.PointX(\"Checker\")",
+                    "Enemy4.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy4",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy4",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy4.PointX(\"Checker\")",
+                    "Enemy4.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Enemy4",
+                "150",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    ">=",
+                    "Player.Y() + 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "<=",
+                    "Player.Y() - 2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemy4",
+                "Player",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy5",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy5",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy5.PointX(\"Checker\")",
+                    "Enemy5.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy5",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy5",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy5.PointX(\"Checker\")",
+                    "Enemy5.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Enemy5",
+                "150",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    ">=",
+                    "Player.Y() + 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "<=",
+                    "Player.Y() - 2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemy5",
+                "Player",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "White Monster"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy6",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy6",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy6.PointX(\"Checker\")",
+                    "Enemy6.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy6",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy6",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "EnemyBlock",
+                    "Enemy6.PointX(\"Checker\")",
+                    "Enemy6.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Enemy6",
+                "150",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    ">=",
+                    "Player.Y() + 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "<=",
+                    "Player.Y() - 2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemy6",
+                "Player",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsTurnedTowardObject"
+                  },
+                  "parameters": [
+                    "Enemy6",
+                    "Player",
+                    "90",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy6",
                     "Flippable",
                     "no"
                   ]
@@ -39885,7 +40658,102 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemies",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isDisable",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "PlayerLife",
+                "id",
+                "=",
+                "Player.currentBlood"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "currentBlood",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\playerHurt.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerLife",
+                "Animation",
+                "=",
+                "\"Empty\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
                 "Player",
@@ -39893,97 +40761,24 @@
                 "True",
                 ""
               ]
-            }
-          ],
-          "actions": [],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Enemies",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PlayerLife",
-                    "id",
-                    "=",
-                    "Player.currentBlood"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "currentBlood",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\audio\\playerHurt.mp3",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "PlayerLife",
-                    "Animation",
-                    "=",
-                    "\"Empty\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"Hitted\""
-                  ]
-                }
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isDisable",
+                "False",
+                ""
               ]
             }
           ]
@@ -40048,6 +40843,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
