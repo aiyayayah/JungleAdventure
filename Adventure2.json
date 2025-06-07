@@ -6701,6 +6701,16 @@
         "name": "CCP background.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "CCP Scene BGM.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CCP Scene BGM.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -40891,6 +40901,20 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
