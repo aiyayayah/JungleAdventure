@@ -14623,11 +14623,12 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 125,
+          "deceleration": 3000,
+          "maxSpeed": 125,
           "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 150,
-          "deceleration": 1500,
-          "maxSpeed": 150,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -14637,7 +14638,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -14658,8 +14658,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14700,8 +14700,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14742,8 +14742,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14784,8 +14784,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14826,8 +14826,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14868,8 +14868,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14923,8 +14923,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -14965,8 +14965,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15007,8 +15007,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15049,8 +15049,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15103,8 +15103,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15145,8 +15145,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15187,8 +15187,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15229,8 +15229,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15271,8 +15271,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15313,8 +15313,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15355,8 +15355,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15397,8 +15397,8 @@
                   "points": [
                     {
                       "name": "Checker",
-                      "x": 18,
-                      "y": 25.5
+                      "x": 22.5,
+                      "y": 24.5
                     }
                   ],
                   "originPoint": {
@@ -15449,7 +15449,7 @@
         {
           "name": "Lives",
           "type": "number",
-          "value": 2
+          "value": 3
         },
         {
           "name": "State",
@@ -35488,13 +35488,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.12214498136798191,
+        "zoomFactor": 0.3195687453530928,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "Score",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CheckPoint",
           "type": "number",
           "value": 0
         }
@@ -35510,7 +35515,7 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": -267,
+          "x": -203,
           "y": 242,
           "zOrder": 100,
           "numberProperties": [],
@@ -35839,7 +35844,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":28,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,0,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":28,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,0,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -36119,8 +36124,8 @@
           "name": "Axe",
           "persistentUuid": "263d2616-5de5-471b-afd0-a3117cd73a01",
           "width": 0,
-          "x": 3477,
-          "y": 211,
+          "x": 3473,
+          "y": 212,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -36512,7 +36517,7 @@
           "width": 0,
           "x": 2944,
           "y": 192,
-          "zOrder": 47,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -36881,7 +36886,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[33,33,33,33]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[33,33,33,33]]}]}"
             }
           ],
           "initialVariables": []
@@ -36895,7 +36900,7 @@
           "name": "PlatformDeco",
           "persistentUuid": "455a774d-2008-412c-a7b9-5def8bf8d92e",
           "width": 0,
-          "x": -480,
+          "x": -512,
           "y": 544,
           "zOrder": 105,
           "numberProperties": [],
@@ -36916,7 +36921,7 @@
           "name": "PlatformDeco",
           "persistentUuid": "da98a977-953f-49c1-944b-89576fd2d21d",
           "width": 0,
-          "x": -512,
+          "x": -544,
           "y": 576,
           "zOrder": 35,
           "numberProperties": [],
@@ -36996,15 +37001,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 512,
+          "height": 736,
           "keepRatio": true,
           "layer": "Background",
-          "name": "NewTiledSprite2",
-          "persistentUuid": "3171d7f8-205d-4889-b379-f3fbcff1c603",
-          "width": 928,
-          "x": -384,
-          "y": -480,
-          "zOrder": 106,
+          "name": "bc1",
+          "persistentUuid": "8b9e1f3a-4859-4277-bd9d-83fd13d2a0d1",
+          "width": 1248,
+          "x": 96,
+          "y": 2112,
+          "zOrder": 107,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37013,18 +37018,212 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 800,
+          "height": 32,
           "keepRatio": true,
-          "layer": "Background",
-          "name": "bc1",
-          "persistentUuid": "8b9e1f3a-4859-4277-bd9d-83fd13d2a0d1",
-          "width": 1312,
-          "x": 96,
-          "y": 2112,
-          "zOrder": 107,
+          "layer": "",
+          "name": "InteractPoint",
+          "persistentUuid": "1d5f29e9-8695-43fa-acf8-f3e26b7802ea",
+          "width": 64,
+          "x": -448,
+          "y": 704,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hint",
+          "persistentUuid": "327c071b-a252-4803-8d5d-473e3304eff8",
+          "width": 256,
+          "x": -384,
+          "y": 672,
+          "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "b13f5a18-6a84-47eb-8c0c-3655b280bea1",
+          "width": 0,
+          "x": 352,
+          "y": 352,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "c5c45f55-b070-4e57-af6f-a0f994eb2677",
+          "width": 0,
+          "x": 672,
+          "y": 640,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "a0a5c5ad-2364-487f-b052-e5fabc6db22c",
+          "width": 0,
+          "x": 160,
+          "y": 672,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "ef966384-ea69-453f-8ab7-e0f601b2f829",
+          "width": 0,
+          "x": 1376,
+          "y": 416,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "eb469168-1874-49e8-8f0c-9b9b0153619d",
+          "width": 0,
+          "x": 1888,
+          "y": 640,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "70babd16-9a7d-4098-ab29-9f1ffec6ece8",
+          "width": 0,
+          "x": 2272,
+          "y": 512,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "897bda09-4be6-427d-b46f-09da44e4ca64",
+          "width": 0,
+          "x": 3200,
+          "y": 224,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "InteractPoint",
+          "persistentUuid": "10d74f80-8c27-438b-9b98-a63c77a2ea04",
+          "width": 64,
+          "x": -448,
+          "y": 1344,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -37313,17 +37512,6 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
           "name": "TeleportPoint",
           "texture": "EnemyArea",
           "type": "TiledSpriteObject::TiledSprite",
@@ -37342,6 +37530,71 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "InteractPoint",
+          "texture": "EnemyArea",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Hint",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "text": "[b]I might need an axe to chop down this tree.[/b]",
+            "opacity": 255,
+            "fontSize": 12,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Checkpoint",
+          "texture": "EnemyArea",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 3
+            }
+          ],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -37352,9 +37605,6 @@
           },
           {
             "objectName": "FakePlatform"
-          },
-          {
-            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "BackgroundDeco"
@@ -37388,6 +37638,15 @@
           },
           {
             "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "InteractPoint"
+          },
+          {
+            "objectName": "Hint"
+          },
+          {
+            "objectName": "Checkpoint"
           }
         ]
       },
@@ -37766,6 +38025,33 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "InteractPoint",
+                    "id",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InteractPoint",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -37886,6 +38172,147 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Show Hint"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "InteractPoint",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "InteractPoint",
+                "id",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Hint",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "InteractPoint",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "InteractPoint",
+                "id",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Hint"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "InteractPoint",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "InteractPoint",
+                "id",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "Hint",
+                "\"End/Boss\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Checkpoint"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -38014,6 +38441,134 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "End_47Boss",
+      "name": "End/Boss",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
