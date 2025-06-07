@@ -18222,7 +18222,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827596807,
+        "zoomFactor": 0.6244537826600913,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23593,7 +23593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514805,
+        "zoomFactor": 1.5289132892235973,
         "windowMask": false
       },
       "objectsGroups": [
@@ -29382,7 +29382,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37720686276184284,
+        "zoomFactor": 0.4918175773951901,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35406,7 +35406,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.18798161491357937,
+        "zoomFactor": 1.4213527986720957,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35428,9 +35428,9 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": -206,
+          "x": -267,
           "y": 242,
-          "zOrder": 7,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35640,33 +35640,12 @@
           "width": 0,
           "x": 2656,
           "y": 256,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":24,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,4,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,12,1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,12,97,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,183,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-2147483397,66,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BackgroundDeco",
-          "persistentUuid": "6198fa4e-f62b-454d-8996-e77e97c9cbe3",
-          "width": 0,
-          "x": -512,
-          "y": 576,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[474,475,476,477,478],[506,507,508,509,510],[538,539,540,541,542],[570,571,572,573,574],[602,603,604,605,606]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":36,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,4,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,12,1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,12,97,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,64,65,65,65,65,65,65,33,33,33,33,33,33,33,65,65,65,66,17,17,17,17,17,17,17,17,17,18],[-1,16,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,16,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,32,33,34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-2147483397,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,2,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -35771,14 +35750,14 @@
           "name": "Platform",
           "persistentUuid": "0f606a28-831b-40ec-b780-416d3f0e8523",
           "width": 0,
-          "x": -576,
+          "x": -992,
           "y": 736,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":15,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":28,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,0,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -36074,17 +36053,23 @@
           "name": "PlatformDeco",
           "persistentUuid": "63db372d-4db3-4c9a-b2fa-ea62d6d6fff7",
           "width": 0,
-          "x": -352,
-          "y": 608,
+          "x": -448,
+          "y": 736,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[485],[517],[549],[581]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[517,549]]}]}"
             }
           ],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Block",
+              "type": "string",
+              "value": "Rock"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -36454,6 +36439,476 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "7de162e1-13f9-4eb7-a674-ea3d1f965439",
+          "width": 20,
+          "x": 2869,
+          "y": 706,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "274e89b8-4a13-49b4-8b43-d3854927cc24",
+          "width": 20,
+          "x": 2909,
+          "y": 706,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "e01b3d6d-7ab6-4ccd-881d-6d989e5a323c",
+          "width": 20,
+          "x": 2949,
+          "y": 706,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "b9a223df-9b0c-4581-ad31-c3aca06d6323",
+          "width": 20,
+          "x": 2989,
+          "y": 706,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "20468617-79d7-4c51-817a-961e34c0b9ae",
+          "width": 20,
+          "x": 2869,
+          "y": 668,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "a4f88822-022d-4063-b46f-362db0fc0444",
+          "width": 20,
+          "x": 2909,
+          "y": 668,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "2e45d4b6-c3d5-4473-9baf-2b407101819a",
+          "width": 20,
+          "x": 2949,
+          "y": 668,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "d153b924-356b-43bc-9f1d-4278979f314c",
+          "width": 20,
+          "x": 2989,
+          "y": 668,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "3213d319-7412-48fc-a5ec-7d565646aa82",
+          "width": 20,
+          "x": 3029,
+          "y": 668,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "7aee9af1-fabd-4675-9f79-8cd0740560be",
+          "width": 20,
+          "x": 3069,
+          "y": 668,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "ab0833cb-3ea8-4a20-a4ae-2f3917d97254",
+          "width": 20,
+          "x": 3109,
+          "y": 668,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "6d7f6ccc-0b61-4ac7-8a89-9eca7991f5de",
+          "width": 20,
+          "x": 3149,
+          "y": 668,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "00fbc978-251f-4ab2-916a-4591c937d42d",
+          "width": 20,
+          "x": 3149,
+          "y": 706,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "24762170-f88b-44f7-ba61-5c50c240eaab",
+          "width": 20,
+          "x": 3109,
+          "y": 706,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1764705882352942,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "1765802d-0546-42ed-a94b-86de5d14ed3c",
+          "width": 20,
+          "x": 3069,
+          "y": 706,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "a2da9b0b-e0ad-45d0-9e51-c9da7ce5ad34",
+          "width": 20,
+          "x": 3029,
+          "y": 706,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FakePlatform",
+          "persistentUuid": "5d50ed6d-8d60-4790-92b5-3d6040a9045e",
+          "width": 0,
+          "x": 2688,
+          "y": 576,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":20,\"dimY\":26,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[-1,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[-1,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,17,17,17],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,33,33,33,33]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Down_Arrow",
+          "persistentUuid": "aac2e89c-b131-43cd-88cd-8692bb3952d2",
+          "width": 32,
+          "x": 3264,
+          "y": 704,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TeleportPoint",
+          "persistentUuid": "c3f46663-9cd5-4c94-825f-b761c3c22045",
+          "width": 64,
+          "x": 3232,
+          "y": 1408,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TeleportPoint",
+          "persistentUuid": "e3d49d06-a481-4b5b-9af1-12b0abea3ecb",
+          "width": 0,
+          "x": 3232,
+          "y": 1472,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FakePlatform",
+          "persistentUuid": "7b9edbc6-98a6-4532-888d-668a00337128",
+          "width": 0,
+          "x": -480,
+          "y": 736,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[33,33,33,33]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformDeco",
+          "persistentUuid": "455a774d-2008-412c-a7b9-5def8bf8d92e",
+          "width": 0,
+          "x": -480,
+          "y": 544,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[485],[517],[517],[517],[517],[549]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformDeco",
+          "persistentUuid": "da98a977-953f-49c1-944b-89576fd2d21d",
+          "width": 0,
+          "x": -512,
+          "y": 576,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[474,475,476,477,478],[506,507,508,509,510],[538,539,540,541,542],[570,571,572,573,574],[602,603,604,605,606]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 219,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "bf6abd9d-88dc-4ba1-8058-7e2d28ab5550",
+          "width": 73,
+          "x": -713,
+          "y": 517,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[118],[150],[182]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "b8372584-b8b9-444c-b841-ba01cf804e56",
+          "width": 0,
+          "x": 160,
+          "y": 640,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-2147483636],[-2147483604]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundDeco",
+          "persistentUuid": "7de9c570-3be4-4678-8d1f-de32db03bb49",
+          "width": 0,
+          "x": -384,
+          "y": 672,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,562,563,564],[493,460,461,493,-1,-1,594,595,596]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -36521,14 +36976,20 @@
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581,496,528,497,529,498,530,499,531,500,532,283,315,284,316,285,317,247,279,311,166,198,167,199,165,197,114,115,15,47"
+            "tilesWithHitBox": "857,325,357,326,358,327,359,474,506,538,570,602,475,507,539,571,603,476,508,540,572,604,477,509,541,573,605,478,510,542,574,606,12,44,460,492,524,461,493,525,462,494,526,549,581,496,528,497,529,498,530,499,531,500,532,283,315,284,316,285,317,247,279,311,166,198,167,199,165,197,114,115,15,47,118,150,182"
           }
         },
         {
           "assetStoreId": "",
           "name": "PlatformDeco",
           "type": "TileMap::SimpleTileMap",
-          "variables": [],
+          "variables": [
+            {
+              "name": "Block",
+              "type": "string",
+              "value": ""
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -36544,7 +37005,7 @@
             "rowCount": 32,
             "columnCount": 32,
             "tileSize": 32,
-            "tilesWithHitBox": "455,487,519,551,787,851,788,852,789,853,790,854,791,855,472,453,485,517,549,581"
+            "tilesWithHitBox": "455,487,519,551,787,851,788,852,789,853,790,854,791,855,472,453,485,517,549,581,476,508,540,572,604"
           }
         },
         {
@@ -36675,6 +37136,85 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "FakePlatform",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\village\\TX Tileset Ground.png",
+            "rowCount": 16,
+            "columnCount": 16,
+            "tileSize": 32,
+            "tilesWithHitBox": "0,16,32,1,17,33,2,18,34"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Down_Arrow",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "↓",
+          "font": "CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 42,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "↓",
+            "font": "CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 42,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "TeleportPoint",
+          "texture": "EnemyArea",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -36682,6 +37222,12 @@
         "children": [
           {
             "objectName": "Platform"
+          },
+          {
+            "objectName": "FakePlatform"
+          },
+          {
+            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "BackgroundDeco"
@@ -36706,6 +37252,12 @@
           },
           {
             "objectName": "EnemyArea"
+          },
+          {
+            "objectName": "TeleportPoint"
+          },
+          {
+            "objectName": "Down_Arrow"
           }
         ]
       },
@@ -37005,6 +37557,202 @@
                     "no"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Picking Axe"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Axe",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Axe",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "PlatformDeco",
+                    "Block",
+                    "=",
+                    "\"Rock\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "PlatformDeco",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enter Hidden Space"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "FakePlatform",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FakePlatform",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "FakePlatform",
+                "=",
+                "-10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "FakePlatform",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FakePlatform",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "FakePlatform",
+                "=",
+                "101"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "TeleportPoint",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "3456",
+                "=",
+                "-300"
               ]
             }
           ]
