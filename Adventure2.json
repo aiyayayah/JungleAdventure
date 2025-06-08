@@ -6731,6 +6731,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/gun/Ak47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gun\\Ak47.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -18317,7 +18325,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600913,
+        "zoomFactor": 0.32169117647063933,
         "windowMask": false
       },
       "objectsGroups": [
@@ -18356,8 +18364,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 117,
-          "y": 955,
+          "x": 187,
+          "y": 167,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -18374,8 +18382,8 @@
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 1073,
-          "y": 66,
+          "x": 1585,
+          "y": -178,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -18391,8 +18399,8 @@
           "name": "Platform",
           "persistentUuid": "582fa257-47e4-4dc4-ba4d-ee3423baf02b",
           "width": 608,
-          "x": 0,
-          "y": 992,
+          "x": -145,
+          "y": 990,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [
@@ -18430,8 +18438,8 @@
           "name": "SignBoard",
           "persistentUuid": "a705d0e7-4142-4b5e-b460-b8012b71daa7",
           "width": 44,
-          "x": 28,
-          "y": 946,
+          "x": -138,
+          "y": 943,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -18448,8 +18456,8 @@
           "name": "SignBoard",
           "persistentUuid": "50d0f3ad-0c06-4c6b-a7c0-64e814fac838",
           "width": 44,
-          "x": 934,
-          "y": 529,
+          "x": 878,
+          "y": 531,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -18518,14 +18526,14 @@
           "name": "Platform",
           "persistentUuid": "996a310a-4a85-4750-a308-6852f7752b71",
           "width": 0,
-          "x": 224,
-          "y": 96,
+          "x": 286,
+          "y": 108,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":14,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,108,17,17,17,17,17,17,18],[16,17,91,17,17,17,17,17,123,17,17,17,123,18],[32,33,33,33,33,33,33,33,33,33,33,33,254,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2],[32,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -18539,8 +18547,8 @@
           "name": "guideMovement",
           "persistentUuid": "914787c3-cbe2-48b2-83ec-49b3cf28e6e7",
           "width": 0,
-          "x": 84,
-          "y": 872,
+          "x": -62,
+          "y": 891,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -18555,8 +18563,8 @@
           "name": "guideJump",
           "persistentUuid": "30081f5f-b77e-4c94-b75c-abd6096707fd",
           "width": 0,
-          "x": 503,
-          "y": 872,
+          "x": 344,
+          "y": 882,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -18642,14 +18650,14 @@
           "name": "Platform",
           "persistentUuid": "0baa589c-4b50-41bf-b404-7ccc3773bd34",
           "width": 0,
-          "x": 672,
-          "y": 896,
+          "x": 542,
+          "y": 968,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,12,13],[-1,-1,-1,12,13,-1,28,29],[12,13,-1,28,29,-1,-1,-1],[28,29,-1,-1,-1,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12,13],[28,29]]}]}"
             }
           ],
           "initialVariables": []
@@ -18664,7 +18672,7 @@
           "name": "Deco7",
           "persistentUuid": "47410b47-8287-44c1-8d21-c74c0bb9320a",
           "width": 0,
-          "x": 951,
+          "x": 892,
           "y": 566,
           "zOrder": 71,
           "numberProperties": [],
@@ -18697,6 +18705,7 @@
           "locked": true,
           "name": "Platform",
           "persistentUuid": "d9aff354-4de6-48df-ae32-2772118a5429",
+          "sealed": true,
           "width": 0,
           "x": 128,
           "y": 128,
@@ -18792,33 +18801,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Right",
-          "persistentUuid": "208a21c2-3629-4849-9d09-8715f944a74d",
-          "width": 0,
-          "x": 192,
-          "y": 128,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1346,
+          "height": 1647,
           "keepRatio": true,
           "layer": "",
           "name": "bc1",
           "opacity": 179,
           "persistentUuid": "80eac58b-1bec-4eed-8e40-2122161a0913",
-          "width": 2044,
-          "x": -211,
-          "y": -155,
+          "width": 2973,
+          "x": -544,
+          "y": -322,
           "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
@@ -18878,11 +18871,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Chest",
+          "name": "Chest1",
           "persistentUuid": "1317e767-a7c1-46bc-8ba3-3c34dd747554",
           "width": 0,
-          "x": 260,
-          "y": 319,
+          "x": 281,
+          "y": 317,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -18900,23 +18893,6 @@
           "x": 561,
           "y": 137,
           "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 37,
-          "keepRatio": true,
-          "layer": "",
-          "name": "colliderPressOne",
-          "persistentUuid": "ef71366c-fa3b-40fa-9ca2-b51fac104e24",
-          "width": 59,
-          "x": 241,
-          "y": 282,
-          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18946,8 +18922,8 @@
           "name": "colliderOpenChest",
           "persistentUuid": "b68fe040-5399-4ac6-9466-c8931b954765",
           "width": 0,
-          "x": 242,
-          "y": 304,
+          "x": 224,
+          "y": 288,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -18963,25 +18939,9 @@
           "name": "Gun2_CONUNI",
           "persistentUuid": "1c9832b9-33de-42dc-b8ad-cd628244f0b7",
           "width": 60,
-          "x": 242,
-          "y": 326,
+          "x": 261,
+          "y": 323,
           "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "guideEquip",
-          "persistentUuid": "4d9ab24c-34e7-4139-a329-16b79acbc768",
-          "width": 0,
-          "x": 257,
-          "y": 280,
-          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18995,8 +18955,8 @@
           "name": "Platform",
           "persistentUuid": "cfb1dd68-5f77-49e6-aa10-044d81b96c24",
           "width": 0,
-          "x": 768,
-          "y": 192,
+          "x": 1279,
+          "y": -53,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [
@@ -19009,23 +18969,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 46,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SignBoard",
-          "persistentUuid": "4266e9ed-3bcc-47ec-aa86-6d1a59e9687a",
-          "width": 44,
-          "x": 232,
-          "y": 54,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -19033,8 +18976,8 @@
           "name": "Deco7",
           "persistentUuid": "1f613c6b-50d4-4d39-a800-4d751556d8d1",
           "width": 0,
-          "x": 246,
-          "y": 87,
+          "x": 496,
+          "y": 55,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -19049,8 +18992,8 @@
           "name": "Deco7",
           "persistentUuid": "b6ed8594-4dfc-451f-aef4-8a29c70cdbc3",
           "width": 0,
-          "x": 646,
-          "y": 86,
+          "x": 777,
+          "y": 55,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -19065,8 +19008,8 @@
           "name": "Enemy",
           "persistentUuid": "fac4453f-60c8-489e-9fb2-3f5e5e6aa19e",
           "width": 0,
-          "x": 377,
-          "y": 79,
+          "x": 539,
+          "y": 46,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -19182,8 +19125,8 @@
           "name": "PlayerLife",
           "persistentUuid": "ea5a7003-c159-4a7c-90ab-d0403ec74843",
           "width": 64,
-          "x": 144,
-          "y": 114,
+          "x": 152,
+          "y": 121,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -19205,8 +19148,8 @@
           "name": "PlayerLife",
           "persistentUuid": "fcf5b462-84dd-46e4-95de-dde72aeb418f",
           "width": 64,
-          "x": 228,
-          "y": 114,
+          "x": 236,
+          "y": 121,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -19228,8 +19171,8 @@
           "name": "PlayerLife",
           "persistentUuid": "eda1a558-8f43-402e-8b92-7a1601710a68",
           "width": 64,
-          "x": 312,
-          "y": 114,
+          "x": 320,
+          "y": 121,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -19733,22 +19676,6 @@
           "x": -704,
           "y": 1280,
           "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Boundary",
-          "persistentUuid": "24366ca8-8ecf-49f3-b618-8be30d86df09",
-          "width": 0,
-          "x": -672,
-          "y": 1280,
-          "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20947,8 +20874,8 @@
           "name": "Coins",
           "persistentUuid": "f0c999ab-8844-4686-baaf-784f2f59c17f",
           "width": 33,
-          "x": 883,
-          "y": 866,
+          "x": 697,
+          "y": 909,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20964,8 +20891,8 @@
           "name": "Coins",
           "persistentUuid": "9577e2f1-28fb-4a05-9d6e-8c8ff02af7c1",
           "width": 33,
-          "x": 786,
-          "y": 896,
+          "x": 563,
+          "y": 935,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20998,8 +20925,8 @@
           "name": "colliderTeleport",
           "persistentUuid": "62c9ff98-2853-4ed9-9f97-f2b34b94a910",
           "width": 80,
-          "x": 1072,
-          "y": 62,
+          "x": 1551,
+          "y": -181,
           "zOrder": 107,
           "numberProperties": [],
           "stringProperties": [],
@@ -21011,12 +20938,353 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "guideWeaponLis",
-          "persistentUuid": "73c6f475-f7a6-4091-97f8-7da2f91fc467",
+          "name": "Platform",
+          "persistentUuid": "a2588b00-0e35-463f-ade8-4c32233c9601",
           "width": 0,
-          "x": 218,
-          "y": 234,
-          "zOrder": 108,
+          "x": 679,
+          "y": 938,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12,13],[28,29]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "15972209-e5af-4f2e-816b-9187d6df4d74",
+          "width": 0,
+          "x": 828,
+          "y": 901,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12,13],[28,29]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "6afdc10b-59ff-4b13-95da-00e9a2b91a6e",
+          "width": 33,
+          "x": 843,
+          "y": 869,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "d899e2ab-ab01-4fb3-97c7-c7d44398d1a2",
+          "width": 0,
+          "x": 251,
+          "y": 143,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "shotGun2",
+          "persistentUuid": "3f179dc7-ff25-4ad0-93e6-8642eec3964e",
+          "width": 64,
+          "x": 306,
+          "y": 84,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest2",
+          "persistentUuid": "f0d6da65-bc8e-4aa8-b8e7-e141af20004b",
+          "width": 0,
+          "x": 322,
+          "y": 74,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "persistentUuid": "0a16a591-a36b-43ec-8f50-f6061a3bae3d",
+          "width": 44,
+          "x": 124,
+          "y": 83,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "db9dc42d-fb0a-4269-a3a7-f3a2e3428f18",
+          "width": 0,
+          "x": 136,
+          "y": 118,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "dfe56b72-53a3-4d01-af62-6760bf137b7d",
+          "width": 0,
+          "x": 480,
+          "y": 64,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":10,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,2],[16,123,17,17,17,17,91,17,17,18],[32,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "e5f23dfd-6128-4604-8553-7bd4a5a8b490",
+          "width": 0,
+          "x": 448,
+          "y": 96,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "6f38116a-b97e-4263-9dc4-4adcebffd87b",
+          "width": 0,
+          "x": 921,
+          "y": -5,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":10,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,2],[16,123,17,17,17,17,91,17,17,18],[32,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "6678193f-a7f7-4669-811d-fde7014d1db3",
+          "width": 0,
+          "x": 885,
+          "y": 27,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "cd5fc184-3f8d-4b70-8415-414160bcf973",
+          "width": 0,
+          "x": 931,
+          "y": -14,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deco7",
+          "persistentUuid": "338a8dfd-139b-4630-9bfd-c5670810213e",
+          "width": 0,
+          "x": 1219,
+          "y": -14,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy1",
+          "persistentUuid": "b42d6804-0718-4501-8d0b-b3b2b08988ce",
+          "width": 0,
+          "x": 982,
+          "y": -30,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "4361efb8-0d79-4270-8d38-508271fd909f",
+          "width": 64,
+          "x": 484,
+          "y": 121,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "8ad3a0f1-6484-49f1-8066-b052d157d4bf",
+          "width": 64,
+          "x": 400,
+          "y": 121,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guidePistol",
+          "persistentUuid": "d9f656d0-5239-4ad4-8e39-bb7457984ab2",
+          "width": 0,
+          "x": 299,
+          "y": 276,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideEquip",
+          "persistentUuid": "0ea3adf9-a057-4621-826f-cd521d96f7f3",
+          "width": 0,
+          "x": 283,
+          "y": 256,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "guideShotGun",
+          "persistentUuid": "46975a41-6447-48af-8c30-c2ec9db88c48",
+          "width": 0,
+          "x": 276,
+          "y": 34,
+          "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21858,10 +22126,16 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Chest",
+          "name": "Chest1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -22355,10 +22629,466 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "shotGunDisplay",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\gun\\Shotgun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 8
+                          },
+                          {
+                            "x": 62,
+                            "y": 8
+                          },
+                          {
+                            "x": 62,
+                            "y": 23
+                          },
+                          {
+                            "x": 1,
+                            "y": 23
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "shotGun2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "visible",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\gun\\Shotgun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 8
+                          },
+                          {
+                            "x": 62,
+                            "y": 8
+                          },
+                          {
+                            "x": 62,
+                            "y": 23
+                          },
+                          {
+                            "x": 1,
+                            "y": 23
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Chest2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\idle\\assets_village_TX Chest Animation.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\box\\open\\assets_village_TX Chest Animation7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 5
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "guideWeaponLis",
+          "name": "guidePistol",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "guideShotGun",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -22401,6 +23131,14 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "weapons display",
+            "children": [
+              {
+                "objectName": "shotGunDisplay"
+              }
+            ]
+          },
+          {
             "folderName": "emptyCollider",
             "children": [
               {
@@ -22442,15 +23180,21 @@
                 "objectName": "guideEquip"
               },
               {
-                "objectName": "guideWeaponLis"
+                "objectName": "guideTeleport"
               },
               {
-                "objectName": "guideTeleport"
+                "objectName": "guidePistol"
+              },
+              {
+                "objectName": "guideShotGun"
               }
             ]
           },
           {
             "objectName": "PassThrough2"
+          },
+          {
+            "objectName": "shotGun2"
           },
           {
             "objectName": "Platform7"
@@ -22474,7 +23218,10 @@
             "objectName": "Platform1"
           },
           {
-            "objectName": "Chest"
+            "objectName": "Chest1"
+          },
+          {
+            "objectName": "Chest2"
           },
           {
             "objectName": "Boundary"
@@ -22546,6 +23293,14 @@
               },
               "parameters": [
                 "Gun2_CONUNI"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "shotGun2"
               ]
             },
             {
@@ -23139,7 +23894,7 @@
               },
               "parameters": [
                 "Player",
-                "Chest",
+                "Chest1",
                 "",
                 "",
                 ""
@@ -23161,7 +23916,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Chest",
+                "Chest1",
                 "Animation",
                 "=",
                 "\"open\""
@@ -23189,7 +23944,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Chest",
+                "Chest1",
                 ""
               ]
             },
@@ -23224,6 +23979,125 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "pistol"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Chest2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"o\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Chest2",
+                "Animation",
+                "=",
+                "\"open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "shotGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chest2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "shotGun2",
+                "visible",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideEquip",
+                "Text",
+                "=",
+                "\"Press E to equip the weapon\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "guideOpenChest"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "shotgun"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23282,17 +24156,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "guideWeaponLis",
-                "Text",
-                "=",
-                "\"Press 1 to change to default weapon\nPress 2 to change to pistol\nPress 3 to change to shotgun\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -23307,6 +24170,94 @@
               "parameters": [
                 "Gun2_CONUNI",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guidePistol",
+                "Text",
+                "=",
+                "\"Press 2 to swap to Pistol\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "shotGun2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "shotGun2",
+                "visible",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasGun1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "shotGun2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "guideShotGun",
+                "Text",
+                "=",
+                "\"Press 3 to swap to Shot Gun\""
               ]
             }
           ]
@@ -23688,7 +24639,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8416428125374855,
+        "zoomFactor": 1.1343715797163314,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23736,8 +24687,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 495,
-          "y": 566,
+          "x": 458,
+          "y": 580,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -29773,7 +30724,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -29781,8 +30732,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.7569092189150644,
+        "snap": true,
+        "zoomFactor": 3.4800416666668905,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35885,7 +36836,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7824324476176621,
+        "zoomFactor": 0.49181757739519644,
         "windowMask": false
       },
       "objectsGroups": [],
