@@ -6739,6 +6739,126 @@
         "name": "assets\\gun\\Ak47.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/with_outline/ATTACK.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\with_outline\\ATTACK.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/ATTACK1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\ATTACK1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/ATTACK2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\ATTACK2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/ATTACK3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\ATTACK3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/ATTACK4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\ATTACK4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/attack/attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\attack\\attack8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16696,6 +16816,1377 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Enemy3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "state",
+          "type": "string",
+          "value": "idle"
+        },
+        {
+          "name": "Lives",
+          "type": "number",
+          "value": 5
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\hurt\\hurt7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemy\\Demon\\dead\\dead6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 2
+                      },
+                      {
+                        "x": 54.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 81,
+                        "y": 18
+                      },
+                      {
+                        "x": 80,
+                        "y": 50
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -16724,6 +18215,9 @@
       {
         "folderName": "enemies",
         "children": [
+          {
+            "objectName": "Enemy3"
+          },
           {
             "objectName": "Enemy6"
           },
@@ -30787,7 +32281,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 3.4800416666668905,
+        "zoomFactor": 0.9868888800942307,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31832,1377 +33326,6 @@
             "tileSize": 32,
             "tilesWithHitBox": "103,74,75,76,0,1,2,17,18,16,34,33,32,55,56,54,58,57,90,89,4,20,21,5,7,23,9,10,28,29,13,64,65,66,82,98,97,96,80,128,144,160,130,192,193,194,226,225,224,244,245,248,247,246,249,251,250,234,218,217,215,216,232,231,230,166,182,198,214,183,199,184,200,151,167,152,168,148,149,150,164,180,196,212,165,181,197,213,228,84,100,116,132,117,86,102,134,87,118,119,120,88,104,72,52,121,122,123,136,137,138,139,140,153,154,155,156,157,93,109,125,141,106,91,107,92,108,124,171,187,186,202,219,220,173,189,205,221,237,253,254,255,238,239,222,223,143,159,175,158,191,127,126,110,111,95,94,77,79,59,60,61,62,63,12"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Enemy3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "state",
-              "type": "string",
-              "value": "idle"
-            },
-            {
-              "name": "Lives",
-              "type": "number",
-              "value": 5
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "dead",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\dead\\dead6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20.5,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 38.5
-                          },
-                          {
-                            "x": 10.5,
-                            "y": 35.5
-                          },
-                          {
-                            "x": 6.5,
-                            "y": 30.5
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 29
-                          },
-                          {
-                            "x": 0,
-                            "y": 31
-                          },
-                          {
-                            "x": 1,
-                            "y": 23.5
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 19.5
-                          },
-                          {
-                            "x": 11,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 49,
-                            "y": 2
-                          },
-                          {
-                            "x": 54.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 81,
-                            "y": 18
-                          },
-                          {
-                            "x": 80,
-                            "y": 50
-                          },
-                          {
-                            "x": 68.5,
-                            "y": 58.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 18.5,
-                            "y": 61
-                          },
-                          {
-                            "x": 11.5,
-                            "y": 56
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -35000,9 +35123,6 @@
           },
           {
             "objectName": "Boundary"
-          },
-          {
-            "objectName": "Enemy3"
           },
           {
             "objectName": "Boundary2"
@@ -42697,7 +42817,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.164886315598725,
+        "zoomFactor": 0.7824324476176112,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42718,14 +42838,14 @@
           "name": "Platform",
           "persistentUuid": "562eb26f-eef9-4a8f-916b-828b1fecb7ef",
           "width": 0,
-          "x": -32,
-          "y": 640,
-          "zOrder": 1,
+          "x": 384,
+          "y": 608,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":54,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,34],[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":37,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -42739,8 +42859,67 @@
           "name": "Player",
           "persistentUuid": "0e8a5934-e932-4610-8f0e-c34382784fe2",
           "width": 35,
-          "x": 597,
-          "y": 814,
+          "x": 786,
+          "y": 370,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "2e1658b6-babe-44ee-a031-733b62aa0550",
+          "width": 0,
+          "x": 384,
+          "y": 416,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,2],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[32,33,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "77fd612a-61aa-4dc1-981c-8000285f0239",
+          "width": 0,
+          "x": 1216,
+          "y": 416,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,2],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[16,-1,-1,-1,-1,-1,-1,-1,-1,-1,18],[32,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftSideLadder",
+          "persistentUuid": "7610394d-43e8-427a-9133-989e7e2d1dff",
+          "width": 18,
+          "x": 736,
+          "y": 416,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -42753,12 +42932,71 @@
           "height": 192,
           "keepRatio": true,
           "layer": "",
-          "name": "LeftSideLadder",
-          "persistentUuid": "c82b7147-5f1b-4f9d-8efb-671656281239",
+          "name": "RightSideLadder",
+          "persistentUuid": "aed57f26-ce80-40a0-9c8c-bf4fa9dd432b",
           "width": 16,
+          "x": 1200,
+          "y": 416,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FakePlatform",
+          "persistentUuid": "d46e9046-55db-49f3-8a2d-e9bda796bb93",
+          "width": 0,
+          "x": 1216,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FakePlatform",
+          "persistentUuid": "ab1379c6-907a-4d7c-a9ff-073b5efced4c",
+          "width": 0,
           "x": 384,
-          "y": 640,
-          "zOrder": 3,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,17,17,17,17,17,17,17,17,17,18],[-1,17,17,17,17,17,17,17,17,17,18],[-1,17,17,17,17,17,17,17,17,17,18],[-1,17,17,17,17,17,17,17,17,17,18],[-1,17,17,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,34]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 122,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boss",
+          "persistentUuid": "5483df40-2242-4a1d-a1aa-65d2f2f2371f",
+          "width": 152,
+          "x": 904,
+          "y": 294,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42787,6 +43025,2120 @@
             "tileSize": 32,
             "tilesWithHitBox": "0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,1,17,33,49,65,81,97,113,129,145,161,177,193,209,225,241,2,18,34,50,66,82,98,114,130,146,162,178,194,210,226,242,3,19,35,51,67,83,99,115,131,147,163,179,195,211,227,243,4,20,36,52,68,84,100,116,132,148,164,180,196,212,228,244,5,21,37,53,69,85,101,117,133,149,165,181,197,213,229,245,6,22,38,54,70,86,102,118,134,150,166,182,198,214,230,246,7,23,39,55,71,87,103,119,135,151,167,183,199,215,231,247,8,24,40,56,72,88,104,120,136,152,168,184,200,216,232,248,9,25,41,57,73,89,105,121,137,153,169,185,201,217,233,249,10,26,42,58,74,90,106,122,138,154,170,186,202,218,234,250,11,27,43,59,75,91,107,123,139,155,171,187,203,219,235,251,12,28,44,60,76,92,108,124,140,156,172,188,204,220,236,252,13,29,45,61,77,93,109,125,141,157,173,189,205,221,237,253,14,30,46,62,78,94,110,126,142,158,174,190,206,222,238,254,15,31,47,63,79,95,111,127,143,159,175,191,207,223,239,255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FakePlatform",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\village\\TX Tileset Ground.png",
+            "rowCount": 16,
+            "columnCount": 16,
+            "tileSize": 32,
+            "tilesWithHitBox": "0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,1,17,33,49,65,81,97,113,129,145,161,177,193,209,225,241,2,18,34,50,66,82,98,114,130,146,162,178,194,210,226,242,3,19,35,51,67,83,99,115,131,147,163,179,195,211,227,243,4,20,36,52,68,84,100,116,132,148,164,180,196,212,228,244,5,21,37,53,69,85,101,117,133,149,165,181,197,213,229,245,6,22,38,54,70,86,102,118,134,150,166,182,198,214,230,246,7,23,39,55,71,87,103,119,135,151,167,183,199,215,231,247,8,24,40,56,72,88,104,120,136,152,168,184,200,216,232,248,9,25,41,57,73,89,105,121,137,153,169,185,201,217,233,249,10,26,42,58,74,90,106,122,138,154,170,186,202,218,234,250,11,27,43,59,75,91,107,123,139,155,171,187,203,219,235,251,12,28,44,60,76,92,108,124,140,156,172,188,204,220,236,252,13,29,45,61,77,93,109,125,141,157,173,189,205,221,237,253,14,30,46,62,78,94,110,126,142,158,174,190,206,222,238,254,15,31,47,63,79,95,111,127,143,159,175,191,207,223,239,255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Boss",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "state",
+              "type": "string",
+              "value": "idle"
+            },
+            {
+              "name": "Lives",
+              "type": "number",
+              "value": 5
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\idle\\assets_Enemy_Demon_with_outline_IDLE8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\dead\\dead6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemy\\Demon\\attack\\attack8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 6.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          },
+                          {
+                            "x": 1,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 11,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 2
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 18
+                          },
+                          {
+                            "x": 80,
+                            "y": 50
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 58.5
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 61
+                          },
+                          {
+                            "x": 11.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -42794,6 +45146,12 @@
         "children": [
           {
             "objectName": "Platform"
+          },
+          {
+            "objectName": "FakePlatform"
+          },
+          {
+            "objectName": "Boss"
           }
         ]
       },
@@ -42882,6 +45240,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
         },
         {
           "name": "Opacity",
@@ -43439,6 +45801,17 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "CurrentSceneName()",
+                "=",
+                "\"Boss\""
+              ]
             }
           ],
           "actions": [
@@ -43449,6 +45822,77 @@
               "parameters": [
                 "",
                 "2.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "2",
+                "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "bc1",
+                "",
+                "\"Background\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "CurrentSceneName()",
+                "=",
+                "\"Boss\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "2",
                 "",
                 ""
               ]
