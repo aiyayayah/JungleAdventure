@@ -35793,7 +35793,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1646277891343007,
+        "zoomFactor": 1.3749877576285903,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39177,6 +39177,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftSideLadder",
+          "persistentUuid": "69117310-70d0-4f8c-8ca8-a18eb041a322",
+          "width": 16,
+          "x": 0,
+          "y": 256,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -39767,7 +39784,7 @@
               "parameters": [
                 "Enemy",
                 "Player",
-                "50",
+                "20",
                 ""
               ]
             }
@@ -40004,7 +40021,7 @@
               "parameters": [
                 "Enemy4",
                 "Player",
-                "50",
+                "30",
                 ""
               ]
             }
@@ -40241,7 +40258,7 @@
               "parameters": [
                 "Enemy5",
                 "Player",
-                "50",
+                "25",
                 ""
               ]
             }
@@ -40478,7 +40495,7 @@
               "parameters": [
                 "Enemy6",
                 "Player",
-                "50",
+                "35",
                 ""
               ]
             }
