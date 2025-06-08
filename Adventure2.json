@@ -35219,7 +35219,7 @@
                 "Player",
                 "currentBlood",
                 "=",
-                "3"
+                "5"
               ]
             },
             {
@@ -36452,7 +36452,6 @@
           "comment": "Player Die and Restart the Scene\n"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -42817,7 +42816,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7824324476176112,
+        "zoomFactor": 0.2893044572912744,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42838,7 +42837,7 @@
           "name": "Platform",
           "persistentUuid": "562eb26f-eef9-4a8f-916b-828b1fecb7ef",
           "width": 0,
-          "x": 384,
+          "x": 256,
           "y": 608,
           "zOrder": 5,
           "numberProperties": [],
@@ -42859,8 +42858,8 @@
           "name": "Player",
           "persistentUuid": "0e8a5934-e932-4610-8f0e-c34382784fe2",
           "width": 35,
-          "x": 786,
-          "y": 370,
+          "x": 562,
+          "y": 398,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -42875,7 +42874,7 @@
           "name": "Platform",
           "persistentUuid": "2e1658b6-babe-44ee-a031-733b62aa0550",
           "width": 0,
-          "x": 384,
+          "x": 256,
           "y": 416,
           "zOrder": 1,
           "numberProperties": [],
@@ -42896,7 +42895,7 @@
           "name": "Platform",
           "persistentUuid": "77fd612a-61aa-4dc1-981c-8000285f0239",
           "width": 0,
-          "x": 1216,
+          "x": 1088,
           "y": 416,
           "zOrder": 1,
           "numberProperties": [],
@@ -42918,7 +42917,7 @@
           "name": "LeftSideLadder",
           "persistentUuid": "7610394d-43e8-427a-9133-989e7e2d1dff",
           "width": 18,
-          "x": 736,
+          "x": 608,
           "y": 416,
           "zOrder": 2,
           "numberProperties": [],
@@ -42935,7 +42934,7 @@
           "name": "RightSideLadder",
           "persistentUuid": "aed57f26-ce80-40a0-9c8c-bf4fa9dd432b",
           "width": 16,
-          "x": 1200,
+          "x": 1072,
           "y": 416,
           "zOrder": 2,
           "numberProperties": [],
@@ -42951,7 +42950,7 @@
           "name": "FakePlatform",
           "persistentUuid": "d46e9046-55db-49f3-8a2d-e9bda796bb93",
           "width": 0,
-          "x": 1216,
+          "x": 1088,
           "y": 448,
           "zOrder": 1,
           "numberProperties": [],
@@ -42972,7 +42971,7 @@
           "name": "FakePlatform",
           "persistentUuid": "ab1379c6-907a-4d7c-a9ff-073b5efced4c",
           "width": 0,
-          "x": 384,
+          "x": 256,
           "y": 448,
           "zOrder": 1,
           "numberProperties": [],
@@ -42988,15 +42987,95 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 122,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "Boss",
           "persistentUuid": "5483df40-2242-4a1d-a1aa-65d2f2f2371f",
-          "width": 152,
-          "x": 904,
-          "y": 294,
+          "width": 160,
+          "x": 768,
+          "y": 288,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TopCenter",
+          "persistentUuid": "5a0f6257-d016-454d-966b-2b62c6bfcf3a",
+          "width": 0,
+          "x": 768,
+          "y": 288,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TopLeft",
+          "persistentUuid": "cbe873a3-db62-46d3-8809-db332525a5b7",
+          "width": 0,
+          "x": 0,
+          "y": 288,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TopRight",
+          "persistentUuid": "6748b7aa-519c-4279-bb17-97d40f0501da",
+          "width": 0,
+          "x": 1664,
+          "y": 288,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TopTopCenter",
+          "persistentUuid": "8a1ad35e-53ff-44de-a23f-a3b7aee46e1a",
+          "width": 0,
+          "x": 768,
+          "y": -32,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BottomCenter",
+          "persistentUuid": "8bfd5cdf-7af5-4b3c-852b-1acbb41e5d07",
+          "width": 0,
+          "x": 768,
+          "y": 576,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43056,11 +43135,21 @@
             {
               "name": "Lives",
               "type": "number",
-              "value": 5
+              "value": 30
+            },
+            {
+              "name": "Behaviour",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "idle",
@@ -45139,6 +45228,61 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "TopCenter",
+          "texture": "assets\\coins\\assets_coins_coin7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "TopLeft",
+          "texture": "assets\\coins\\assets_coins_coin7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "TopRight",
+          "texture": "assets\\coins\\assets_coins_coin7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "TopTopCenter",
+          "texture": "assets\\coins\\assets_coins_coin7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BottomCenter",
+          "texture": "assets\\coins\\assets_coins_coin7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -45152,6 +45296,21 @@
           },
           {
             "objectName": "Boss"
+          },
+          {
+            "objectName": "TopCenter"
+          },
+          {
+            "objectName": "TopLeft"
+          },
+          {
+            "objectName": "TopRight"
+          },
+          {
+            "objectName": "TopTopCenter"
+          },
+          {
+            "objectName": "BottomCenter"
           }
         ]
       },
@@ -45176,6 +45335,125 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"Part1\"",
+                "TopTopCenter.Y()",
+                "\"easeInOutQuad\"",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"Part2\"",
+                "TopRight.X()",
+                "TopRight.Y()",
+                "\"easeInOutQuad\"",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"Part3\"",
+                "TopLeft.X()",
+                "\"easeInOutQuad\"",
+                "4",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"Part4\"",
+                "TopTopCenter.X()",
+                "TopTopCenter.Y()",
+                "\"easeInOutQuad\"",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"Part5\"",
+                "TopCenter.Y()",
+                "\"easeInOutQuad\"",
+                "1.5",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -45288,6 +45566,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
