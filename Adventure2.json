@@ -34237,7 +34237,7 @@
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"o\""
               ]
             }
           ],
@@ -35569,7 +35569,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43071680420013025,
+        "zoomFactor": 0.1646277891343007,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41373,10 +41373,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
