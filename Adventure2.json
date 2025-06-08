@@ -6756,7 +6756,7 @@
         {
           "name": "currentBlood",
           "type": "number",
-          "value": 3
+          "value": 5
         },
         {
           "name": "isDisable",
@@ -23688,7 +23688,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410742143,
+        "zoomFactor": 0.8416428125374855,
         "windowMask": false
       },
       "objectsGroups": [
@@ -26296,6 +26296,52 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "f79b5729-69e0-4b3f-8eb3-7c9286dae01c",
+          "width": 64,
+          "x": 546,
+          "y": 108,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "20ed6716-91a9-4fed-8e54-ac1f4f7fc777",
+          "width": 64,
+          "x": 462,
+          "y": 108,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
@@ -29736,7 +29782,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4307168042001274,
+        "zoomFactor": 0.7569092189150644,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30704,6 +30750,52 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "85d0153d-0a7f-4a7e-8661-e253a3380786",
+          "width": 64,
+          "x": 463,
+          "y": 108,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "09d16093-bb25-4af4-ade4-97b272d709d9",
+          "width": 64,
+          "x": 547,
+          "y": 108,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
         }
       ],
       "objects": [
@@ -35784,7 +35876,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -35792,8 +35884,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.3749877576285903,
+        "snap": false,
+        "zoomFactor": 0.7824324476176621,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39194,6 +39286,52 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "d7801c14-d722-41a8-8e1a-40c125b2108d",
+          "width": 64,
+          "x": 548,
+          "y": 111,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "PlayerLife",
+          "persistentUuid": "5edb1a1d-9a34-47cf-94c1-055fe39d3484",
+          "width": 64,
+          "x": 464,
+          "y": 111,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
