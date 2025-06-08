@@ -10441,7 +10441,7 @@
         {
           "name": "Lives",
           "type": "number",
-          "value": 2
+          "value": 3
         },
         {
           "name": "Variable",
@@ -11712,7 +11712,7 @@
         {
           "name": "Lives",
           "type": "number",
-          "value": 2
+          "value": 4
         },
         {
           "name": "State",
@@ -15484,7 +15484,7 @@
         {
           "name": "Lives",
           "type": "number",
-          "value": 3
+          "value": 2
         },
         {
           "name": "State",
@@ -23688,7 +23688,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6888536947044517,
+        "zoomFactor": 0.5843784410742143,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23736,8 +23736,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 804,
-          "y": 246,
+          "x": 495,
+          "y": 566,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -23805,8 +23805,8 @@
           "name": "Deco5",
           "persistentUuid": "a180fd11-68f5-4f1b-b0e8-b5696cfc1d73",
           "width": 73,
-          "x": 27,
-          "y": 355,
+          "x": 10,
+          "y": 352,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -23965,27 +23965,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "bf2ea03d-63f3-419d-8372-d64f7198a955",
-          "width": 0,
-          "x": 1344,
-          "y": 672,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[64],[80],[80],[80],[96]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Right",
           "persistentUuid": "c1572b69-0cf8-48c8-9c88-9f3f5d1948ab",
           "width": 0,
@@ -24042,8 +24021,8 @@
           "name": "Right",
           "persistentUuid": "1d4805be-37b6-477d-8656-cd89c315d964",
           "width": 0,
-          "x": 1463,
-          "y": 734,
+          "x": 1456,
+          "y": 732,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -24090,8 +24069,8 @@
           "name": "Right",
           "persistentUuid": "32a2fe7e-c1ae-4f57-8613-aac6479d0241",
           "width": 0,
-          "x": 1463,
-          "y": 510,
+          "x": 1459,
+          "y": 512,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -24113,7 +24092,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,34,-1,-1,-1]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":11,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25],[0,1,1,1,1,1,1,2,-1,-1,-1],[16,17,17,108,17,17,123,-1,-1,25,-1],[32,33,33,33,33,33,214,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,25,25,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,18,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,18,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,18,-1,-1,-1],[-1,-1,-1,-1,-1,-1,82,18,-1,-1,-1],[-1,-1,-1,-1,-1,-1,32,34,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -24131,24 +24110,6 @@
           "x": 1225,
           "y": 330,
           "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 42,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Deco4",
-          "opacity": 153,
-          "persistentUuid": "6e35462b-943a-4cad-a640-dc363b5945b3",
-          "width": 110,
-          "x": 1098,
-          "y": 854,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24270,8 +24231,8 @@
           "name": "Platform",
           "persistentUuid": "4e6feee2-b2fa-41f8-bf2d-fe27e2dfb068",
           "width": 0,
-          "x": 1585,
-          "y": 417,
+          "x": 1583,
+          "y": 429,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [
@@ -24793,8 +24754,8 @@
           "opacity": 204,
           "persistentUuid": "d88fabe0-7255-40f2-9cbd-bdbe75bb30df",
           "width": 78,
-          "x": 1599,
-          "y": 367,
+          "x": 1593,
+          "y": 381,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24810,8 +24771,8 @@
           "name": "Coins",
           "persistentUuid": "b867fcc0-0543-42ba-bd62-3a1a773f6d51",
           "width": 33,
-          "x": 1505,
-          "y": 452,
+          "x": 1508,
+          "y": 460,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -24826,7 +24787,7 @@
           "name": "Right",
           "persistentUuid": "b8a776b4-2c62-45c2-a376-e3385cc9fac7",
           "width": 0,
-          "x": 1464,
+          "x": 1456,
           "y": 625,
           "zOrder": 47,
           "numberProperties": [],
@@ -26030,8 +25991,8 @@
           "name": "SignBoard",
           "persistentUuid": "4de9c5d4-c42c-4f2b-ae4e-99eee6a37b45",
           "width": 38,
-          "x": 1676,
-          "y": 378,
+          "x": 1672,
+          "y": 393,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -26147,7 +26108,7 @@
           "width": 0,
           "x": 1355,
           "y": 342,
-          "zOrder": 90,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26163,7 +26124,7 @@
           "width": 0,
           "x": 1127,
           "y": 342,
-          "zOrder": 91,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26196,6 +26157,142 @@
           "x": 741,
           "y": 289,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "persistentUuid": "91f05c92-c340-42ae-8184-8629e2ef05b3",
+          "width": 38,
+          "x": 87,
+          "y": 218,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SignBoard",
+          "opacity": 204,
+          "persistentUuid": "2c70ec16-6786-48f1-867c-11ad7a82227a",
+          "width": 44,
+          "x": 1109,
+          "y": 853,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "b71c6b7f-d48c-457d-86dc-2c852605788b",
+          "width": 33,
+          "x": 1456,
+          "y": 595,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "1c7a345f-092d-48ba-9e29-208e9e2494b0",
+          "width": 33,
+          "x": 1455,
+          "y": 701,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "c97d04e8-4dbe-4f2b-9a84-e7dc3b14e7bf",
+          "width": 33,
+          "x": 1378,
+          "y": 639,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "8c354306-b5e6-4a64-a34d-b79e5600ec92",
+          "width": 33,
+          "x": 1280,
+          "y": 586,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "6fce67e2-c614-4dfa-9d11-f5dcae675d03",
+          "width": 33,
+          "x": 1622,
+          "y": 392,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "_15",
+          "persistentUuid": "2beba7f2-0da3-4046-a85c-6b53c1631ed1",
+          "width": 0,
+          "x": 278,
+          "y": 24,
+          "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28096,6 +28193,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "_15",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "/15",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "/15",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -28177,6 +28316,9 @@
           },
           {
             "objectName": "SignArrow"
+          },
+          {
+            "objectName": "_15"
           }
         ]
       },
@@ -29594,7 +29736,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7569092189150615,
+        "zoomFactor": 0.7569092189150618,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30609,7 +30751,7 @@
             {
               "name": "Lives",
               "type": "number",
-              "value": 3
+              "value": 5
             }
           ],
           "effects": [],
