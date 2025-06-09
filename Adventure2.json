@@ -20180,7 +20180,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957410167,
+        "zoomFactor": 0.5653158055127205,
         "windowMask": false
       },
       "objectsGroups": [
@@ -26184,7 +26184,7 @@
                 "guideWeapon1",
                 "Text",
                 "=",
-                "\"Press 1 to equip your default weapon \n Press Q to shoot\""
+                "\"Press 1 to equip your default weapon \n Use Left Click Mouse to shoot\""
               ]
             }
           ]
@@ -48872,11 +48872,11 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"q\""
+                "\"Left\""
               ]
             },
             {
@@ -49279,11 +49279,11 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"q\""
+                "\"Left\""
               ]
             },
             {
@@ -49617,21 +49617,21 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"q\""
-              ]
-            },
-            {
-              "type": {
                 "value": "FireBullet::FireBullet::IsReadyToShoot"
               },
               "parameters": [
                 "Gun3",
                 "FireBullet",
                 "="
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ]
             },
             {
