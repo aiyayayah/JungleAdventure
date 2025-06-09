@@ -14080,7 +14080,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\gun\\Diana Raptor 4_resize",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Shoot",
+                      "x": 20.5,
+                      "y": 3
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -18686,7 +18692,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5084018284441946,
+        "zoomFactor": 0.8088163280167695,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20180,7 +20186,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055127205,
+        "zoomFactor": 1.02694258749827,
         "windowMask": false
       },
       "objectsGroups": [
@@ -20219,8 +20225,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": 63,
-          "y": 956,
+          "x": 382,
+          "y": 329,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -23140,6 +23146,38 @@
           "x": 1707,
           "y": -161,
           "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "counterScore",
+          "persistentUuid": "1fc5e054-24c9-4f58-9af3-08c9ec4b38c9",
+          "width": 0,
+          "x": 151,
+          "y": 23,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gun2",
+          "persistentUuid": "a41bdd9e-9ab1-4ff8-8f72-4fe72e12e5a0",
+          "width": 0,
+          "x": 1447,
+          "y": 1538,
+          "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38240,7 +38278,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24509803921570583,
+        "zoomFactor": 0.27986724152831305,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38267,8 +38305,8 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": -302,
-          "y": 220,
+          "x": 2709,
+          "y": 370,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -43650,7 +43688,7 @@
               },
               "parameters": [
                 "Hint",
-                "\"Boss\"",
+                "\"End\"",
                 ""
               ]
             }
@@ -44276,34 +44314,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.37720686276182447,
+        "zoomFactor": 1.090127833381671,
         "windowMask": false
       },
-      "objectsGroups": [
-        {
-          "name": "BossPosition",
-          "objects": [
-            {
-              "name": "TopCenter"
-            },
-            {
-              "name": "TopLeft"
-            },
-            {
-              "name": "TopRightMost"
-            },
-            {
-              "name": "TopTopCenter"
-            },
-            {
-              "name": "BottomCenter"
-            },
-            {
-              "name": "TopRight"
-            }
-          ]
-        }
-      ],
+      "objectsGroups": [],
       "variables": [
         {
           "name": "Score",
@@ -44342,8 +44356,8 @@
           "name": "Player",
           "persistentUuid": "0e8a5934-e932-4610-8f0e-c34382784fe2",
           "width": 35,
-          "x": 437,
-          "y": -270,
+          "x": 725,
+          "y": 594,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -44592,294 +44606,7 @@
           "width": 32,
           "x": 608,
           "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "fe33aa75-a29b-4ef6-8e4c-ea3c98f1e215",
-          "width": 32,
-          "x": 640,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "7fe1f676-4ba8-46e0-bfa9-6b2d61cc60a6",
-          "width": 32,
-          "x": 672,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "7e51b234-8d69-41fa-8b0f-998e9d8a4bd1",
-          "width": 32,
-          "x": 704,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "69da9bcf-0b64-4b28-8c7f-469633b016ba",
-          "width": 32,
-          "x": 736,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "b2048522-b51b-44c4-be93-c673517c7837",
-          "width": 32,
-          "x": 768,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "7c655106-017a-42d7-9e9e-a7d552bd4836",
-          "width": 32,
-          "x": 800,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "941c1c34-241e-4313-86b3-1ea33ff52c21",
-          "width": 32,
-          "x": 832,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "de758137-24de-4c6c-b86e-3c5cad1e463f",
-          "width": 32,
-          "x": 864,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "434414dc-e082-47d0-b821-785daaca7e84",
-          "width": 32,
-          "x": 896,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "402fb96b-6fef-44f2-96d6-3d1c45acd7aa",
-          "width": 32,
-          "x": 928,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "395c8e18-17b2-478f-984e-745f2d6c9093",
-          "width": 32,
-          "x": 960,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "81d300d3-3834-4ff8-95ea-6afafbedc0c4",
-          "width": 32,
-          "x": 992,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "3b6f9352-9b8b-42ce-be38-760769c3f537",
-          "width": 32,
-          "x": 1024,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FireArea",
-          "persistentUuid": "86c1d28d-8925-4d53-9063-040a2dba2520",
-          "width": 32,
-          "x": 1056,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 96,
-          "layer": "Score",
-          "name": "buttonRestart",
-          "persistentUuid": "0cc1ccc4-c645-44a5-a429-f2253c4cf213",
-          "width": 96,
-          "x": 1536,
-          "y": 32,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 144,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "Score",
-          "name": "buttonHome",
-          "persistentUuid": "1e8b6536-fd21-4e18-b462-2bcf55bc69a5",
-          "width": 96,
-          "x": 1376,
-          "y": 32,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ladder",
-          "persistentUuid": "4cbd5778-046c-49e9-898b-5f8bda9e3008",
-          "width": 0,
-          "x": 1184,
-          "y": 160,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45361,7 +45088,7 @@
               ]
             },
             {
-              "name": "Hitted",
+              "name": "hurt",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -45766,7 +45493,7 @@
               ]
             },
             {
-              "name": "Die",
+              "name": "dead",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -47559,58 +47286,13 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BossPosition"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Behaviour"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Behaviour 1"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"u\""
+                "Boss",
+                "Behaviour",
+                "=",
+                "1"
               ]
             }
           ],
@@ -47756,27 +47438,14 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Behaviour 2"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "DepartScene"
               },
               "parameters": [
-                "",
-                "\"i\""
+                ""
               ]
             }
           ],
@@ -47935,12 +47604,24 @@
                 "Fireball",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fire",
+                "FireArea.X()",
+                "FireArea.Y()",
+                ""
+              ]
             }
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "FireArea",
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "14",
               "conditions": [],
               "actions": [
                 {
@@ -47950,350 +47631,11 @@
                   "parameters": [
                     "",
                     "Fire",
-                    "FireArea.X()",
+                    "FireArea.X() + 32",
                     "FireArea.Y()",
                     ""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Tween",
-                    "\"Part1\"",
-                    "TopCenter.X()",
-                    "TopCenter.Y()",
-                    "\"easeInOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Fire",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "White Enemy"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "arrow",
-                "Boss",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "arrow",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\hittedEnemy.mp3",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Lives",
-                "-",
-                "arrow.damage"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"Hitted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"idle\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bullet",
-                "Boss",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "bullet",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\hittedEnemy.mp3",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Lives",
-                "-",
-                "bullet.damage"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"Hitted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"idle\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "BulletGun2",
-                "Boss",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "BulletGun2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\audio\\hittedEnemy.mp3",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Lives",
-                "-",
-                "BulletGun2.damage"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"Hitted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"Run\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Lives",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"Die\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Boss",
-                "PlatformerObject"
               ]
             }
           ]
@@ -48326,39 +47668,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Score",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -50060,8 +49369,8 @@
                   "parameters": [
                     "Gun2",
                     "FireBullet",
-                    "Player.BoundingBoxCenterX()",
-                    "Player.BoundingBoxCenterY()",
+                    "Gun2.X(\"Shoot\")",
+                    "Gun2.Y(\"Shoot\")",
                     "BulletGun2",
                     "Player.X() - 100",
                     "Player.Y()",
@@ -50094,8 +49403,8 @@
                   "parameters": [
                     "Gun2",
                     "FireBullet",
-                    "Player.BoundingBoxCenterX()",
-                    "Player.BoundingBoxCenterY()",
+                    "Gun2.X(\"Shoot\")",
+                    "Gun2.Y(\"Shoot\")",
                     "BulletGun2",
                     "Player.X() + 100",
                     "Player.Y()",
