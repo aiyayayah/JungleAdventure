@@ -18692,7 +18692,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.8088163280167695,
+=======
+        "zoomFactor": 0.5432668671002271,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20186,7 +20190,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 1.02694258749827,
+=======
+        "zoomFactor": 0.6455105703312505,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [
@@ -23165,6 +23173,7 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
         },
         {
           "angle": 0,
@@ -23181,6 +23190,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+=======
+>>>>>>> Stashed changes
         }
       ],
       "objects": [
