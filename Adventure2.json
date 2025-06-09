@@ -44606,7 +44606,245 @@
           "width": 32,
           "x": 608,
           "y": 576,
-          "zOrder": 13,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "a2f51f02-7409-43c2-af2c-7429e40dd7a9",
+          "width": 32,
+          "x": 640,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "ea71175d-8ed1-4598-9a89-70740ead7b86",
+          "width": 32,
+          "x": 672,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "640bca8a-0ce6-45e3-9e1e-c4972a5063ad",
+          "width": 32,
+          "x": 704,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "60771dcc-cc9f-4c2d-8607-78d9d14f2c72",
+          "width": 32,
+          "x": 736,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "8a22964a-2230-4ce7-a12f-5a31d434abf4",
+          "width": 32,
+          "x": 768,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "7dfd6d7c-2d65-4f0f-8e55-bcc9823c3e25",
+          "width": 32,
+          "x": 800,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "8220c8e1-076d-4a09-be41-6555dc5797c0",
+          "width": 32,
+          "x": 832,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "89892a4e-fedf-42bf-8ea4-616888a233b9",
+          "width": 32,
+          "x": 864,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "1152c8c1-df78-4c4f-9634-152f15c7c0bd",
+          "width": 32,
+          "x": 896,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "c82b6489-825d-439a-8bde-1e2f2d34fc25",
+          "width": 32,
+          "x": 928,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "bb404d07-af44-457f-a735-62858cb13ba4",
+          "width": 32,
+          "x": 960,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "a4158df6-fbc8-4d23-b4da-367c0796b07c",
+          "width": 32,
+          "x": 992,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "9d57d76a-5223-42b4-b2ad-544087ececba",
+          "width": 32,
+          "x": 1024,
+          "y": 576,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FireArea",
+          "persistentUuid": "cd629973-fd59-4f5a-a673-a036c0c749cd",
+          "width": 32,
+          "x": 1056,
+          "y": 576,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47282,17 +47520,39 @@
           "target": "Shoot-1"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Boss Behaviour"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Behaviour 1"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                "Boss",
-                "Behaviour",
-                "=",
-                "1"
+                "",
+                "\"u\""
               ]
             }
           ],
@@ -47434,22 +47694,57 @@
                 "1.5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "0"
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Behaviour 2"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                ""
+                "",
+                "\"i\""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -47536,6 +47831,17 @@
                 "Boss",
                 "Animation"
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "2"
+              ]
             }
           ],
           "actions": [
@@ -47604,24 +47910,12 @@
                 "Fireball",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Fire",
-                "FireArea.X()",
-                "FireArea.Y()",
-                ""
-              ]
             }
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Repeat",
-              "repeatExpression": "14",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FireArea",
               "conditions": [],
               "actions": [
                 {
@@ -47631,9 +47925,48 @@
                   "parameters": [
                     "",
                     "Fire",
-                    "FireArea.X() + 32",
+                    "FireArea.X()",
                     "FireArea.Y()",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Tween",
+                    "\"Part5\"",
+                    "TopCenter.X()",
+                    "\"easeInOutQuad\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Behaviour",
+                    "=",
+                    "0"
                   ]
                 }
               ]
