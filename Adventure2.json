@@ -7107,6 +7107,14 @@
         "name": "assets\\Fire\\30x32\\fire5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/bigFireBall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\bigFireBall.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -38278,7 +38286,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.27986724152831305,
+        "zoomFactor": 0.23710285275774828,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38305,8 +38313,8 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": 2709,
-          "y": 370,
+          "x": -270,
+          "y": 174,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -43688,7 +43696,7 @@
               },
               "parameters": [
                 "Hint",
-                "\"End\"",
+                "\"Boss\"",
                 ""
               ]
             }
@@ -44314,7 +44322,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.090127833381671,
+        "zoomFactor": 0.89342702005164,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44935,8 +44943,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45033,8 +45041,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45131,8 +45139,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45229,8 +45237,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45340,8 +45348,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45438,8 +45446,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45536,8 +45544,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45634,8 +45642,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45745,8 +45753,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45843,8 +45851,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -45941,8 +45949,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46039,8 +46047,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46137,8 +46145,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46235,8 +46243,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46346,8 +46354,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46444,8 +46452,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46542,8 +46550,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46640,8 +46648,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46738,8 +46746,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46836,8 +46844,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -46934,8 +46942,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -47032,8 +47040,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 18,
-                          "y": 35.5
+                          "x": 12.5,
+                          "y": 26.5
                         }
                       ],
                       "originPoint": {
@@ -47454,6 +47462,22 @@
               "RandomPosition": false
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "BigFireball",
+          "texture": "assets\\Enemy\\Demon\\bigFireBall.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -47494,6 +47518,9 @@
           },
           {
             "objectName": "Fireball"
+          },
+          {
+            "objectName": "BigFireball"
           }
         ]
       },
@@ -47851,7 +47878,7 @@
               },
               "parameters": [
                 "",
-                "Fireball",
+                "BigFireball",
                 "Boss.X(\"Mouth\")",
                 "Boss.Y(\"Mouth\")",
                 ""
@@ -47862,7 +47889,7 @@
                 "value": "RotateTowardAngle"
               },
               "parameters": [
-                "Fireball",
+                "BigFireball",
                 "315",
                 "0",
                 "0"
@@ -47884,11 +47911,11 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
-                "Fireball",
+                "BigFireball",
                 "Tween",
                 "\"Part2\"",
                 "BottomCenter.X()",
-                "BottomCenter.Y()",
+                "BottomCenter.Y() - 32",
                 "\"easeInOutQuad\"",
                 "1",
                 ""
@@ -47907,7 +47934,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Fireball",
+                "BigFireball",
                 ""
               ]
             }
@@ -47968,10 +47995,44 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Fire",
+                    ""
+                  ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Behaviour 3"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
