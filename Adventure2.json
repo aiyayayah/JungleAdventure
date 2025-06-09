@@ -6859,6 +6859,206 @@
         "name": "assets\\Enemy\\Demon\\attack\\attack8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/story/RectangleBox_96x96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\story\\RectangleBox_96x96.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/story/Adventurer Sprite Sheet v1.5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_story_Adventurer Sprite Sheet v1.17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\story\\Adventurer Sprite Sheet v1.17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Hovered.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewButton Hovered.png\"}",
+        "name": "NewButton Hovered",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Button1 Pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Button1 Pressed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Hovered2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Hovered2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Pressed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Idle3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Hovered3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Hovered3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Pressed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Pressed2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -18187,6 +18387,84 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "storyButton1",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "NewButton Hovered",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "NewButton Idle",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "You are Leo, a young explorer who just set foot in the lush green jungle for the first time.\nThe air is fresh, the sun filters through the leaves, and the jungle seems peaceful.\nGolden coins are scattered everywhere — a trail of treasure waiting to be collected.\nBut don’t let the calm fool you… your adventure is just beginning.",
+          "font": "assets\\MochiyPopPOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You are Leo, a young explorer who just set foot in the lush green jungle for the first time.\nThe air is fresh, the sun filters through the leaves, and the jungle seems peaceful.\nGolden coins are scattered everywhere — a trail of treasure waiting to be collected.\nBut don’t let the calm fool you… your adventure is just beginning.",
+            "font": "assets\\MochiyPopPOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "155;155;155"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Button1 Pressed",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -18270,6 +18548,9 @@
       },
       {
         "objectName": "BulletGun2"
+      },
+      {
+        "objectName": "storyButton1"
       },
       {
         "objectName": "bc1"
@@ -19851,7 +20132,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8655255482573094,
+        "zoomFactor": 0.7130377630691525,
         "windowMask": false
       },
       "objectsGroups": [
@@ -19890,8 +20171,8 @@
           "name": "Player",
           "persistentUuid": "6124b496-9ace-4be1-b0cb-216cabee326e",
           "width": 35,
-          "x": -44,
-          "y": 962,
+          "x": 65,
+          "y": 926,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -26152,7 +26433,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1343715797163314,
+        "zoomFactor": 0.44819780454112984,
         "windowMask": false
       },
       "objectsGroups": [
@@ -28806,6 +29087,41 @@
               "value": 4
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 706,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewButton",
+          "persistentUuid": "dc6c4431-73b3-4264-99b7-fc7a59449806",
+          "width": 1449,
+          "x": 116,
+          "y": 315,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 753,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "storyButton1",
+          "opacity": 179,
+          "persistentUuid": "bd98409d-0162-48de-9157-2a423debf4c2",
+          "width": 1448,
+          "x": 138,
+          "y": 160,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -30745,11 +31061,557 @@
             "characterSize": 60,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\story\\Adventurer Sprite Sheet v1.17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 20
+                          },
+                          {
+                            "x": 2,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You are Leo, a young explorer who just set foot in the lush green jungle for the first time.\nThe air is fresh, the sun filters through the leaves, and the jungle seems peaceful.\n\nGolden coins are scattered everywhere — a trail of treasure waiting to be collected.\n\nBut don’t let the calm fool you… your adventure is just beginning.",
+          "font": "assets\\MochiyPopPOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You are Leo, a young explorer who just set foot in the lush green jungle for the first time.\nThe air is fresh, the sun filters through the leaves, and the jungle seems peaceful.\n\nGolden coins are scattered everywhere — a trail of treasure waiting to be collected.\n\nBut don’t let the calm fool you… your adventure is just beginning.",
+            "font": "assets\\MochiyPopPOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "155;155;155"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "storyLine",
+            "children": [
+              {
+                "objectName": "NewSprite2"
+              },
+              {
+                "objectName": "NewText"
+              }
+            ]
+          },
           {
             "folderName": "Decos",
             "children": [
@@ -30913,6 +31775,31 @@
               },
               "parameters": [
                 "Gun2_CONUNI"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "storyButton1",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "storyButton1",
+                ""
               ]
             }
           ]
@@ -32276,7 +33163,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5700412459197421,
+        "zoomFactor": 0.4307168042001292,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33290,6 +34177,108 @@
               "value": 5
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 764,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "StoryButton2",
+          "opacity": 179,
+          "persistentUuid": "60f18eba-74da-4fce-bb10-e389eb83f75d",
+          "width": 1480,
+          "x": 105,
+          "y": 111,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "f9e49787-746c-4f9e-8fb8-68177a12db81",
+          "width": 29,
+          "x": 1564,
+          "y": 329,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "e553e089-008b-4fe9-a3e6-3ba3c81c1391",
+          "width": 29,
+          "x": 49,
+          "y": 468,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "6ca643bb-05e8-47c7-b94d-eabbcdcbe40b",
+          "width": 29,
+          "x": 1165,
+          "y": 196,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "8157f9d2-2ae7-4238-a2aa-ed7f13b85cbf",
+          "width": 29,
+          "x": 1425,
+          "y": 210,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "TotalCoins",
+          "persistentUuid": "3e8d0994-294d-4353-b5ce-3328287f7cf2",
+          "width": 0,
+          "x": 284,
+          "y": 23,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35056,6 +36045,126 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "StoryButton2",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Hovered2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Idle2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "You venture deeper into the jungle and discover ancient ruins, overgrown with thick vines and moss.\n\nAs you step cautiously forward, a stone clicks beneath your feet — the first of many hidden traps.\nThis isn’t just a jungle anymore. It’s a place of forgotten secrets, deadly mechanisms, and clever puzzles.\n\nThis jungle holds more than just treasure...\nWatch your step — danger hides in every shadow.\n\nOnly the brave and quick-thinking will make it out alive.",
+              "font": "assets\\MochiyPopPOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 155,
+                "g": 155,
+                "r": 155
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "You venture deeper into the jungle and discover ancient ruins, overgrown with thick vines and moss.\n\nAs you step cautiously forward, a stone clicks beneath your feet — the first of many hidden traps.\nThis isn’t just a jungle anymore. It’s a place of forgotten secrets, deadly mechanisms, and clever puzzles.\n\nThis jungle holds more than just treasure...\nWatch your step — danger hides in every shadow.\n\nOnly the brave and quick-thinking will make it out alive.",
+                "font": "assets\\MochiyPopPOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "center",
+                "characterSize": 45,
+                "color": "155;155;155"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Pressed",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TotalCoins",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "/10",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "/10",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -35133,6 +36242,12 @@
           },
           {
             "objectName": "tele"
+          },
+          {
+            "objectName": "StoryButton2"
+          },
+          {
+            "objectName": "TotalCoins"
           }
         ]
       },
@@ -35235,6 +36350,31 @@
                 "Enemy",
                 "Flippable",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "StoryButton2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "StoryButton2",
+                ""
               ]
             }
           ]
@@ -37035,7 +38175,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4030748496881704,
+        "zoomFactor": 0.41666666666669855,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37258,7 +38398,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":34,\"dimY\":17,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,96,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,165,17,17,165,166,167,165,166,167,165,166,167,165,166,167,165,166,167,165,166,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[180,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[196,197,198,199,197,198,199,197,198,199,197,198,199,17,17,17,17,17,17,17,198,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,165,166,167,165,166,167,165,166,167,165,166,167,17,17,17,17,17,17,17,166,96,97,1,1,1,1,1,1,1,1,1,1,2],[180,181,182,183,181,182,183,181,182,183,181,182,183,17,17,17,17,17,17,17,182,17,17,17,17,17,17,17,17,17,17,17,17,18],[196,197,198,199,197,198,199,197,198,199,197,198,199,17,17,17,17,17,17,17,198,199,197,198,199,197,198,199,197,198,199,197,198,239],[253,254,254,254,254,254,254,254,254,254,254,254,254,65,65,65,65,65,65,65,254,254,254,254,254,254,254,254,254,254,254,254,254,255]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":34,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,123,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,96,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,165,123,17,165,166,167,165,166,167,165,166,167,165,166,167,165,166,167,165,166,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[180,181,182,183,181,182,183,181,123,183,181,182,183,181,182,183,181,123,183,181,182,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[196,197,198,199,197,198,199,197,198,199,197,91,199,17,17,17,17,17,17,17,198,168,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[164,165,166,167,165,166,91,165,166,167,165,166,167,17,17,17,91,17,17,17,166,96,97,1,1,1,1,1,1,1,1,1,1,2],[180,181,182,183,181,182,183,181,182,183,181,182,183,17,17,17,17,17,17,17,182,17,17,17,17,17,17,17,17,17,17,17,17,18],[196,197,198,199,197,198,199,197,198,199,197,198,199,17,17,17,17,17,17,17,198,199,197,198,199,123,198,199,197,198,123,197,198,239],[253,254,254,254,254,254,254,254,254,254,254,254,254,65,65,65,65,65,65,65,254,254,254,254,254,254,254,254,254,254,254,254,254,255],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,123,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,123,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,123,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -37279,7 +38419,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":36,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,4,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,12,1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,12,97,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,64,65,65,65,65,65,65,33,33,33,33,33,33,33,65,65,65,66,17,17,17,17,17,17,17,17,17,18],[-1,16,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,16,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,32,33,34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-2147483397,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,2,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":31,\"dimY\":36,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,4,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,91,17,17,18],[-1,-1,-1,-1,-1,12,1,98,17,17,123,17,91,17,17,17,17,17,17,17,123,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,0,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,91,17,17,17,17,18],[-1,-1,-1,0,98,91,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,12,97,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,16,17,64,65,65,65,65,65,65,33,33,33,33,33,33,33,65,65,65,66,17,17,17,17,17,17,17,17,17,18],[-1,16,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,16,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,32,33,34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,18],[-2147483397,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,2,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,17,17,18],[-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -37391,7 +38531,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":28,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,0,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":28,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,0,1,1,1,1,1,1,1,2],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,91,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,91,16,91,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,91,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,91,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,16,17,17,17,17,17,17,17,18],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,-1,-1,32,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -37412,7 +38552,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":36,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,86,87,87,1,1,1,1,1,1,1,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,86,87,122,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,12,1,1,98,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,122,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,66,17,17,17,17,96,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,66,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":36,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,86,87,87,1,1,1,1,1,1,1,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,86,87,122,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,12,1,1,98,17,17,17,91,17,17,17,17,17,91,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,122,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,80,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[32,33,33,33,33,33,33,33,33,33,33,33,33,33,66,17,17,17,17,96,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,82,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,253,254,254,254,254,254,66,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,32,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34]]}]}"
             }
           ],
           "initialVariables": []
@@ -38416,7 +39556,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[33,33,33,33]]}]}"
+              "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":31,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,91,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[91,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[17,17,17,17],[33,33,33,33]]}]}"
             }
           ],
           "initialVariables": []
@@ -40482,6 +41622,108 @@
               "value": 4
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 718,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "storyButton3",
+          "opacity": 179,
+          "persistentUuid": "ba2a7d97-c1a2-448e-8fd6-174d74a3cb49",
+          "width": 1327,
+          "x": 214,
+          "y": 184,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "totalCoins",
+          "persistentUuid": "f325fa40-4993-403b-9945-f5dbc3ae5c16",
+          "width": 0,
+          "x": 296,
+          "y": 27,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "d9fba24e-8a07-49d0-ad7b-39caaffaa52d",
+          "width": 20,
+          "x": 843,
+          "y": 481,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "c23a3de0-6067-4865-a083-9060d5552b32",
+          "width": 20,
+          "x": 2586,
+          "y": 448,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "bc1aa941-6e8b-4f16-8ba9-c379b21da3c7",
+          "width": 20,
+          "x": 3483,
+          "y": 169,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "4c8c4d71-d04f-40f0-baa8-a69fc4629f59",
+          "width": 20,
+          "x": 2664,
+          "y": 675,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -40826,6 +42068,129 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "storyButton3",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TopPadding": 0,
+            "LeftPadding": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Hovered3",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Idle3",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": true,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
+              "font": "assets\\MochiyPopPOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 155,
+                "g": 155,
+                "r": 155
+              },
+              "content": {
+                "bold": true,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
+                "font": "assets\\MochiyPopPOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "center",
+                "characterSize": 50,
+                "color": "155;155;155"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Pressed2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "totalCoins",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "/?",
+          "font": "assets\\JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "/?",
+            "font": "assets\\JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -40833,6 +42198,12 @@
         "children": [
           {
             "objectName": "Platform"
+          },
+          {
+            "objectName": "storyButton3"
+          },
+          {
+            "objectName": "totalCoins"
           },
           {
             "objectName": "FakePlatform"
@@ -40899,6 +42270,31 @@
             "includeConfig": 0
           },
           "target": "Shoot-1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "storyButton3",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "storyButton3",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
