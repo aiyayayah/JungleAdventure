@@ -44867,6 +44867,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "4cbd5778-046c-49e9-898b-5f8bda9e3008",
+          "width": 0,
+          "x": 1184,
+          "y": 160,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
