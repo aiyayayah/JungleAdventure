@@ -44322,7 +44322,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.27986724152829445,
+        "zoomFactor": 0.5255453059127297,
         "windowMask": false
       },
       "objectsGroups": [
@@ -45556,6 +45556,22 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "40cb0d11-929d-4526-b438-885e0d256f91",
+          "width": 0,
+          "x": 672,
+          "y": 425,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -45648,8 +45664,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -45746,8 +45762,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -45844,8 +45860,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -45942,8 +45958,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46053,8 +46069,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46151,8 +46167,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46249,8 +46265,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46347,8 +46363,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46458,8 +46474,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46556,8 +46572,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46654,8 +46670,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46752,8 +46768,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46850,8 +46866,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -46948,8 +46964,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47059,8 +47075,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47157,8 +47173,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47255,8 +47271,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47353,8 +47369,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47451,8 +47467,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47549,8 +47565,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47647,8 +47663,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -47745,8 +47761,8 @@
                       "points": [
                         {
                           "name": "Mouth",
-                          "x": 12.5,
-                          "y": 26.5
+                          "x": 30.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -48194,6 +48210,48 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -48240,6 +48298,9 @@
           },
           {
             "objectName": "BigFireball"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -48336,10 +48397,27 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Boss"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
                 "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Boss",
+                ""
               ]
             },
             {
@@ -48373,6 +48451,23 @@
                 "Enable",
                 "True",
                 "RandomInRange(1,3)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "ToString(Player.Y())"
               ]
             }
           ]
@@ -48441,16 +48536,64 @@
               "parameters": [
                 "3"
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "403"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Behaviour",
+                    "=",
+                    "RandomInRange(1,2)"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Behaviour",
-                "=",
-                "RandomInRange(1,3)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "403"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Behaviour",
+                    "=",
+                    "RandomInRange(2,4)"
+                  ]
+                }
               ]
             }
           ]
@@ -48530,7 +48673,7 @@
                 "TopRightMost.X()",
                 "TopRightMost.Y()",
                 "\"easeInOutQuad\"",
-                "0.5",
+                "0.3",
                 ""
               ]
             },
@@ -48539,7 +48682,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.6"
+                "0.4"
               ]
             },
             {
@@ -48676,303 +48819,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Behaviour",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Boss",
-                "Flippable",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Boss",
-                "Tween",
-                "\"Part1\"",
-                "TopRight.X()",
-                "TopRight.Y()",
-                "\"easeInOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Boss",
-                "Flippable",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"attack\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"attack\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-              },
-              "parameters": [
-                "Boss",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Behaviour",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BigFireball",
-                "Boss.X(\"Mouth\")",
-                "Boss.Y(\"Mouth\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "BigFireball",
-                "BottomCenter.X()",
-                "BottomCenter.Y()",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BigFireball",
-                "Tween",
-                "\"Part2\"",
-                "BottomCenter.X()",
-                "BottomCenter.Y() - 32",
-                "\"easeInOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "BigFireball",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "FireArea",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Fire",
-                    "FireArea.X()",
-                    "FireArea.Y()",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Tween",
-                    "\"Part5\"",
-                    "TopCenter.X()",
-                    "\"easeInOutQuad\"",
-                    "1.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Behaviour",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "6"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Fire",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Behaviour 3"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Boss",
-                "Behaviour",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
                 "Boss",
                 "Tween",
-                "\"B3Part1\"",
+                "\"B2Part1\"",
                 "TopTopCenter.Y()",
                 "\"easeInOutQuad\"",
                 "1.5",
@@ -49028,7 +48880,7 @@
                 "Boss",
                 "Behaviour",
                 "=",
-                "3"
+                "2"
               ]
             }
           ],
@@ -49160,7 +49012,7 @@
                       "parameters": [
                         "Boss",
                         "Tween",
-                        "\"B3Part3\"",
+                        "\"B2Part2\"",
                         "TopCenter.Y()",
                         "\"easeInOutQuad\"",
                         "1.5",
@@ -49180,6 +49032,442 @@
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Behaviour 3"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Boss",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B3Part1\"",
+                "TopRight.X()",
+                "TopRight.Y()",
+                "\"easeInOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Boss",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"attack\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Boss",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigFireball",
+                "Boss.X(\"Mouth\")",
+                "Boss.Y(\"Mouth\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "BigFireball",
+                "BottomCenter.X()",
+                "BottomCenter.Y()",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BigFireball",
+                "Tween",
+                "\"B3Part2\"",
+                "BottomCenter.X()",
+                "BottomCenter.Y() - 32",
+                "\"easeInOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BigFireball",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FireArea",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fire",
+                    "FireArea.X()",
+                    "FireArea.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Tween",
+                    "\"B3Part3\"",
+                    "TopCenter.X()",
+                    "\"easeInOutQuad\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Behaviour",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Fire",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Behavior 4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B4Part1\"",
+                "6",
+                "\"linear\"",
+                "1",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B4Part2\"",
+                "TopCenter.Y() - 320",
+                "\"easeInOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B4Part3\"",
+                "BottomCenter.Y() - 288",
+                "\"easeInOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B4Part4\"",
+                "2",
+                "\"linear\"",
+                "1",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                "\"B4Part5\"",
+                "TopCenter.Y()",
+                "\"easeInOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Behaviour",
+                "=",
+                "0"
               ]
             }
           ]
