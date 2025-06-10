@@ -18882,22 +18882,22 @@
     {
       "name": "hasGun1",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "name": "hasGun2",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "name": "gun3Created",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "name": "gun2Created",
       "type": "boolean",
-      "value": false
+      "value": true
     }
   ],
   "layouts": [
@@ -45855,22 +45855,6 @@
           "x": 1547,
           "y": 31,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "65032a33-cfb9-42e5-94c7-5466a8c55c59",
-          "width": 0,
-          "x": 640,
-          "y": 384,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
