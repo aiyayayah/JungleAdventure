@@ -7115,6 +7115,138 @@
         "name": "assets\\Enemy\\Demon\\bigFireBall.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/hurt/HURT1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\hurt\\HURT1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/hurt/HURT2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\hurt\\HURT2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/hurt/HURT3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\hurt\\HURT3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy/Demon/hurt/HURT4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy\\Demon\\hurt\\HURT4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/hitcharge-94996.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\hitcharge-94996.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Minecraft Fireball Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Minecraft Fireball Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/8-bit RPG Music  Boss Battle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\8-bit RPG Music  Boss Battle.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Enderdragon Flying (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Enderdragon Flying (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Enderdragon Growl (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Enderdragon Growl (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Enderdragon Growl (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Enderdragon Growl (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/baika no jutsu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\baika no jutsu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/medium-explosion-40472.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\medium-explosion-40472.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Boss die.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Boss die.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Boss/Boss die 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\Boss\\Boss die 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7146,6 +7278,11 @@
           "name": "isDisable",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "spaceJump",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
@@ -18527,6 +18664,87 @@
           "width": 32
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "storyButton3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "TopPadding": 0,
+        "LeftPadding": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "NewButton Hovered3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "NewButton Idle3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
+          "font": "assets\\MochiyPopPOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
+            "font": "assets\\MochiyPopPOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 50,
+            "color": "155;155;155"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "NewButton Pressed2",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -18622,6 +18840,9 @@
       },
       {
         "objectName": "LeftSideLadder"
+      },
+      {
+        "objectName": "storyButton3"
       }
     ]
   },
@@ -38286,7 +38507,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.23710285275774828,
+        "zoomFactor": 0.403074849688172,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38313,8 +38534,8 @@
           "name": "Player",
           "persistentUuid": "859fe111-e5a0-4e30-af67-fd412e141a2d",
           "width": 35,
-          "x": -270,
-          "y": 174,
+          "x": -267,
+          "y": 210,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -42182,87 +42403,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "storyButton3",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "TopPadding": 0,
-            "LeftPadding": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "NewButton Hovered3",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "NewButton Idle3",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Label": {
-              "bold": true,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
-              "font": "assets\\MochiyPopPOne-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 50,
-              "color": {
-                "b": 155,
-                "g": 155,
-                "r": 155
-              },
-              "content": {
-                "bold": true,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "As you races toward the heart of the jungle, the sun begins to set. \nTime is running out. Legends speak of a sacred shrine that appears only to those who prove themselves worthy.\n\nSpeed is everything here. But… what’s that behind the tree? A glimmer of something hidden. Maybe the greatest treasure isn’t gold, but truth.",
-                "font": "assets\\MochiyPopPOne-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "center",
-                "characterSize": 50,
-                "color": "155;155;155"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "NewButton Pressed2",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            }
-          }
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "totalCoins",
@@ -42309,9 +42449,6 @@
         "children": [
           {
             "objectName": "Platform"
-          },
-          {
-            "objectName": "storyButton3"
           },
           {
             "objectName": "totalCoins"
@@ -44322,7 +44459,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.620333805996953,
+        "zoomFactor": 0.4307168042001055,
         "windowMask": false
       },
       "objectsGroups": [
@@ -45562,28 +45699,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "40cb0d11-929d-4526-b438-885e0d256f91",
-          "width": 0,
-          "x": 672,
-          "y": 425,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "Score",
           "name": "counterLives",
           "persistentUuid": "7f0328a9-c56a-4199-8885-c452013086c7",
           "width": 0,
           "x": 101,
-          "y": 109,
+          "y": 40,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -45600,7 +45721,7 @@
           "persistentUuid": "e6c16156-a243-4fd7-af38-7cb2082773fb",
           "width": 64,
           "x": 201,
-          "y": 109,
+          "y": 40,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -45623,7 +45744,7 @@
           "persistentUuid": "ef2c8144-03fd-44ab-9c95-85c1fe224c19",
           "width": 64,
           "x": 297,
-          "y": 109,
+          "y": 40,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -45646,7 +45767,7 @@
           "persistentUuid": "b0cddeee-1d1e-4854-9f6f-2e48c93282c3",
           "width": 64,
           "x": 381,
-          "y": 109,
+          "y": 40,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -45669,7 +45790,7 @@
           "persistentUuid": "a4d65fd5-fd03-4403-8231-8ce3833b00c7",
           "width": 64,
           "x": 548,
-          "y": 109,
+          "y": 40,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -45692,7 +45813,7 @@
           "persistentUuid": "420b1c53-ad75-456a-91c8-ff2cbc088b7f",
           "width": 64,
           "x": 464,
-          "y": 109,
+          "y": 40,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -45703,6 +45824,56 @@
               "value": 4
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 144,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonHome",
+          "persistentUuid": "76f58afb-aa84-4d06-9fa0-54c167df3fba",
+          "width": 96,
+          "x": 1419,
+          "y": 31,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "buttonRestart",
+          "persistentUuid": "4703fe97-9c97-4e0b-aa46-4e50821f55b5",
+          "width": 96,
+          "x": 1547,
+          "y": 31,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "65032a33-cfb9-42e5-94c7-5466a8c55c59",
+          "width": 0,
+          "x": 640,
+          "y": 384,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -45759,7 +45930,7 @@
             {
               "name": "Lives",
               "type": "number",
-              "value": 30
+              "value": 2
             },
             {
               "name": "Behaviour",
@@ -46186,17 +46357,17 @@
               ]
             },
             {
-              "name": "hurt",
+              "name": "Hitted",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt8.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\HURT1.png",
                       "points": [
                         {
                           "name": "Mouth",
@@ -46294,7 +46465,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt7.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\HURT2.png",
                       "points": [
                         {
                           "name": "Mouth",
@@ -46392,7 +46563,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt5.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\HURT3.png",
                       "points": [
                         {
                           "name": "Mouth",
@@ -46490,7 +46661,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemy\\Demon\\hurt\\hurt6.png",
+                      "image": "assets\\Enemy\\Demon\\hurt\\HURT4.png",
                       "points": [
                         {
                           "name": "Mouth",
@@ -46591,13 +46762,13 @@
               ]
             },
             {
-              "name": "dead",
+              "name": "Die",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -48544,6 +48715,18 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\8-bit RPG Music  Boss Battle.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -48598,7 +48781,7 @@
                 "NewText",
                 "Text",
                 "=",
-                "ToString(Player.Y())"
+                "Boss.Lives"
               ]
             }
           ]
@@ -48665,7 +48848,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "3.5"
               ]
             }
           ],
@@ -48779,6 +48962,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\Enderdragon Flying (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -48837,6 +49032,18 @@
                 "\"easeInOutQuad\"",
                 "3",
                 "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\Enderdragon Growl (Nr. 1  Minecraft Sound) - Sound Effect for editing.mp3",
+                "",
+                "50",
+                ""
               ]
             },
             {
@@ -48967,7 +49174,27 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1.6\n"
+                "0.5\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\hitcharge-94996.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.1"
               ]
             },
             {
@@ -49071,6 +49298,18 @@
                     "Fireball",
                     "Boss.X(\"Mouth\")",
                     "Boss.Y(\"Mouth\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\audio\\Boss\\Minecraft Fireball Sound Effect.mp3",
+                    "",
+                    "50",
                     ""
                   ]
                 },
@@ -49239,6 +49478,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\Enderdragon Growl (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -49333,6 +49584,18 @@
                 "BottomCenter.X()",
                 "BottomCenter.Y()",
                 "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\Minecraft Fireball Sound Effect.mp3",
+                "",
+                "50",
                 ""
               ]
             },
@@ -49494,25 +49757,29 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\baika no jutsu.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectScaleTween3"
               },
               "parameters": [
                 "Boss",
                 "Tween",
                 "\"B4Part1\"",
-                "6",
+                "7",
                 "\"linear\"",
                 "1",
                 "",
                 "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.1"
               ]
             },
             {
@@ -49523,7 +49790,7 @@
                 "Boss",
                 "Tween",
                 "\"B4Part2\"",
-                "TopCenter.Y() - 320",
+                "TopCenter.Y() - 416",
                 "\"easeInOutQuad\"",
                 "1",
                 ""
@@ -49545,7 +49812,7 @@
                 "Boss",
                 "Tween",
                 "\"B4Part3\"",
-                "BottomCenter.Y() - 288",
+                "BottomCenter.Y() - 320",
                 "\"easeInOutQuad\"",
                 "1",
                 ""
@@ -49556,7 +49823,39 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2.1"
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\Boss\\medium-explosion-40472.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.6"
               ]
             },
             {
@@ -49619,59 +49918,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player Die and Restart the Scene"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "Player",
-                "Animation",
-                "=",
-                "\"Die\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Boss\"",
-                ""
-              ]
-            }
-          ]
+          "comment": "Player Hurt"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -49820,6 +50067,567 @@
                     "\"Hitted\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Die Condition"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "currentBlood",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Boundary2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Die\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Die\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Boss\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Shooting Boss"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "arrow",
+                "Boss",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "!=",
+                "\"dead\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Lives",
+                "-",
+                "arrow.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "arrow",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BulletGun2",
+                "Boss",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "!=",
+                "\"dead\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Lives",
+                "-",
+                "BulletGun2.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BulletGun2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bullet",
+                "Boss",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "!=",
+                "\"dead\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Lives",
+                "-",
+                "bullet.damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\hittedEnemy.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"Hitted\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\"",
+                ">",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Lives",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"hurt_timer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "Lives",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Boss",
+                "Tween",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"Die\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Boss",
+                "state",
+                "=",
+                "\"dead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Boss",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"End\"",
+                ""
               ]
             }
           ]
@@ -50004,7 +50812,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41666666666666907,
+        "zoomFactor": 0.22936847216628378,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -50018,13 +50826,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 951,
           "keepRatio": true,
           "layer": "",
           "name": "EndingText",
           "persistentUuid": "642db16c-be9d-4dfc-b408-8ec29b475eb5",
-          "width": 0,
+          "width": 1388,
           "x": 293,
           "y": 285,
           "zOrder": 2,
@@ -50095,7 +50904,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "A fallen tree takes minutes to cut, but decades to grow — let it live.\nWhen you save a tree, you save a life — maybe even your own.",
+          "string": "The guardian falls, and the jungle grows silent. Leo wipes the sweat from his brow, his heart still pounding. He’s made it — through traps, puzzles, and the fiercest battle yet.\n\nBut as the dust settles, a hidden path slowly reveals itself, stretching deeper into the unknown. The artifact in his hand pulses with energy, as if awakening something greater.\n\nThis was only the first challenge. The jungle was just the beginning. More trials, tougher enemies, and deeper secrets await — and Leo is ready to face them all.\n",
           "font": "assets\\JotiOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 50,
@@ -50118,7 +50927,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A fallen tree takes minutes to cut, but decades to grow — let it live.\nWhen you save a tree, you save a life — maybe even your own.",
+            "text": "The guardian falls, and the jungle grows silent. Leo wipes the sweat from his brow, his heart still pounding. He’s made it — through traps, puzzles, and the fiercest battle yet.\n\nBut as the dust settles, a hidden path slowly reveals itself, stretching deeper into the unknown. The artifact in his hand pulses with energy, as if awakening something greater.\n\nThis was only the first challenge. The jungle was just the beginning. More trials, tougher enemies, and deeper secrets await — and Leo is ready to face them all.\n",
             "font": "assets\\JotiOne-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -50265,6 +51074,14 @@
                 "20",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EndingText2"
+              ]
             }
           ]
         },
@@ -50273,30 +51090,15 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
-                ""
+                "",
+                "\"Left\""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "EndingText2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "4"
-              ]
-            },
             {
               "type": {
                 "value": "CentreCamera"
@@ -51208,7 +52010,7 @@
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
                     "arrow",
-                    "Player.X() - 100",
+                    "Player.X() - 280",
                     "Player.Y()",
                     "150",
                     ""
@@ -51242,7 +52044,7 @@
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
                     "arrow",
-                    "Player.X() + 100",
+                    "Player.X() + 280",
                     "Player.Y()",
                     "150",
                     ""
@@ -51594,9 +52396,9 @@
                     "Gun2.X(\"Shoot\")",
                     "Gun2.Y(\"Shoot\")",
                     "BulletGun2",
-                    "Player.X() - 100",
+                    "Player.X() - 200",
                     "Player.Y()",
-                    "150",
+                    "300",
                     ""
                   ]
                 }
@@ -51628,9 +52430,9 @@
                     "Gun2.X(\"Shoot\")",
                     "Gun2.Y(\"Shoot\")",
                     "BulletGun2",
-                    "Player.X() + 100",
+                    "Player.X() + 200",
                     "Player.Y()",
-                    "150",
+                    "300",
                     ""
                   ]
                 }
@@ -51942,7 +52744,7 @@
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
                     "bullet",
-                    "Player.X() - 100",
+                    "Player.X() - 150",
                     "Player.Y()",
                     "150",
                     ""
@@ -51976,7 +52778,7 @@
                     "Player.BoundingBoxCenterX()",
                     "Player.BoundingBoxCenterY()",
                     "bullet",
-                    "Player.X() + 100",
+                    "Player.X() + 150",
                     "Player.Y()",
                     "150",
                     ""
