@@ -45930,7 +45930,7 @@
             {
               "name": "Lives",
               "type": "number",
-              "value": 2
+              "value": 25
             },
             {
               "name": "Behaviour",
