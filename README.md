@@ -28,5 +28,4 @@ _A thrilling 2D shooting game set deep in the jungle, where danger lurks behind 
 | ↑ / ↓ Arrow Keys   | Climb up or down ladder |
 | Left Mouse Click   | Shoot weapon            |
 | 1 / 2 / 3           | Swap weapons            |
-| Esc                | Pause game / Open menu  |
 
