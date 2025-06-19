@@ -29,3 +29,27 @@ _A thrilling 2D shooting game set deep in the jungle, where danger lurks behind 
 | Left Mouse Click   | Shoot weapon            |
 | 1 / 2 / 3           | Swap weapons            |
 
+
+## 📸 Screenshots
+
+### Level 1 Preview  
+<img src="Level1.png" width="300" alt="Level 1 Preview">
+
+- Basic mechanics
+
+
+### Level 2 Preview  
+<img src="Level2.png" width="300" alt="Level 2 Preview">
+
+- More on trap implementation
+
+
+### Level 3 Preview  
+<img src="Level3.png" width="300" alt="Level 3 Preview">
+
+- Speed and quick reaction as enemy will chase the player
+
+
+### Final Boss Battle  
+<img src="Boss.png" width="300" alt="Final Boss Battle">
+
